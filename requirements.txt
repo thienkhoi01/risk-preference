@@ -1,0 +1,18 @@
+# Core ML libraries
+torch
+transformers>=4.40.0
+datasets
+peft
+trl
+
+# Unsloth for efficient training
+unsloth[cu121-ampere-torch240] @ git+https://github.com/unslothai/unsloth.git
+
+# Additional dependencies
+pydantic>=2.0.0
+backoff
+accelerate
+bitsandbytes
+xformers
+python-dotenv
+openai>=1.40.0

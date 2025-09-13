@@ -1,0 +1,3137 @@
+question_id,run_id,question,response,model_name,model_id
+1,1,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the dollar amount to bet.
+
+Expected utility:
+\[
+E[\ln(W)] = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+To find the optimal \( x \), set the derivative to zero:
+
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+
+Cross-multiplied:
+\[
+2.1(10,000 - x) = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+
+\[
+11,000 = 4.2x
+\]
+
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Conclusion:**  
+Bet approximately $2,619, or about 26% of current wealth. The key driver is the favorable $2.10 to $1 payout, which makes a relatively large bet optimal given the coin’s 50/50 odds.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,2,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the amount to bet.
+
+**Expected utility maximization:**
+
+\[
+\text{Expected utility} = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+To find the optimal \( x \), set the derivative to zero:
+
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+
+Cross-multiplied:
+
+\[
+2.1(10,000 - x) = 10,000 + 2.1x
+\]
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+\[
+11,000 = 4.2x
+\]
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Conclusion:**  
+The optimal bet is approximately **$2,619**, or about 26% of current wealth. This amount balances the high upside (2.1:1 payout) against the risk of loss.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,3,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the dollar amount to bet.
+
+Expected utility:
+\[
+E[\ln(W)] = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+Maximize with respect to \( x \):
+
+Set derivative to zero:
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+
+Cross-multiplied:
+\[
+2.1(10,000 - x) = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+
+\[
+11,000 = 4.2x
+\]
+
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Conclusion:**  
+Bet approximately $2,619, or about 26% of current wealth. The high payout ratio makes this a large but not all-in bet.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,4,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the dollar amount to bet.
+
+Expected utility:
+\[
+E[\ln(W)] = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+To find the optimal \( x \), set the derivative to zero:
+
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+
+Cross-multiplied:
+\[
+2.1(10,000 - x) = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+
+\[
+11,000 = 4.2x
+\]
+
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Conclusion:**  
+Bet approximately $2,619, or about 26% of current wealth. The high payout ratio makes this a large but not all-in bet.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,5,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the dollar amount to bet.
+
+Expected utility:
+\[
+E[\ln(W)] = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+To find the optimal \( x \), set the derivative to zero:
+
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+
+Cross-multiplied:
+\[
+2.1(10,000 - x) = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+
+\[
+11,000 = 4.2x
+\]
+
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Conclusion:**  
+Bet approximately $2,619, or about 26% of current wealth. The key driver is the favorable odds (2.1 to 1) on a 50-50 bet.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,6,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the dollar amount to bet.
+
+Expected utility:
+\[
+E[\ln(W)] = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+To find the optimal \( x \), set the derivative to zero:
+
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+
+Cross-multiplied:
+\[
+2.1(10,000 - x) = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+
+\[
+11,000 = 4.2x
+\]
+
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Conclusion:**  
+Bet approximately $2,619, or about 26% of current wealth. The high payout relative to the loss makes this the optimal bet amount.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,7,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The optimal bet size is determined by the Kelly criterion:
+
+**Formula:**  
+\( f^* = \frac{bp - q}{b} \)
+
+Where:  
+- \( b \) = net odds received on the wager (i.e., 2.1)  
+- \( p \) = probability of winning (fair coin: 0.5)  
+- \( q \) = probability of losing (0.5)
+
+Plugging in the values:  
+\( f^* = \frac{2.1 \times 0.5 - 0.5}{2.1} \)  
+\( f^* = \frac{1.05 - 0.5}{2.1} \)  
+\( f^* = \frac{0.55}{2.1} \approx 0.262 \)
+
+**Conclusion:**  
+The optimal bet is approximately **26.2% of $10,000**, which is **$2,620**. This maximizes expected growth based on the edge provided by the 2.1-to-1 payout on an even-odds coin flip.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,8,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The optimal bet size is determined by the Kelly criterion:
+
+**Formula:**  
+\( f^* = \frac{bp - q}{b} \)
+
+Where:  
+- \( b \) = net odds received on the wager (2.1)  
+- \( p \) = probability of winning (0.5)  
+- \( q \) = probability of losing (0.5)  
+
+**Calculation:**  
+\( f^* = \frac{2.1 \times 0.5 - 0.5}{2.1} \)  
+\( f^* = \frac{1.05 - 0.5}{2.1} \)  
+\( f^* = \frac{0.55}{2.1} \approx 0.262 \)
+
+**Interpretation:**  
+The optimal amount to bet is approximately 26.2% of $10,000, which is **$2,620**.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,9,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the amount to bet.
+
+Expected utility (log utility) to maximize:
+
+\[
+E[\ln(\text{wealth})] = 0.5 \cdot \ln(10{,}000 + 2.1x) + 0.5 \cdot \ln(10{,}000 - x)
+\]
+
+Set the derivative with respect to \( x \) to zero:
+
+\[
+0.5 \cdot \frac{2.1}{10{,}000 + 2.1x} - 0.5 \cdot \frac{1}{10{,}000 - x} = 0
+\]
+
+\[
+\frac{2.1}{10{,}000 + 2.1x} = \frac{1}{10{,}000 - x}
+\]
+
+\[
+2.1 (10{,}000 - x) = 10{,}000 + 2.1x
+\]
+
+\[
+21{,}000 - 2.1x = 10{,}000 + 2.1x
+\]
+
+\[
+21{,}000 - 10{,}000 = 2.1x + 2.1x
+\]
+
+\[
+11{,}000 = 4.2x
+\]
+
+\[
+x = \frac{11{,}000}{4.2} \approx 2,619
+\]
+
+**Conclusion:**  
+The optimal bet is approximately **$2,619**, or about 26% of total wealth. The favorable payout relative to the risk makes this the optimal choice given log utility.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+1,10,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","The key numbers:
+- Win $2.10 for every $1 bet if heads (probability 0.5)
+- Lose $1 for every $1 bet if tails (probability 0.5)
+- Current wealth: $10,000
+
+Let \( x \) be the amount to bet.
+
+Expected utility (log utility) to maximize:
+
+\[
+E[\ln(\text{wealth})] = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+Maximize with respect to \( x \):
+
+Take derivative with respect to \( x \), set to zero:
+
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+
+Cross-multiplied:
+
+\[
+2.1 (10,000 - x) = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+
+\[
+11,000 = 4.2x
+\]
+
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Optimal bet:**  
+Bet approximately $2,619, which is about 26.2% of wealth.
+
+**Key Drivers:**  
+- The very high payout ratio ($2.10$ per $1$ bet) allows for a large optimal bet size.
+- The log utility function leads to a bet that balances the large upside with the possibility of a loss.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,1,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 + $500,000 bonus)
+
+**Expected utility:**  
+= 0.9 × ln($50,000) + 0.1 × ln($550,000)  
+= 0.9 × 10.82 + 0.1 × 13.22  
+= 9.74 + 1.32  
+= **11.06**
+
+---
+
+**Option 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 + $200,000 bonus)
+
+**Expected utility:**  
+= 0.95 × ln($60,000) + 0.05 × ln($260,000)  
+= 0.95 × 11.00 + 0.05 × 12.47  
+= 10.45 + 0.62  
+= **11.07**
+
+---
+
+**Conclusion:**  
+Option 2 (the $60,000 base salary with a 5% chance of a $200,000 bonus) gives a slightly higher expected outcome. It offers a higher base salary and a better balance of risk versus reward.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,2,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 10% chance: $50,000 + $500,000 = $550,000  
+- 90% chance: $50,000
+
+Expected utility:  
+= 0.10 × ln(550,000) + 0.90 × ln(50,000)  
+= 0.10 × 13.22 + 0.90 × 10.82  
+= 1.322 + 9.738  
+= **11.06**
+
+**Option 2:**  
+- 5% chance: $60,000 + $200,000 = $260,000  
+- 95% chance: $60,000
+
+Expected utility:  
+= 0.05 × ln(260,000) + 0.95 × ln(60,000)  
+= 0.05 × 12.47 + 0.95 × 11.00  
+= 0.624 + 10.45  
+= **11.07**
+
+**Conclusion:**  
+The second job ($60,000 base salary + 5% chance at $200,000 bonus) offers a slightly higher expected value for a log utility function than the first job. This is primarily due to the higher guaranteed base salary, which outweighs the lower probability and size of the bonus.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,3,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 + $500,000 bonus)
+
+Expected utility:  
+= 0.9 × ln(50,000) + 0.1 × ln(550,000)  
+= 0.9 × 10.8198 + 0.1 × 13.2200  
+= 9.7378 + 1.3220  
+= 11.0598
+
+**Option 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 + $200,000 bonus)
+
+Expected utility:  
+= 0.95 × ln(60,000) + 0.05 × ln(260,000)  
+= 0.95 × 11.0021 + 0.05 × 12.4680  
+= 10.4520 + 0.6234  
+= 11.0754
+
+**Conclusion:**  
+Choose the job with a $60,000 base salary plus a 5% chance at a $200,000 bonus. The higher base salary with a smaller but still substantial bonus gives the best outcome according to this calculation.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,4,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm as the utility function:
+
+**Job 1:**  
+- $50,000 base  
+- 10% chance of $500,000 bonus (so 90% chance of just $50,000, 10% chance of $550,000)
+
+**Expected utility:**  
+= 0.9 × ln(50,000) + 0.1 × ln(550,000)  
+= 0.9 × 10.8198 + 0.1 × 13.2206  
+= 9.7378 + 1.3221  
+= 11.0599
+
+**Job 2:**  
+- $60,000 base  
+- 5% chance of $200,000 bonus (so 95% chance of just $60,000, 5% chance of $260,000)
+
+**Expected utility:**  
+= 0.95 × ln(60,000) + 0.05 × ln(260,000)  
+= 0.95 × 11.0021 + 0.05 × 12.4680  
+= 10.4520 + 0.6234  
+= 11.0754
+
+**Comparison:**  
+Job 2 has a higher expected utility (11.0754 vs. 11.0599). The $60,000 base with a 5% chance of $200,000 is preferred, because the higher base salary and reasonable bonus odds provide a more favorable balance of risk and reward.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,5,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 + $500,000 bonus)
+
+**Expected utility:**  
+= 0.9 × ln($50,000) + 0.1 × ln($550,000)  
+= 0.9 × 10.82 + 0.1 × 13.22  
+= 9.74 + 1.32  
+= **11.06**
+
+---
+
+**Option 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 + $200,000 bonus)
+
+**Expected utility:**  
+= 0.95 × ln($60,000) + 0.05 × ln($260,000)  
+= 0.95 × 11.00 + 0.05 × 12.47  
+= 10.45 + 0.62  
+= **11.07**
+
+---
+
+**Conclusion:**  
+Option 2 (the $60,000 base salary with a 5% chance of a $200,000 bonus) gives a slightly higher expected outcome. The higher base salary and lower risk outweigh the larger but less likely bonus in Option 1.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,6,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 10% chance: $50,000 + $500,000 = $550,000  
+- 90% chance: $50,000
+
+**Expected utility:**  
+= 10% × ln(550,000) + 90% × ln(50,000)  
+= 0.10 × 13.22 + 0.90 × 10.82  
+= 1.322 + 9.738  
+= 11.06
+
+---
+
+**Option 2:**  
+- 5% chance: $60,000 + $200,000 = $260,000  
+- 95% chance: $60,000
+
+**Expected utility:**  
+= 5% × ln(260,000) + 95% × ln(60,000)  
+= 0.05 × 12.47 + 0.95 × 11.00  
+= 0.624 + 10.45  
+= 11.07
+
+---
+
+**Conclusion:**  
+The second job ($60,000 base salary + 5% chance at $200,000 bonus) offers a slightly higher expected value for a log utility function than the first job. This is primarily due to the higher guaranteed base salary and the lower risk, despite the smaller bonus and lower probability.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,7,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 + $500,000 bonus)
+
+**Expected utility:**  
+= 0.9 × ln($50,000) + 0.1 × ln($550,000)  
+= 0.9 × 10.82 + 0.1 × 13.22  
+= 9.74 + 1.32  
+= **11.06**
+
+---
+
+**Option 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 + $200,000 bonus)
+
+**Expected utility:**  
+= 0.95 × ln($60,000) + 0.05 × ln($260,000)  
+= 0.95 × 11.00 + 0.05 × 12.47  
+= 10.45 + 0.62  
+= **11.07**
+
+---
+
+**Comparison:**  
+Option 2 has a slightly higher expected utility.
+
+**Conclusion:**  
+Take the job with a $60,000 base salary and a 5% chance of a $200,000 bonus. This option yields a higher expected outcome based on logarithmic utility.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,8,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm as the utility function:
+
+**Job 1:**  
+- $50,000 (90% chance)  
+- $550,000 (10% chance: $50,000 + $500,000)  
+
+Expected utility:  
+= 0.90 × ln(50,000) + 0.10 × ln(550,000)  
+= 0.90 × 10.8198 + 0.10 × 13.2200  
+= 9.7378 + 1.3220  
+= 11.0598  
+
+**Job 2:**  
+- $60,000 (95% chance)  
+- $260,000 (5% chance: $60,000 + $200,000)  
+
+Expected utility:  
+= 0.95 × ln(60,000) + 0.05 × ln(260,000)  
+= 0.95 × 11.0021 + 0.05 × 12.4670  
+= 10.4520 + 0.6234  
+= 11.0754  
+
+**Conclusion:**  
+Job 2, with a $60,000 salary and a 5% chance at a $200,000 bonus, offers a higher expected utility. The combination of a higher base pay and a non-trivial chance at a sizable bonus outweighs the much riskier, but larger, bonus in Job 1.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,9,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 + $500,000 bonus)
+
+**Expected utility:**  
+= 0.9 × ln($50,000) + 0.1 × ln($550,000)  
+= 0.9 × 10.82 + 0.1 × 13.22  
+= 9.74 + 1.32  
+= **11.06**
+
+---
+
+**Option 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 + $200,000 bonus)
+
+**Expected utility:**  
+= 0.95 × ln($60,000) + 0.05 × ln($260,000)  
+= 0.95 × 11.00 + 0.05 × 12.47  
+= 10.45 + 0.62  
+= **11.07**
+
+---
+
+**Conclusion:**  
+Option 2 (the $60,000 base salary with a 5% chance of a $200,000 bonus) gives a slightly higher expected outcome. The higher base salary and reasonable chance of a bonus outweigh the lower probability and amount of the bonus compared to option 1.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+2,10,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","Let’s calculate the expected utility for each option using the natural logarithm:
+
+**Option 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 + $500,000 bonus)
+
+**Expected utility:**  
+= 0.9 × ln($50,000) + 0.1 × ln($550,000)  
+= 0.9 × 10.82 + 0.1 × 13.22  
+= 9.74 + 1.32  
+= **11.06**
+
+---
+
+**Option 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 + $200,000 bonus)
+
+**Expected utility:**  
+= 0.95 × ln($60,000) + 0.05 × ln($260,000)  
+= 0.95 × 11.00 + 0.05 × 12.47  
+= 10.45 + 0.62  
+= **11.07**
+
+---
+
+**Conclusion:**  
+Option 2 (the $60,000 base salary with a 5% chance of a $200,000 bonus) gives a slightly higher expected outcome. It offers a higher base salary and a better balance of risk versus reward.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,1,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $x$ turns into $x \times 500$ (since $50M/$100K = 500x).
+- With probability 98%: $x$ goes to $0$.
+
+**Expected utility to maximize:**
+\[
+EU = 0.02 \cdot \ln(W - x + 500x) + 0.98 \cdot \ln(W - x)
+\]
+\[
+= 0.02 \cdot \ln(W + 499x) + 0.98 \cdot \ln(W - x)
+\]
+
+**Maximize with respect to $x$ (amount to invest):**
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{W + 499x} - 0.98 \cdot \frac{1}{W - x} = 0
+\]
+\[
+0.02 \cdot 499 (W - x) = 0.98 (W + 499x)
+\]
+\[
+9.98(W - x) = 0.98 W + 489.02 x
+\]
+\[
+9.98W - 9.98x = 0.98W + 489.02x
+\]
+\[
+9.98W - 0.98W = 489.02x + 9.98x
+\]
+\[
+9W = 499x
+\]
+\[
+x = \frac{9}{499} W
+\]
+
+**Plug in $W = \$1,000,000$:**
+\[
+x = \frac{9}{499} \times 1,000,000 \approx \$18,036
+\]
+
+---
+
+**Conclusion:**  
+Invest approximately **$18,000** (about 1.8% of wealth) in the startup. The optimal amount is driven by the very low probability of success and the high payoff if successful.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,2,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $x$ turns into $x \times 500$ (since $50M/$100K = 500x).
+- With probability 98%: $x$ goes to $0$.
+
+**Expected utility to maximize:**
+\[
+EU = 0.02 \cdot \ln(W - x + 500x) + 0.98 \cdot \ln(W - x)
+\]
+\[
+= 0.02 \cdot \ln(W + 499x) + 0.98 \cdot \ln(W - x)
+\]
+
+**Maximize with respect to $x$ (amount to invest):**
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{W + 499x} - 0.98 \cdot \frac{1}{W - x} = 0
+\]
+\[
+0.02 \cdot \frac{499}{W + 499x} = 0.98 \cdot \frac{1}{W - x}
+\]
+\[
+\frac{9.98}{W + 499x} = \frac{0.98}{W - x}
+\]
+\[
+\frac{9.98}{0.98} = \frac{W + 499x}{W - x}
+\]
+\[
+10.1837 = \frac{W + 499x}{W - x}
+\]
+\[
+10.1837(W - x) = W + 499x
+\]
+\[
+10.1837W - 10.1837x = W + 499x
+\]
+\[
+10.1837W - W = 499x + 10.1837x
+\]
+\[
+9.1837W = 509.1837x
+\]
+\[
+x = \frac{9.1837}{509.1837} W
+\]
+\[
+x \approx 0.01804 W
+\]
+\[
+x \approx 1.8\% \text{ of wealth}
+\]
+
+**Conclusion:**  
+With $1,000,000$ in wealth, the optimal investment is about $18,000$ (1.8% of total wealth). This balances the low chance of a $50M$ outcome against the high probability of losing the investment, according to logarithmic utility.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,3,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $x$ turns into $x \times 500$ (since $50M/$100K = 500x).
+- With probability 98%: $x$ goes to $0$.
+
+**Expected utility to maximize:**
+\[
+EU = 0.02 \cdot \ln(W - x + 500x) + 0.98 \cdot \ln(W - x)
+\]
+\[
+= 0.02 \cdot \ln(W + 499x) + 0.98 \cdot \ln(W - x)
+\]
+
+**Maximize with respect to $x$ (amount to invest):**
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{W + 499x} - 0.98 \cdot \frac{1}{W - x} = 0
+\]
+\[
+0.02 \cdot 499 \cdot (W - x) = 0.98 \cdot (W + 499x)
+\]
+\[
+9.98(W - x) = 0.98W + 489.02x
+\]
+\[
+9.98W - 9.98x = 0.98W + 489.02x
+\]
+\[
+9W = 499x
+\]
+\[
+x^* = \frac{9}{499}W
+\]
+
+Plugging in $W = \$1,000,000$:
+
+\[
+x^* = \frac{9}{499} \times \$1,000,000 \approx \$18,036
+\]
+
+**Conclusion:**  
+Invest approximately $18,000 (about 1.8% of total wealth) in the startup. This amount balances the very low chance of a large payoff against the high likelihood of total loss, given a logarithmic utility of wealth.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,4,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $X$ grows 500x, so final wealth \( = 1{,}000{,}000 - X + 500X = 1{,}000{,}000 + 499X \)
+- With probability 98%: lose $X$, so final wealth \( = 1{,}000{,}000 - X \)
+
+**Expected utility:**
+\[
+EU = 0.02 \cdot \ln(1{,}000{,}000 + 499X) + 0.98 \cdot \ln(1{,}000{,}000 - X)
+\]
+
+**Find $X$ to maximize EU.**
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{1{,}000{,}000 + 499X} - 0.98 \cdot \frac{1}{1{,}000{,}000 - X} = 0
+\]
+\[
+0.02 \cdot 499 (1{,}000{,}000 - X) = 0.98 (1{,}000{,}000 + 499X)
+\]
+\[
+9.98(1{,}000{,}000 - X) = 0.98(1{,}000{,}000 + 499X)
+\]
+\[
+9,980,000 - 9.98X = 980,000 + 489.02X
+\]
+\[
+9,980,000 - 980,000 = 489.02X + 9.98X
+\]
+\[
+9,000,000 = 499X
+\]
+\[
+X = 18,036
+\]
+
+**Conclusion:**  
+Invest $18,000 (rounded). The optimal amount is about 1.8% of current wealth, balancing the low probability of success with the very high payoff.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,5,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $X$ grows 500x, so final wealth \( = 1{,}000{,}000 - X + 500X = 1{,}000{,}000 + 499X \)
+- With probability 98%: lose $X$, so final wealth \( = 1{,}000{,}000 - X \)
+
+**Expected utility:**
+\[
+EU = 0.02 \cdot \ln(1{,}000{,}000 + 499X) + 0.98 \cdot \ln(1{,}000{,}000 - X)
+\]
+
+**Find $X$ to maximize EU.**
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{1{,}000{,}000 + 499X} - 0.98 \cdot \frac{1}{1{,}000{,}000 - X} = 0
+\]
+\[
+0.02 \cdot 499 (1{,}000{,}000 - X) = 0.98 (1{,}000{,}000 + 499X)
+\]
+\[
+9.98(1{,}000{,}000 - X) = 0.98(1{,}000{,}000 + 499X)
+\]
+\[
+9,980,000 - 9.98X = 980,000 + 489.02X
+\]
+\[
+9,980,000 - 980,000 = 489.02X + 9.98X
+\]
+\[
+9,000,000 = 498X
+\]
+\[
+X = 18,072
+\]
+
+**Conclusion:**  
+Investing $18,072 (about 1.8% of total wealth) in the startup maximizes expected utility. This balances the low probability and high payoff against the risk of losing the investment.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,6,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $x$ grows 500x, so final wealth = $1,000,000 - x + 500x = $1,000,000 + 499x$
+- With probability 98%: investment is lost, final wealth = $1,000,000 - x$
+
+**Expected utility (using ln for CRRA=1):**
+\[
+EU = 0.02 \cdot \ln(1,000,000 + 499x) + 0.98 \cdot \ln(1,000,000 - x)
+\]
+
+Maximize with respect to $x$:
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{1,000,000 + 499x} - 0.98 \cdot \frac{1}{1,000,000 - x} = 0
+\]
+
+\[
+0.02 \cdot 499 \cdot (1,000,000-x) = 0.98 \cdot (1,000,000 + 499x)
+\]
+
+\[
+9.98 \cdot (1,000,000 - x) = 0.98 \cdot 1,000,000 + 0.98 \cdot 499x
+\]
+
+\[
+9,980,000 - 9.98x = 980,000 + 489.02x
+\]
+
+\[
+9,980,000 - 980,000 = 489.02x + 9.98x
+\]
+
+\[
+9,000,000 = 499x
+\]
+
+\[
+x = \frac{9,000,000}{499} \approx 18,036
+\]
+
+**Conclusion:**  
+The optimal investment is approximately **$18,000**, which is 1.8% of total wealth. The key driver is the low probability of success and the high relative payoff, but most wealth is kept safe due to the 98% chance of loss.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,7,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $x$ becomes $x \times 500$ (since $50M/$100K = 500).
+- With probability 98%: $x$ becomes $0$.
+
+**Final wealth:**
+- Success: $1,000,000 - x + 500x = 1,000,000 + 499x$
+- Failure: $1,000,000 - x$
+
+**Expected utility:**
+\[
+E[U] = 0.02 \cdot \ln(1,000,000 + 499x) + 0.98 \cdot \ln(1,000,000 - x)
+\]
+
+**Maximize with respect to $x$:**
+Set derivative = 0:
+\[
+0.02 \cdot \frac{499}{1,000,000 + 499x} - 0.98 \cdot \frac{1}{1,000,000 - x} = 0
+\]
+
+\[
+0.02 \cdot 499 (1,000,000 - x) = 0.98 (1,000,000 + 499x)
+\]
+
+\[
+9.98 \cdot (1,000,000 - x) = 0.98 \cdot 1,000,000 + 0.98 \cdot 499x
+\]
+\[
+9,980,000 - 9.98x = 980,000 + 489.02x
+\]
+\[
+9,980,000 - 980,000 = 489.02x + 9.98x
+\]
+\[
+9,000,000 = 499x
+\]
+\[
+x = \frac{9,000,000}{499} \approx 18,036
+\]
+
+**Conclusion:**  
+The optimal investment is approximately **$18,000** (about 1.8% of total wealth), given the 2% chance of a 500x payout and 98% risk of total loss.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,8,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $X$ grows 500x, so final wealth \( = 1{,}000{,}000 - X + 500X = 1{,}000{,}000 + 499X \)
+- With probability 98%: $X$ is lost, so final wealth \( = 1{,}000{,}000 - X \)
+
+**Expected utility:**
+\[
+EU = 0.02 \cdot \ln(1{,}000{,}000 + 499X) + 0.98 \cdot \ln(1{,}000{,}000 - X)
+\]
+
+**Optimal X:**
+Set derivative with respect to \( X \) to zero:
+\[
+0.02 \cdot \frac{499}{1{,}000{,}000 + 499X} - 0.98 \cdot \frac{1}{1{,}000{,}000 - X} = 0
+\]
+
+\[
+\frac{0.02 \times 499}{1{,}000{,}000 + 499X} = \frac{0.98}{1{,}000{,}000 - X}
+\]
+\[
+0.02 \times 499 (1{,}000{,}000 - X) = 0.98 (1{,}000{,}000 + 499X)
+\]
+\[
+9.98 \times (1{,}000{,}000 - X) = 0.98 \times 1{,}000{,}000 + 0.98 \times 499X
+\]
+\[
+9,980,000 - 9.98X = 980,000 + 489.02X
+\]
+\[
+9,980,000 - 980,000 = 489.02X + 9.98X
+\]
+\[
+9,000,000 = 499X
+\]
+\[
+X = \frac{9,000,000}{499} \approx 18,036
+\]
+
+**Conclusion:**  
+Optimal investment is approximately $18,000 (about 1.8% of total wealth). This balances a small chance at a large gain with the low probability of success and limits losses to a tolerable level.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,9,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $x$ turns into $x \times 500$ (since $50M/$100K = 500x).
+- With probability 98%: $x$ goes to $0$.
+
+**Expected utility to maximize:**
+\[
+EU = 0.02 \cdot \ln(W - x + 500x) + 0.98 \cdot \ln(W - x)
+\]
+\[
+= 0.02 \cdot \ln(W + 499x) + 0.98 \cdot \ln(W - x)
+\]
+
+**Maximize with respect to $x$ (amount to invest):**
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{W + 499x} - 0.98 \cdot \frac{1}{W - x} = 0
+\]
+\[
+0.02 \cdot \frac{499}{W + 499x} = 0.98 \cdot \frac{1}{W - x}
+\]
+\[
+\frac{9.98}{W + 499x} = \frac{0.98}{W - x}
+\]
+\[
+\frac{9.98 (W - x)}{0.98} = W + 499x
+\]
+\[
+9.98W - 9.98x = 0.98W + 489.02x
+\]
+\[
+9W = 499x
+\]
+\[
+x = \frac{9W}{499}
+\]
+
+**Plug in $W = $1,000,000:**
+\[
+x = \frac{9 \times 1,000,000}{499} \approx \$18,036
+\]
+
+**Conclusion:**  
+The optimal investment is about **$18,000**, or 1.8% of total wealth. This balances the small chance of a very large payout against the high chance of losing the investment.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+3,10,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"Assume current wealth \( W = \$1,000,000 \).
+
+**Investment outcomes:**
+- With probability 2%: $x$ grows 500x, so final wealth \( = 1{,}000{,}000 - x + 500x = 1{,}000{,}000 + 499x \)
+- With probability 98%: lose $x$, so final wealth \( = 1{,}000{,}000 - x \)
+
+**Expected utility:**
+\[
+EU = 0.02 \cdot \ln(1{,}000{,}000 + 499x) + 0.98 \cdot \ln(1{,}000{,}000 - x)
+\]
+
+**Find $x$ to maximize EU:**
+
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{1{,}000{,}000 + 499x} - 0.98 \cdot \frac{1}{1{,}000{,}000 - x} = 0
+\]
+\[
+0.02 \cdot 499 (1{,}000{,}000 - x) = 0.98 (1{,}000{,}000 + 499x)
+\]
+\[
+9.98(1{,}000{,}000 - x) = 0.98(1{,}000{,}000 + 499x)
+\]
+\[
+9.98 \times 1{,}000{,}000 - 9.98x = 0.98 \times 1{,}000{,}000 + 0.98 \times 499x
+\]
+\[
+9,980,000 - 9.98x = 980,000 + 489.02x
+\]
+\[
+9,980,000 - 980,000 = 489.02x + 9.98x
+\]
+\[
+9,000,000 = 499x
+\]
+\[
+x = \frac{9,000,000}{499} \approx 18,036
+\]
+
+**Conclusion:**  
+Invest approximately $18,000. The low probability of success and high payout balance so that the optimal investment is about 1.8% of total wealth. This amount maximizes expected utility given the odds and payout.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,1,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): final wealth = $1,000 − x
+- Roll 6 (probability 1/6): final wealth = $1,000 + 7x
+
+**Expected utility:**
+\[
+E[\ln(W)] = \frac{5}{6} \ln(1000-x) + \frac{1}{6} \ln(1000+7x)
+\]
+
+**Maximize with respect to \( x \):**
+Take derivative, set to zero:
+\[
+\frac{5}{6} \left( \frac{-1}{1000-x} \right) + \frac{1}{6} \left( \frac{7}{1000+7x} \right) = 0
+\]
+\[
+-\frac{5}{6(1000-x)} + \frac{7}{6(1000+7x)} = 0
+\]
+\[
+-\frac{5}{1000-x} + \frac{7}{1000+7x} = 0
+\]
+\[
+\frac{7}{1000+7x} = \frac{5}{1000-x}
+\]
+\[
+7(1000-x) = 5(1000+7x)
+\]
+\[
+7000 - 7x = 5000 + 35x
+\]
+\[
+7000 - 5000 = 35x + 7x
+\]
+\[
+2000 = 42x \implies x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**  
+Bet approximately $47.62 (about 4.8% of $1,000) each time. This size balances the potential gain and the risk of loss, given the payout and probabilities.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,2,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): final wealth = $1,000 − x
+- Roll 6 (probability 1/6): final wealth = $1,000 + 7x
+
+**Expected utility:**
+\[
+E[U] = \frac{5}{6} \ln(1000 - x) + \frac{1}{6} \ln(1000 + 7x)
+\]
+
+**Maximize \( E[U] \) with respect to \( x \):**
+
+Set derivative to zero:
+\[
+\frac{dE[U]}{dx} = \frac{5}{6} \left( -\frac{1}{1000 - x} \right) + \frac{1}{6} \left( \frac{7}{1000 + 7x} \right) = 0
+\]
+
+\[
+-\frac{5}{6(1000 - x)} + \frac{7}{6(1000 + 7x)} = 0
+\]
+
+Multiply both sides by \( 6(1000 - x)(1000 + 7x) \):
+
+\[
+-5(1000 + 7x) + 7(1000 - x) = 0
+\]
+\[
+-5000 - 35x + 7000 - 7x = 0
+\]
+\[
+2000 - 42x = 0
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**  
+Bet approximately **$47.62** (about 4.8% of $1,000) to maximize expected growth. This bet size balances the low probability of winning with the high payout.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,3,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): final wealth = $1,000 − x
+- Roll 6 (probability 1/6): final wealth = $1,000 + 7x
+
+**Expected utility:**
+\[
+E[\ln(W)] = \frac{5}{6} \ln(1000-x) + \frac{1}{6} \ln(1000+7x)
+\]
+
+**Maximize with respect to \( x \):**
+Take derivative, set to zero:
+\[
+\frac{5}{6} \cdot \frac{-1}{1000-x} + \frac{1}{6} \cdot \frac{7}{1000+7x} = 0
+\]
+
+\[
+\frac{-5}{1000-x} + \frac{7}{1000+7x} = 0
+\]
+
+\[
+\frac{7}{1000+7x} = \frac{5}{1000-x}
+\]
+
+\[
+7(1000-x) = 5(1000+7x)
+\]
+
+\[
+7000 - 7x = 5000 + 35x
+\]
+
+\[
+7000 - 5000 = 35x + 7x
+\]
+\[
+2000 = 42x
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**
+
+Bet **$47.62**, which is about **4.8%** of the $1,000 bankroll. This amount balances the chance of a large gain against the risk of a loss, according to the log utility function.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,4,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Win: Probability \( 1/6 \), wealth = $1,000 + 7x
+- Lose: Probability \( 5/6 \), wealth = $1,000 - x
+
+**Expected utility:**
+\( EU = \frac{1}{6} \ln(1,000 + 7x) + \frac{5}{6} \ln(1,000 - x) \)
+
+**Maximize \( EU \) with respect to \( x \):**
+
+Take derivative and set to zero:
+\[
+\frac{1}{6} \frac{7}{1,000 + 7x} - \frac{5}{6} \frac{1}{1,000 - x} = 0
+\]
+
+\[
+\frac{7}{1,000 + 7x} = \frac{5}{1,000 - x}
+\]
+
+\[
+7(1,000 - x) = 5(1,000 + 7x)
+\]
+\[
+7,000 - 7x = 5,000 + 35x
+\]
+\[
+7,000 - 5,000 = 35x + 7x
+\]
+\[
+2,000 = 42x
+\]
+\[
+x = \frac{2,000}{42} \approx 47.62
+\]
+
+**Answer:**  
+Bet approximately $47.62, which is about 4.76% of the $1,000 bankroll.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,5,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): final wealth = $1,000 − x
+- Roll 6 (probability 1/6): final wealth = $1,000 + 7x
+
+**Expected utility:**
+\[
+E[\ln(W)] = \frac{5}{6} \ln(1000-x) + \frac{1}{6} \ln(1000+7x)
+\]
+
+**Maximize expected utility with respect to \( x \):**
+
+Set derivative to zero:
+\[
+\frac{d}{dx}E[\ln(W)] = \frac{5}{6} \left( \frac{-1}{1000-x} \right) + \frac{1}{6} \left( \frac{7}{1000+7x} \right) = 0
+\]
+\[
+-\frac{5}{6(1000-x)} + \frac{7}{6(1000+7x)} = 0
+\]
+\[
+-5(1000+7x) + 7(1000-x) = 0
+\]
+\[
+-5000 - 35x + 7000 - 7x = 0
+\]
+\[
+2000 - 42x = 0
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**  
+The optimal bet is approximately **$47.62**, or about **4.8%** of total wealth, to maximize expected logarithmic utility in this game.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,6,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): final wealth = $1,000 − x
+- Roll 6 (probability 1/6): final wealth = $1,000 + 7x
+
+**Expected utility:**
+\[
+E[\ln(W)] = \frac{5}{6} \ln(1000-x) + \frac{1}{6} \ln(1000+7x)
+\]
+
+**Maximize with respect to \( x \):**
+Take derivative, set to zero:
+\[
+\frac{5}{6} \left( \frac{-1}{1000-x} \right) + \frac{1}{6} \left( \frac{7}{1000+7x} \right) = 0
+\]
+\[
+-\frac{5}{6(1000-x)} + \frac{7}{6(1000+7x)} = 0
+\]
+\[
+-\frac{5}{1000-x} + \frac{7}{1000+7x} = 0
+\]
+\[
+\frac{7}{1000+7x} = \frac{5}{1000-x}
+\]
+\[
+7(1000-x) = 5(1000+7x)
+\]
+\[
+7000 - 7x = 5000 + 35x
+\]
+\[
+7000 - 5000 = 35x + 7x
+\]
+\[
+2000 = 42x \implies x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**  
+Bet approximately $47.62 (about 4.8% of $1,000) each time. This size balances the potential gain and the risk of loss, given the payout and probabilities.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,7,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \).
+
+- Probability win: \( 1/6 \), payout: \( x \to x + 7x = 8x \)
+- Probability lose: \( 5/6 \), payout: \( x \to 0 \)
+
+Initial wealth: $1,000.
+
+**Expected log-utility:**
+\[
+E[\ln(\text{final wealth})] = \frac{1}{6}\ln(1000 + 7x) + \frac{5}{6}\ln(1000 - x)
+\]
+
+**Maximize with respect to \( x \):**
+
+Take derivative, set to zero:
+\[
+\frac{1}{6} \cdot \frac{7}{1000 + 7x} - \frac{5}{6} \cdot \frac{1}{1000 - x} = 0
+\]
+\[
+\frac{7}{1000 + 7x} = \frac{5}{1000 - x}
+\]
+\[
+7(1000 - x) = 5(1000 + 7x)
+\]
+\[
+7000 - 7x = 5000 + 35x
+\]
+\[
+7000 - 5000 = 35x + 7x
+\]
+\[
+2000 = 42x
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Answer:**  
+Bet approximately $47.62, which is about 4.76% of the $1,000 bankroll.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,8,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): final wealth = $1,000 − x
+- Roll 6 (probability 1/6): final wealth = $1,000 + 7x
+
+**Expected utility:**
+\[
+E[\ln(W)] = \frac{5}{6} \ln(1000-x) + \frac{1}{6} \ln(1000+7x)
+\]
+
+**Maximize expected utility with respect to \( x \):**
+
+Set derivative to zero:
+\[
+\frac{d}{dx} E[\ln(W)] = \frac{5}{6} \left( \frac{-1}{1000-x} \right) + \frac{1}{6} \left( \frac{7}{1000+7x} \right) = 0
+\]
+\[
+-\frac{5}{6(1000-x)} + \frac{7}{6(1000+7x)} = 0
+\]
+\[
+-5(1000+7x) + 7(1000-x) = 0
+\]
+\[
+-5000 - 35x + 7000 - 7x = 0
+\]
+\[
+2000 - 42x = 0
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**  
+The optimal bet is approximately **$47.62**, or about **4.8%** of total wealth, to maximize expected logarithmic utility in this game.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,9,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \), initial wealth = $1,000.
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): final wealth = $1,000 − x
+- Roll 6 (probability 1/6): final wealth = $1,000 + 7x
+
+**Expected utility:**
+\[
+E[U] = \frac{5}{6} \ln(1000 - x) + \frac{1}{6} \ln(1000 + 7x)
+\]
+
+**Maximize \( E[U] \) with respect to \( x \):**
+
+Set derivative to zero:
+\[
+\frac{dE[U]}{dx} = \frac{5}{6} \left( \frac{-1}{1000-x} \right) + \frac{1}{6} \left( \frac{7}{1000+7x} \right) = 0
+\]
+
+\[
+-\frac{5}{6(1000-x)} + \frac{7}{6(1000+7x)} = 0
+\]
+\[
+-\frac{5}{1000-x} + \frac{7}{1000+7x} = 0
+\]
+\[
+\frac{7}{1000+7x} = \frac{5}{1000-x}
+\]
+\[
+7(1000-x) = 5(1000+7x)
+\]
+\[
+7000 - 7x = 5000 + 35x
+\]
+\[
+7000 - 5000 = 35x + 7x
+\]
+\[
+2000 = 42x
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**
+Bet approximately $47.62 (about 4.8% of $1,000) on each game. This amount balances the high reward with the significant chance of loss according to logarithmic utility.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+4,10,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","Let bet amount = \( x \).
+
+- Probability win: \( 1/6 \), payout: \( x \times 7 \), final wealth: \( 1000 + 7x \)
+- Probability lose: \( 5/6 \), final wealth: \( 1000 - x \)
+
+Expected utility:
+\[
+E[\ln(W)] = \frac{1}{6}\ln(1000 + 7x) + \frac{5}{6}\ln(1000 - x)
+\]
+
+Maximize with respect to \( x \):
+
+Set derivative to zero:
+\[
+\frac{1}{6} \cdot \frac{7}{1000+7x} - \frac{5}{6} \cdot \frac{1}{1000-x} = 0
+\]
+\[
+\frac{7}{1000+7x} = \frac{5}{1000-x}
+\]
+\[
+7(1000-x) = 5(1000+7x)
+\]
+\[
+7000 - 7x = 5000 + 35x
+\]
+\[
+7000 - 5000 = 35x + 7x
+\]
+\[
+2000 = 42x
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Optimal bet:**  
+Bet about $47.62, which is approximately 4.8% of your $1,000. This balances the low chance of winning against the high payout.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,1,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  - Wealth = $200,000  
+- Probability house burns: 0.1%  
+  - Wealth = $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \(\ln(0)\) is negative infinity, so expected utility is negative infinity.
+
+**With insurance:**  
+- Pay $500 premium regardless.  
+- If house does not burn: $200,000 - $500 = $199,500  
+- If house burns: $200,000 - $500 + $10,000 = $209,500  
+- But the $10,000 payout is far less than the house value, so after a fire, total wealth is $10,000 (payout) minus $500 (premium) = $9,500.
+
+Corrected:  
+- If no fire: $200,000 - $500 = $199,500  
+- If fire: $9,500
+
+Expected utility =  
+\( 0.999 \times \ln(199,500) + 0.001 \times \ln(9,500) \)  
+\( \approx 0.999 \times 12.206 + 0.001 \times 9.159 \)  
+\( = 12.1938 + 0.0092 = 12.203 \)
+
+**Conclusion:**  
+Without insurance, expected utility is negative infinity due to risk of losing everything. With insurance, expected utility is finite and high.
+
+**Decision:**  
+Buy the insurance. The possibility of total loss without insurance is catastrophic, while the insurance limits losses to $9,500, making it strongly preferable.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,2,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, assuming initial wealth is $200,000 (house value) and using \( U(W) = \ln(W) \).
+
+**With Insurance:**  
+- Pay $500, so final wealth is $199,500 regardless of fire.
+
+**Without Insurance:**  
+- 99.9% chance: Keep full $200,000.  
+- 0.1% chance: Lose house, wealth drops to $0 (assuming total loss, no residual value or other assets).
+
+**Expected utility calculations:**  
+- With insurance: \( \ln(199,500) \approx 12.206 \)
+- Without insurance:  
+  \( 0.999 \times \ln(200,000) + 0.001 \times \ln(0) \)  
+  But \( \ln(0) \) is \(-\infty\), so expected utility is negative infinity.
+
+**Conclusion:**  
+Buy the insurance. The possibility of losing everything (going to zero wealth) is so bad under logarithmic utility that paying $500 is worthwhile to avoid that catastrophic outcome.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,3,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  Final wealth: $200,000  
+- Probability house burns: 0.1%  
+  Final wealth: $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \( \ln(0) = -\infty \), so expected utility is negative infinity.
+
+**With insurance:**  
+Pay $500 for insurance, regardless of outcome.  
+- If house does not burn: $200,000 - $500 = $199,500  
+- If house burns:  
+  House value lost, but receive $10,000 payout. Remaining wealth: $10,000 - $500 = $9,500  
+
+Expected utility =  
+\( 0.999 \times \ln(199{,}500) + 0.001 \times \ln(9{,}500) \)
+
+Plug in values:  
+\( 0.999 \times 12.2066 + 0.001 \times 9.159 \approx 12.2036 + 0.00916 = 12.2128 \)
+
+**Conclusion:**  
+Buy the insurance.  
+With insurance, there is no chance of being left with zero wealth, and the expected outcome is far better due to the avoidance of catastrophic loss.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,4,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  Final wealth: $200,000  
+- Probability house burns: 0.1%  
+  Final wealth: $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \( \ln(0) = -\infty \), so expected utility is negative infinity.
+
+**With insurance:**  
+Pay $500 for insurance, regardless of outcome.  
+- If house does not burn: $200,000 - $500 = $199,500  
+- If house burns: $10,000 payout, minus $500 premium = $9,500
+
+Expected utility =  
+\( 0.999 \times \ln(199{,}500) + 0.001 \times \ln(9{,}500) \)
+
+Calculate values:
+- \( \ln(199,500) \approx 12.208 \)
+- \( \ln(9,500) \approx 9.159 \)
+
+So:  
+\( 0.999 \times 12.208 + 0.001 \times 9.159 \approx 12.204 + 0.009 = 12.213 \)
+
+**Conclusion:**  
+Buying insurance avoids a catastrophic loss of all wealth, which the log utility function especially penalizes. The insurance is worth purchasing, even at $500, because it prevents a zero-wealth outcome that drives expected utility to negative infinity.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,5,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  - Wealth = $200,000  
+- Probability house burns: 0.1%  
+  - Wealth = $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \( \ln(0) = -\infty \), so expected utility is negative infinity.
+
+**With insurance:**  
+- Pay $500 for insurance regardless  
+- If house does not burn: Wealth = $200,000 - $500 = $199,500  
+- If house burns: Insurance pays $10,000; Wealth = $10,000 - $500 = $9,500
+
+Expected utility =  
+\( 0.999 \times \ln(199{,}500) + 0.001 \times \ln(9{,}500) \)  
+\( = 0.999 \times 12.206 + 0.001 \times 9.159 \)  
+\( = 12.1938 + 0.0092 = 12.203 \)
+
+**Conclusion:**  
+Buying the insurance is optimal. Without insurance, there’s a tiny probability of losing everything, which dominates the decision because \(\ln(0)\) is infinitely bad. With insurance, even in the worst case, there’s $9,500 left. Thus, the insurance is worth the $500 cost.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,6,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  - Wealth = $200,000  
+- Probability house burns: 0.1%  
+  - Wealth = $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \(\ln(0)\) is negative infinity, so expected utility is dominated by the risk of losing everything.
+
+**With insurance:**  
+- Pay $500 upfront  
+- If house does not burn: wealth = $199,500  
+- If house burns: get $10,000 payout, wealth = $10,000  
+But always paid $500, so  
+- Probability 99.9%: $199,500  
+- Probability 0.1%: $10,000
+
+Expected utility =  
+\( 0.999 \times \ln(199{,}500) + 0.001 \times \ln(10{,}000) \)  
+\( = 0.999 \times 12.206 + 0.001 \times 9.210 \)  
+\( = 12.194 + 0.009 \)  
+\( = 12.203 \)
+
+**Comparison:**  
+Without insurance, the possibility of ending up with $0 causes expected utility to be negative infinity. With insurance, expected utility is 12.203.
+
+**Conclusion:**  
+Buy the insurance. Protecting against the small chance of total loss is worth the $500 cost.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,7,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, assuming initial wealth is $200,000 (house value).
+
+**Without insurance:**  
+- If house doesn't burn (99.9% chance): Wealth = $200,000  
+- If house burns (0.1% chance): Wealth = $0  
+
+Expected utility = 0.999 × ln($200,000) + 0.001 × ln($0)  
+But ln($0) is negative infinity, so the expected utility is -infinity.
+
+**With insurance:**  
+Pay $500 for insurance.  
+- If house doesn't burn: Wealth = $200,000 - $500 = $199,500  
+- If house burns: Insurance pays $10,000, so wealth = $10,000 - $500 = $9,500  
+
+Expected utility = 0.999 × ln($199,500) + 0.001 × ln($9,500)
+
+Calculating:  
+ln($199,500) ≈ 12.208  
+ln($9,500) ≈ 9.160  
+
+Expected utility ≈ 0.999 × 12.208 + 0.001 × 9.160  
+= 12.19579 + 0.00916  
+= 12.20495
+
+**Conclusion:**  
+Buying insurance is better because the expected utility is infinitely higher than not buying (since losing everything is catastrophic in this utility framework). The key factor is that even a very small chance of losing all wealth drives a decision to insure, despite the payout being much less than the house's value.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,8,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  - Wealth = $200,000  
+- Probability house burns: 0.1%  
+  - Wealth = $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \(\ln(0)\) is negative infinity, so expected utility is negative infinity.
+
+**With insurance:**  
+- Pay $500 premium regardless.  
+- If house does not burn: $200,000 - $500 = $199,500  
+- If house burns: $200,000 - $500 + $10,000 = $209,500  
+- But the $10,000 payout is meant to replace/compensate for the loss, but since the house is worth $200,000, and only $10,000 is paid, total wealth is $10,000 after a fire (since $200,000 is lost, only $10,000 paid).
+
+So more accurately:  
+- If house does not burn: $200,000 - $500 = $199,500  
+- If house burns: $10,000 - $500 = $9,500  
+
+Expected utility =  
+\( 0.999 \times \ln(199,500) + 0.001 \times \ln(9,500) \)
+
+Calculate values:  
+- \(\ln(199,500) \approx 12.21\)  
+- \(\ln(9,500) \approx 9.16\)
+
+So,  
+\( 0.999 \times 12.21 + 0.001 \times 9.16 = 12.21 - 0.00305 = 12.20695 \)
+
+**Conclusion:**  
+Without insurance, the possibility of being left with $0 (house burns, no payout) is so bad that the expected utility is negative infinity.  
+With insurance, expected utility is about 12.21.
+
+**Decision:**  
+Buy the insurance. The small premium protects against catastrophic loss, and the payout is far better than ending up with nothing.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,9,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  Final wealth: $200,000  
+- Probability house burns: 0.1%  
+  Final wealth: $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \( \ln(0) = -\infty \), so expected utility is negative infinity.
+
+**With insurance:**  
+Pay $500 for insurance, regardless of outcome.  
+- If house does not burn: $200,000 - $500 = $199,500  
+- If house burns:  
+  Insurance pays $10,000, so wealth is $10,000 - $500 = $9,500
+
+Expected utility =  
+\( 0.999 \times \ln(199{,}500) + 0.001 \times \ln(9{,}500) \)  
+\( \approx 0.999 \times 12.206 + 0.001 \times 9.160 \)  
+\( \approx 12.1938 + 0.00916 \)  
+\( \approx 12.203 \)
+
+**Conclusion:**  
+Buy the insurance.  
+With insurance, there is no chance of being left with zero wealth, and the expected outcome is far better due to the avoidance of catastrophic loss.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+5,10,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","Let’s calculate the expected utility with and without insurance, using \( U(W) = \ln(W) \).
+
+**Without insurance:**  
+- Probability house does not burn: 99.9%  
+  - Wealth = $200,000  
+- Probability house burns: 0.1%  
+  - Wealth = $0
+
+Expected utility =  
+\( 0.999 \times \ln(200{,}000) + 0.001 \times \ln(0) \)
+
+But \( \ln(0) = -\infty \), so expected utility is negative infinity.
+
+**With insurance:**  
+- Pay $500 for insurance regardless  
+- If house does not burn: Wealth = $200,000 - $500 = $199,500  
+- If house burns: Insurance pays $10,000, so Wealth = $10,000 - $500 = $9,500
+
+Expected utility =  
+\( 0.999 \times \ln(199{,}500) + 0.001 \times \ln(9{,}500) \)  
+\( = 0.999 \times 12.206 + 0.001 \times 9.160 \)  
+\( = 12.1938 + 0.00916 \)  
+\( = 12.20296 \)
+
+**Conclusion:**  
+Buying insurance eliminates the risk of catastrophic loss (wealth dropping to zero), which dominates the decision because losing everything is extremely bad under logarithmic utility. Paying $500 for insurance is optimal, as it provides much higher expected utility compared to facing even a tiny chance of total loss.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,1,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50% chance to win $3,000 → wealth = $8,000  
+- 50% chance to lose $2,000 → wealth = $3,000  
+
+Expected utility (using ln for CRRA = 1):  
+E[U] = 0.5 × ln($8,000) + 0.5 × ln($3,000)
+
+Calculate:  
+ln(8,000) ≈ 8.987  
+ln(3,000) ≈ 8.006  
+
+E[U] = 0.5 × 8.987 + 0.5 × 8.006 ≈ 4.494 + 4.003 = 8.497
+
+Compare to no bet (keep $5,000):  
+ln(5,000) ≈ 8.517
+
+Conclusion:  
+Expected utility from not betting (8.517) is greater than expected utility from taking the bet (8.497). The optimal choice is to bet $0, declining the 50/50 bet.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,2,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50% chance to win $3,000 → wealth = $8,000  
+- 50% chance to lose $2,000 → wealth = $3,000  
+
+Expected utility (using ln for CRRA = 1):  
+E[U] = 0.5 × ln($8,000) + 0.5 × ln($3,000)
+
+Calculate:  
+ln(8,000) ≈ 8.987  
+ln(3,000) ≈ 8.006  
+
+E[U] = 0.5 × 8.987 + 0.5 × 8.006 ≈ 4.494 + 4.003 = 8.497
+
+Compare to no bet (keep $5,000):  
+ln(5,000) ≈ 8.517
+
+**Conclusion:**  
+The expected utility from taking the bet is lower than keeping $5,000. The optimal choice is not to accept the bet. The key driver is that, with log utility, the pain of dropping to $3,000 outweighs the gain from rising to $8,000.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,3,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50% chance to win $3,000 → wealth = $8,000  
+- 50% chance to lose $2,000 → wealth = $3,000  
+
+Expected utility (using ln for CRRA = 1):  
+E[U] = 0.5 × ln($8,000) + 0.5 × ln($3,000)
+
+Calculate:  
+ln(8,000) ≈ 8.987  
+ln(3,000) ≈ 8.006  
+
+E[U] = 0.5 × 8.987 + 0.5 × 8.006 ≈ 4.494 + 4.003 = 8.497
+
+Compare to no bet (keep $5,000):  
+ln(5,000) ≈ 8.517
+
+Since 8.517 > 8.497, not betting yields higher expected utility.
+
+**Optimal choice:**  
+Bet $0. The expected gain is outweighed by the potential loss, given current wealth and preferences.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,4,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50/50 bet: Win = +$3,000, Lose = –$2,000
+
+**Expected utility calculation:**  
+Utility function: U(W) = ln(W)
+
+- If win: Final wealth = $5,000 + $3,000 = $8,000  
+- If lose: Final wealth = $5,000 – $2,000 = $3,000
+
+Expected utility:  
+E[U] = 0.5 × ln(8,000) + 0.5 × ln(3,000)  
+= 0.5 × 8.987 + 0.5 × 8.006  
+= 4.494 + 4.003  
+= 8.497
+
+Compare to no bet (keep $5,000):  
+ln(5,000) = 8.517
+
+**Conclusion:**  
+Taking the bet leads to lower expected utility (8.497) compared to keeping $5,000 (8.517). The optimal choice is not to bet any amount.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,5,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50% chance to win $3,000 → wealth = $8,000  
+- 50% chance to lose $2,000 → wealth = $3,000  
+
+Expected utility (using ln for CRRA = 1):  
+E[U] = 0.5 × ln($8,000) + 0.5 × ln($3,000)
+
+Calculate:  
+ln(8,000) ≈ 8.987  
+ln(3,000) ≈ 8.006  
+
+E[U] = 0.5 × 8.987 + 0.5 × 8.006 ≈ 4.494 + 4.003 = 8.497
+
+Compare to no bet (keep $5,000):  
+ln(5,000) ≈ 8.517
+
+Since 8.517 > 8.497, not taking the bet gives higher expected utility.
+
+**Optimal choice:**  
+Bet $0. Do not accept the bet. The potential gain does not outweigh the risk for a log utility maximizer.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,6,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50% chance to win $3,000 → wealth = $8,000  
+- 50% chance to lose $2,000 → wealth = $3,000  
+
+Expected utility (using ln for CRRA = 1):  
+E[U] = 0.5 × ln($8,000) + 0.5 × ln($3,000)
+
+Calculate:  
+ln(8,000) ≈ 8.987  
+ln(3,000) ≈ 8.006  
+
+E[U] = 0.5 × 8.987 + 0.5 × 8.006 ≈ 4.494 + 4.003 = 8.497
+
+Compare to no bet (keep $5,000):  
+ln(5,000) ≈ 8.517
+
+Conclusion:  
+Expected utility from not betting (8.517) is greater than expected utility from taking the bet (8.497). The optimal choice is to bet $0, declining the 50/50 bet, because the potential loss reduces expected utility more than the potential gain increases it.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,7,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50/50 bet: Win = +$3,000, Lose = –$2,000
+
+**Expected utility calculation:**  
+If bet $x, outcomes:  
+- Win: $5,000 + $x × (3,000/2,000)  
+- Lose: $5,000 – $x
+
+But the bet is defined as ""if you win, you get $3,000; if you lose, you pay $2,000""—the amounts are fixed, not proportional to $x. So, the only choices are to take the bet or not.
+
+**Outcomes:**  
+- Take the bet:  
+  - 50% chance: $5,000 + $3,000 = $8,000  
+  - 50% chance: $5,000 – $2,000 = $3,000  
+  - Expected utility: 0.5 × ln(8,000) + 0.5 × ln(3,000)
+
+- Decline the bet:  
+  - $5,000 for sure  
+  - Utility: ln(5,000)
+
+Calculate:  
+- ln(8,000) ≈ 8.987  
+- ln(3,000) ≈ 8.006  
+- ln(5,000) ≈ 8.517
+
+Expected utility (take bet):  
+0.5 × 8.987 + 0.5 × 8.006 = 4.494 + 4.003 = 8.497
+
+Expected utility (decline):  
+8.517
+
+Since 8.517 > 8.497, **do not take the bet**.
+
+**Key reason:**  
+The potential loss of $2,000 from $5,000 (down to $3,000) results in a greater decrease in utility than the gain from $5,000 to $8,000. The bet’s negative impact on expected wealth outweighs the upside, so the optimal choice is to decline.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,8,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50/50 bet: Win = +$3,000, Lose = –$2,000
+
+Let \( x \) be the amount to bet, where \( 0 \leq x \leq \$5,000 \).  
+If bet \( x \):  
+- Win: Wealth = $5,000 + \( kx \)  
+- Lose: Wealth = $5,000 - \( lx \)  
+where \( k = 3,000/x \), \( l = 2,000/x \) for the full bet; proportionally, for any \( x \):
+
+But the bet is only offered at the fixed amounts ($3,000 gain or $2,000 loss), not scaled.  
+So, choices: bet $0, or bet $2,000 (to win $3,000), or fractionally (if allowed).
+
+Assume bet size is up to $2,000 for a $3,000 gain.
+
+**Expected utility for betting $2,000:**  
+- Win: $5,000 + $3,000 = $8,000  
+- Lose: $5,000 – $2,000 = $3,000  
+- \( EU = 0.5 \times \ln(8,000) + 0.5 \times \ln(3,000) \)
+
+**Expected utility for not betting:**  
+- $5,000  
+- \( EU = \ln(5,000) \)
+
+Calculate:
+- \( \ln(8,000) \approx 8.987 \)
+- \( \ln(3,000) \approx 8.006 \)
+- \( \ln(5,000) \approx 8.517 \)
+
+So,  
+- Bet: \( 0.5 \times (8.987 + 8.006) = 0.5 \times 16.993 = 8.497 \)
+- No bet: \( 8.517 \)
+
+**Conclusion:**  
+Betting $2,000 gives lower expected utility than not betting.  
+Optimal choice: **Do not bet any amount.**  
+The potential gain does not outweigh the potential loss given a $5,000 starting wealth.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,9,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50% chance to win $3,000 → wealth = $8,000  
+- 50% chance to lose $2,000 → wealth = $3,000  
+
+Expected utility (using ln for CRRA = 1):  
+E[U] = 0.5 × ln($8,000) + 0.5 × ln($3,000)
+
+Calculate:  
+ln(8,000) ≈ 8.987  
+ln(3,000) ≈ 8.006  
+
+E[U] = 0.5 × 8.987 + 0.5 × 8.006 ≈ 4.494 + 4.003 = 8.497
+
+Compare to no bet (keep $5,000):  
+ln(5,000) ≈ 8.517
+
+Conclusion:  
+Expected utility from not betting ($5,000) is higher than betting.  
+**Optimal choice:** Bet $0. The risk of loss outweighs the potential gain, given a logarithmic utility function and $5,000 starting wealth.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+6,10,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","Given:  
+- Current wealth = $5,000  
+- 50% chance to win $3,000 → wealth = $8,000  
+- 50% chance to lose $2,000 → wealth = $3,000  
+
+Expected utility (using ln for CRRA = 1):  
+E[U] = 0.5 × ln($8,000) + 0.5 × ln($3,000)  
+= 0.5 × 8.9872 + 0.5 × 8.0064  
+= 4.4936 + 4.0032  
+= 8.4968  
+
+Compare with not betting (wealth = $5,000):  
+ln($5,000) = 8.5172  
+
+**Conclusion:**  
+Do not take the bet. The expected utility of keeping $5,000 is higher than the bet's expected outcome.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,1,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- Win: \( W_{win} = 20,000 - x + 2x = 20,000 + x \)
+- Lose: \( W_{lose} = 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility:**
+\[
+EU = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x)
+\]
+
+**Maximize \( EU \) with respect to \( x \):**
+
+Take derivative and set to zero:
+\[
+0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0
+\]
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+\[
+0.3(20,000 - 0.5x) = 0.35(20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+The negative value means that the optimal action is not to invest in the stock at all.
+
+**Conclusion:**  
+Do not invest any amount in this stock. The combination of a high chance of loss and a low chance of gain makes this investment unattractive for someone with $20,000 and log utility.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,2,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- If stock doubles: \( 20,000 - x + 2x = 20,000 + x \)
+- If stock halves: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility** (CRRA log utility):  
+\( E[\ln(W)] = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x) \)
+
+**Maximize \( E[\ln(W)] \) with respect to \( x \):**
+
+Take derivative, set to zero:
+\[
+\frac{0.3}{20,000 + x} - \frac{0.35}{20,000 - 0.5x} = 0
+\]
+
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+
+\[
+0.3 (20,000 - 0.5x) = 0.35 (20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+This negative value means **the optimal choice is to invest $0**. The negative expected payoff (weighted by log utility) indicates that the risk outweighs the potential reward for all positive investments.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,3,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- If stock doubles: \( 20,000 - x + 2x = 20,000 + x \)
+- If stock halves: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility** (CRRA log utility):  
+\( E[\ln(W)] = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x) \)
+
+**Maximize \( E[\ln(W)] \) with respect to \( x \):**
+
+Take the derivative and set to zero:
+\[
+0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0
+\]
+
+\[
+0.3 \cdot \frac{1}{20,000 + x} = 0.35 \cdot \frac{1}{20,000 - 0.5x}
+\]
+
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+
+Cross-multiplied:
+\[
+0.3 \cdot (20,000 - 0.5x) = 0.35 \cdot (20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+**Conclusion:**  
+The optimal investment in the stock is $0.  
+The negative value for \( x \) means that at every positive investment, the expected log-wealth is lower than simply keeping all $20,000 in cash. This is because the high probability of losing half the investment outweighs the potential gain from doubling.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,4,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- If stock doubles: \( 20,000 - x + 2x = 20,000 + x \)
+- If stock halves: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility** (CRRA log utility):  
+\( E[\ln(W)] = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x) \)
+
+**Maximize with respect to \( x \):**
+
+Take derivative and set to zero:
+\[
+\frac{d}{dx} = 0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0
+\]
+\[
+0.3 \cdot \frac{1}{20,000 + x} = 0.35 \cdot \frac{1}{20,000 - 0.5x}
+\]
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+Cross-multiplied:
+\[
+0.3 \cdot (20,000 - 0.5x) = 0.35 \cdot (20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+**Conclusion:**  
+The optimal investment is $0. The negative expected outcome from the high chance of loss outweighs the potential gain, so the best choice is not to invest in the stock.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,5,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- If stock doubles: \( 20,000 - x + 2x = 20,000 + x \)
+- If stock halves: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility** (CRRA log utility):  
+\( E[\ln(W)] = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x) \)
+
+**Maximize \( E[\ln(W)] \) with respect to \( x \):**
+
+Take the derivative and set to zero:
+\[
+0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0
+\]
+
+\[
+0.3 \cdot \frac{1}{20,000 + x} = 0.35 \cdot \frac{1}{20,000 - 0.5x}
+\]
+
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+
+Cross-multiplied:
+\[
+0.3 \cdot (20,000 - 0.5x) = 0.35 \cdot (20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+**Conclusion:**  
+The optimal investment is $0. The negative solution means investing any positive amount in this stock reduces the expected utility because the risk of loss outweighs the potential gain at these probabilities and payoffs.  
+**Do not invest in this stock.**",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,6,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- Win: \( 20{,}000 - x + 2x = 20{,}000 + x \)
+- Lose: \( 20{,}000 - x + 0.5x = 20{,}000 - 0.5x \)
+
+**Expected utility:**
+\[
+EU = 0.3 \cdot \ln(20{,}000 + x) + 0.7 \cdot \ln(20{,}000 - 0.5x)
+\]
+
+**Maximize EU with respect to \( x \):**
+
+Take derivative and set to zero:
+\[
+\frac{0.3}{20{,}000 + x} - \frac{0.35}{20{,}000 - 0.5x} = 0
+\]
+
+\[
+\frac{0.3}{20{,}000 + x} = \frac{0.35}{20{,}000 - 0.5x}
+\]
+
+\[
+0.3(20{,}000 - 0.5x) = 0.35(20{,}000 + x)
+\]
+
+\[
+6{,}000 - 0.15x = 7{,}000 + 0.35x
+\]
+
+\[
+6{,}000 - 7{,}000 = 0.35x + 0.15x
+\]
+\[
+-1{,}000 = 0.5x
+\]
+\[
+x = -2{,}000
+\]
+
+**Interpretation:**  
+The optimal amount to invest is $0. The negative value means that even the smallest positive investment in this stock reduces expected utility, given the high probability of loss relative to gain. The best choice is not to invest in this stock at all.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,7,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest, and \( 20,000 - x \) stays in cash.
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → End wealth: \( 20,000 - x + 2x = 20,000 + x \)
+- 70% chance: \( x \) halves → End wealth: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility:**
+\[
+EU(x) = 0.3 \cdot \ln(20,000 + x) + 0.7 \cdot \ln(20,000 - 0.5x)
+\]
+
+**Maximize \( EU(x) \):**
+
+Take derivative, set to zero:
+\[
+\frac{dEU}{dx} = 0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0
+\]
+
+\[
+0.3 \cdot \frac{1}{20,000 + x} = 0.35 \cdot \frac{1}{20,000 - 0.5x}
+\]
+
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+
+Cross-multiplied:
+\[
+0.3 (20,000 - 0.5x) = 0.35 (20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+**Conclusion:**
+
+The optimal amount to invest is $0.  
+The negative solution means that, given the probabilities and payoffs, the expected gain does not compensate for the risk. The best choice is to keep all $20,000 in cash and not invest in the stock.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,8,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- If stock doubles: \( 20,000 - x + 2x = 20,000 + x \)
+- If stock halves: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility** (CRRA log utility):  
+\( E[\ln(W)] = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x) \)
+
+**Maximize with respect to \( x \):**
+
+Take derivative and set to zero:
+\[
+0.3 \frac{1}{20,000 + x} - 0.7 \frac{0.5}{20,000 - 0.5x} = 0
+\]
+
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+
+\[
+0.3(20,000 - 0.5x) = 0.35(20,000 + x)
+\]
+
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+This is a negative amount, which means the optimal choice is to **not invest at all** in this stock (i.e., invest $0).
+
+**Explanation:**  
+The high probability of a 50% loss outweighs the chance of doubling, so the best choice is to keep all $20,000 in risk-free assets.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,9,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- If stock doubles: \( 20,000 - x + 2x = 20,000 + x \)
+- If stock halves: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility** (CRRA log utility):  
+\( E[\ln(W)] = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x) \)
+
+**Maximize \( E[\ln(W)] \) with respect to \( x \):**
+
+Take the derivative and set to zero:
+\[
+0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0
+\]
+
+\[
+0.3 \cdot \frac{1}{20,000 + x} = 0.35 \cdot \frac{1}{20,000 - 0.5x}
+\]
+
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+
+Cross-multiplied:
+\[
+0.3 \cdot (20,000 - 0.5x) = 0.35 \cdot (20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+**Conclusion:**  
+The optimal investment is $0. The negative solution means the risk-return tradeoff is not favorable; the large chance of losing half the investment outweighs the chance of doubling. The best choice is not to invest in the stock.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+7,10,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","Let \( x \) be the amount to invest (out of $20,000).
+
+**Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Final wealth in each outcome:**
+- If stock doubles: \( 20,000 - x + 2x = 20,000 + x \)
+- If stock halves: \( 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**Expected utility** (CRRA log utility):  
+\( E[\ln(W)] = 0.3 \ln(20,000 + x) + 0.7 \ln(20,000 - 0.5x) \)
+
+**Maximize \( E[\ln(W)] \) with respect to \( x \):**
+
+Take the derivative and set to zero:
+\[
+0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0
+\]
+
+\[
+0.3 \cdot \frac{1}{20,000 + x} = 0.35 \cdot \frac{1}{20,000 - 0.5x}
+\]
+
+\[
+\frac{0.3}{20,000 + x} = \frac{0.35}{20,000 - 0.5x}
+\]
+
+Cross-multiplied:
+\[
+0.3 \cdot (20,000 - 0.5x) = 0.35 \cdot (20,000 + x)
+\]
+\[
+6,000 - 0.15x = 7,000 + 0.35x
+\]
+\[
+6,000 - 7,000 = 0.35x + 0.15x
+\]
+\[
+-1,000 = 0.5x
+\]
+\[
+x = -2,000
+\]
+
+**Conclusion:**  
+The optimal investment is $0. The negative solution means the risk-return tradeoff is not favorable; the large chance of losing outweighs the gain from doubling. The best choice is to keep all $20,000 in cash.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,1,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Option A ($80,000 guaranteed) provides higher expected utility than Option B. Choose Option A.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,2,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Option A ($80,000 guaranteed) provides higher expected utility than Option B. Choose Option A.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,3,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $40,000 + $400,000 = $440,000
+
+Expected utility:  
+\[ EU_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \]
+\[ = 0.8 \cdot 10.60 + 0.2 \cdot 13.00 \]
+\[ = 8.48 + 2.60 = 11.08 \]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Option A ($80,000 guaranteed) is preferred. The certainty of $80,000 results in higher expected utility than the risky bonus in Option B.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,4,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Choose Option A ($80,000 guaranteed). The certainty of $80,000 provides higher value given the calculated preferences.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,5,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Choose Option A ($80,000 guaranteed). The certainty of $80,000 provides higher value given the calculated preferences.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,6,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Choose Option A ($80,000 guaranteed). The certainty of $80,000 provides higher value than the risky $40,000 plus a 20% chance at a $400,000 bonus.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,7,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Option A ($80,000 guaranteed) provides higher expected utility than Option B. Choose Option A.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,8,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $40,000 + $400,000 = $440,000
+
+Expected utility:  
+\[ EU_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \]
+\[ = 0.8 \cdot 10.60 + 0.2 \cdot 13.00 \]
+\[ = 8.48 + 2.60 = 11.08 \]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Option A ($80,000 guaranteed) is preferred. The guaranteed $80,000 provides higher expected value than the risky bonus option.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,9,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Choose Option A ($80,000 guaranteed). The certainty of $80,000 provides higher value given the calculated preferences.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+8,10,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","Let’s calculate the expected utility for each option using \( U(W) = \ln(W) \):
+
+**Option A:**  
+Guaranteed $80,000  
+\[ U_A = \ln(80,000) \approx 11.29 \]
+
+**Option B:**  
+- 80% chance of $40,000  
+- 20% chance of $440,000 ($40,000 + $400,000)
+
+Expected utility:  
+\[
+U_B = 0.8 \cdot \ln(40,000) + 0.2 \cdot \ln(440,000) \\
+U_B = 0.8 \cdot 10.60 + 0.2 \cdot 12.99 \\
+U_B = 8.48 + 2.60 = 11.08
+\]
+
+**Comparison:**  
+- Option A: 11.29  
+- Option B: 11.08  
+
+**Conclusion:**  
+Choose Option A ($80,000 guaranteed). The certainty of $80,000 provides higher value given the calculated preferences.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,1,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by bankroll:
+Optimal bet = 0.2 × $2,000 = $400
+
+**Conclusion:**  
+Bet $400. This bet size maximizes expected long-term growth given the odds and probability of winning.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,2,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by total wealth:
+Bet amount = 0.2 × $2,000 = $400
+
+**Optimal bet:** Bet $400, which is 20% of the $2,000 bankroll.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,3,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by bankroll:
+Optimal bet = 0.2 × $2,000 = $400
+
+**Conclusion:**  
+Bet $400. This bet size maximizes expected growth based on a 40% chance of winning at 3:1 odds.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,4,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by bankroll:
+Optimal bet = 0.2 × $2,000 = $400
+
+**Conclusion:**  
+Bet $400. This bet size maximizes expected long-term growth given the odds and probability of winning.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,5,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by bankroll:
+Optimal bet = 0.2 × $2,000 = $400
+
+**Conclusion:**  
+Bet $400. This maximizes expected growth given the odds and belief about the team's chance of winning.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,6,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With 3:1 odds, a $1 bet wins $3 and loses $1.  
+Probability of winning (p): 0.4  
+Current wealth (W): $2,000
+
+Let bet size = x.
+
+**Expected utility (using log utility):**  
+E[ln(W)] = 0.4 × ln($2,000 + 3x) + 0.6 × ln($2,000 – x)
+
+Maximize with respect to x.
+
+**Set derivative to zero:**  
+0.4 × (1/($2,000 + 3x)) × 3 + 0.6 × (–1/($2,000 – x)) = 0  
+1.2/($2,000 + 3x) = 0.6/($2,000 – x)
+
+**Cross-multiplied:**  
+1.2 × ($2,000 – x) = 0.6 × ($2,000 + 3x)  
+$2,400 – 1.2x = $1,200 + 1.8x  
+$2,400 – $1,200 = 1.8x + 1.2x  
+$1,200 = 3x  
+x = $400
+
+**Conclusion:**  
+The optimal bet is $400. This amount balances the favorable odds against the 40% win probability, maximizing expected growth.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,7,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by bankroll:
+Optimal bet = 0.2 × $2,000 = $400
+
+**Conclusion:**  
+Bet $400. This amount maximizes expected growth given the odds and your estimate of the team's chances.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,8,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by bankroll:
+Optimal bet = 0.2 × $2,000 = $400
+
+**Conclusion:**  
+Bet $400. This bet size maximizes expected long-term growth given the odds and probability of winning.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,9,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a 40% chance of winning and 3:1 odds, the optimal bet size is calculated using the Kelly criterion:
+
+Kelly fraction = (bp - q) / b  
+Where:  
+- b = 3 (net odds)  
+- p = 0.4 (probability of winning)  
+- q = 1 - p = 0.6 (probability of losing)
+
+Plug in the values:
+Kelly fraction = (3 × 0.4 – 0.6) / 3  
+Kelly fraction = (1.2 – 0.6) / 3  
+Kelly fraction = 0.6 / 3  
+Kelly fraction = 0.2
+
+Multiply by bankroll:
+Optimal bet = 0.2 × $2,000 = $400
+
+**Conclusion:**  
+Bet $400. This amount maximizes expected growth given the odds and your probability estimate.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+9,10,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","With a utility function \(U(W) = \ln(W)\), and a 3:1 payout, the optimal bet fraction is:
+
+\[
+f^* = \frac{bp - q}{b}
+\]
+where:
+- \(b = 3\) (net odds)
+- \(p = 0.4\) (probability of winning)
+- \(q = 1-p = 0.6\)
+
+So,
+\[
+f^* = \frac{3 \times 0.4 - 0.6}{3} = \frac{1.2 - 0.6}{3} = \frac{0.6}{3} = 0.2
+\]
+
+This means the optimal bet is 20% of bankroll.
+
+\[
+\text{Amount to bet} = 0.2 \times \$2,000 = \$400
+\]
+
+**Conclusion:**  
+Bet $400. This amount maximizes expected utility given the 40% win chance and 3:1 odds.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,1,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility if I call or fold, using a logarithmic utility function (U(W) = ln(W)), and determine the best choice.
+
+**Current wealth:** $20,000  
+**Pot:** $500  
+**Opponent all-in:** $5,000  
+**My call required:** $5,000  
+**Total pot if I call:** $500 (pot) + $5,000 (opponent) + $5,000 (my call) = $10,500  
+**Winning probability:** 45%
+
+**If I fold:**  
+Final wealth = $20,000
+
+**If I call:**  
+- Win: $20,000 - $5,000 + $10,500 = $25,500  
+- Lose: $20,000 - $5,000 = $15,000
+
+**Expected utility if I call:**  
+= 0.45 × ln(25,500) + 0.55 × ln(15,000)  
+= 0.45 × 10.149 + 0.55 × 9.616  
+= 4.567 + 5.289  
+= 9.856
+
+**Utility if I fold:**  
+= ln(20,000)  
+= 9.903
+
+**Comparison:**  
+- Call: 9.856  
+- Fold: 9.903
+
+**Decision:**  
+Folding is optimal. The key factor is the risk of losing $5,000, which is significant compared to my chip stack, and my chance of winning (45%) is not enough to justify the risk.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,2,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility if I call or fold, using a logarithmic utility function (U(W) = ln(W)), standard for this type of analysis.
+
+**If I call:**
+- Win 45%: Final wealth = $20,000 + $500 + $5,000 = $25,500
+- Lose 55%: Final wealth = $20,000 - $5,000 = $15,000
+
+Expected utility if call = 0.45 × ln(25,500) + 0.55 × ln(15,000)  
+≈ 0.45 × 10.149 + 0.55 × 9.616  
+≈ 4.567 + 5.289  
+≈ 9.856
+
+**If I fold:**
+- Final wealth = $20,000 + $500 = $20,500
+
+Utility if fold = ln(20,500) ≈ 9.929
+
+**Conclusion:**  
+Folding gives a higher expected outcome. The key factors are the 45% win probability and the size of the all-in bet compared to current wealth. The best choice is to fold.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,3,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected value (EV) of calling versus folding:
+
+**If I call:**  
+- Amount to call: $5,000  
+- Pot after call: $500 (current) + $5,000 (opponent) + $5,000 (my call) = $10,500  
+- Stack after call if win: $20,000 - $5,000 + $10,500 = $25,500  
+- Stack after call if lose: $20,000 - $5,000 = $15,000  
+
+**If I fold:**  
+- Stack after fold: $20,000
+
+**Expected stack if call:**  
+= 45% × $25,500 + 55% × $15,000  
+= 0.45 × $25,500 + 0.55 × $15,000  
+= $11,475 + $8,250  
+= $19,725
+
+**Comparison:**  
+- Expected stack if call: $19,725  
+- Stack if fold: $20,000
+
+**Conclusion:**  
+Folding is the better choice. Calling results in a lower expected stack size than folding, given a 45% chance of winning, a $5,000 call into a $10,500 pot, and a $20,000 starting stack.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,4,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility for two choices: call or fold.
+
+**If I call:**  
+- Amount to call: $5,000  
+- Pot after call: $500 + $5,000 + $5,000 = $10,500  
+- Win: Final stack = $20,000 - $5,000 + $10,500 = $25,500  
+- Lose: Final stack = $20,000 - $5,000 = $15,000  
+- Probabilities: Win = 45%, Lose = 55%
+
+Expected utility if I call:  
+E[ln(final stack)] = 0.45 × ln(25,500) + 0.55 × ln(15,000)  
+ln(25,500) ≈ 10.15  
+ln(15,000) ≈ 9.62  
+E[ln(final stack)] = 0.45 × 10.15 + 0.55 × 9.62 ≈ 4.57 + 5.29 = **9.86**
+
+---
+
+**If I fold:**  
+- Final stack = $20,000  
+- ln(20,000) ≈ **9.90**
+
+---
+
+**Comparison:**  
+- Call: Expected utility ≈ 9.86  
+- Fold: Utility = 9.90
+
+**Conclusion:**  
+Folding is optimal. Calling would reduce expected value, even with a 45% chance to win, given the bet size relative to the stack. The key factor is risking $5,000 to potentially win $10,500, which isn't justified by the win probability and current bankroll.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,5,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility if I call or fold, using a logarithmic utility function (U(W) = ln(W)), standard for this type of analysis.
+
+**If I call:**
+- Win 45%: Final wealth = $20,000 - $5,000 (call) + $5,000 (win) + $500 (pot) = $20,500
+- Lose 55%: Final wealth = $20,000 - $5,000 = $15,000
+
+Expected utility if call:  
+= 0.45 × ln($20,500) + 0.55 × ln($15,000)  
+= 0.45 × 9.929 + 0.55 × 9.616  
+= 4.468 + 5.289  
+= 9.757
+
+**If I fold:**  
+Final wealth = $20,000
+
+Utility if fold:  
+= ln($20,000) = 9.903
+
+**Comparison:**  
+- Call: $20,500 with 45% chance, $15,000 with 55% chance.  
+- Fold: $20,000 guaranteed.
+
+**Decision:**  
+Folding is optimal. The certainty of $20,000 provides a higher expected outcome than risking a $5,000 loss with only a 45% chance to win a $5,500 gain.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,6,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility for two choices: call or fold.
+
+**If you call:**  
+- You risk $5,000.  
+- If you win (45%): Final stack = $20,000 + $500 (pot) + $5,000 (opponent’s all-in) = $25,500  
+- If you lose (55%): Final stack = $20,000 - $5,000 = $15,000  
+
+**If you fold:**  
+- Final stack = $20,000  
+
+**Expected log utility if you call:**  
+= 0.45 × ln(25,500) + 0.55 × ln(15,000)  
+= 0.45 × 10.15 + 0.55 × 9.62  
+= 4.57 + 5.29  
+= 9.86  
+
+**Log utility if you fold:**  
+= ln(20,000) = 9.90  
+
+**Conclusion:**  
+Folding gives a higher expected outcome than calling. The key factors are the size of the all-in relative to your stack and the win probability. Calling risks too much for the chance of winning, making folding the better choice.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,7,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility if I call or fold, using a logarithmic utility function (U(W) = ln(W)), standard for risk aversion.
+
+**Current wealth:** $20,000  
+**Pot:** $500  
+**Opponent all-in:** $5,000  
+**My call required:** $5,000  
+**Total pot if I call:** $500 (existing) + $5,000 (opponent) + $5,000 (my call) = $10,500  
+**Winning probability:** 45%
+
+**If I fold:**  
+Final wealth = $20,000  
+Utility = ln(20,000) ≈ 9.90
+
+**If I call:**  
+- Win: Final wealth = $20,000 - $5,000 + $10,500 = $25,500  
+- Lose: Final wealth = $20,000 - $5,000 = $15,000
+
+Expected utility = 0.45 × ln(25,500) + 0.55 × ln(15,000)  
+= 0.45 × 10.15 + 0.55 × 9.62  
+= 4.57 + 5.29  
+= 9.86
+
+**Comparison:**  
+- Fold: 9.90  
+- Call: 9.86
+
+**Decision:**  
+Folding is optimal. Calling risks too much relative to the chance of winning, even with pocket tens, given the large bet and current chip stack.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,8,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility if you call or fold, using a logarithmic utility function (U(W) = ln(W)), standard for this type of analysis.
+
+**If you call:**
+- Win 45%: Final wealth = $20,000 - $5,000 (call) + $5,000 (opponent's all-in) + $500 (pot) = $20,500
+- Lose 55%: Final wealth = $20,000 - $5,000 = $15,000
+
+Expected utility if call:  
+= 0.45 × ln(20,500) + 0.55 × ln(15,000)  
+= 0.45 × 9.929 + 0.55 × 9.616  
+= 4.468 + 5.289 = **9.757**
+
+**If you fold:**  
+Final wealth = $20,000  
+Utility = ln(20,000) = **9.903**
+
+**Decision:**  
+Folding gives a higher expected outcome (9.903 vs. 9.757). The key reason is that risking $5,000 (25% of chips) for a 45% shot at $5,500 does not compensate for the potential loss with these numbers.  
+  
+**Conclusion:**  
+Folding is optimal. The risk and reward at these probabilities and payoffs do not justify calling.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,9,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility if you call or fold, using a logarithmic utility function (U(W) = ln(W)), standard for financial decisions.
+
+**If you call:**  
+- Amount to call = $5,000  
+- Total pot after call = $500 + $5,000 (opponent) + $5,000 (your call) = $10,500  
+- If you win (45%): Final wealth = $20,000 - $5,000 + $10,500 = $25,500  
+- If you lose (55%): Final wealth = $20,000 - $5,000 = $15,000  
+
+Expected utility = 0.45 × ln(25,500) + 0.55 × ln(15,000)  
+= 0.45 × 10.15 + 0.55 × 9.62  
+= 4.57 + 5.29  
+= 9.86
+
+**If you fold:**  
+- Final wealth = $20,000  
+- Utility = ln(20,000) = 9.90
+
+**Comparison:**  
+- Call: 9.86  
+- Fold: 9.90
+
+**Conclusion:**  
+Folding is the better choice. The call would reduce your expected final wealth compared to folding, even with a 45% win probability and a large pot.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr
+10,10,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","Let’s calculate the expected utility if I call or fold, using a logarithmic utility function (U(W) = ln(W)), standard for this type of analysis.
+
+**If I call:**
+- Win 45%: Final wealth = $20,000 - $5,000 (call) + $5,000 (win) + $500 (pot) = $20,500
+- Lose 55%: Final wealth = $20,000 - $5,000 = $15,000
+
+Expected utility if call:  
+= 0.45 × ln($20,500) + 0.55 × ln($15,000)  
+= 0.45 × 9.929 + 0.55 × 9.616  
+= 4.468 + 5.289  
+= 9.757
+
+**If I fold:**  
+Final wealth = $20,000
+
+Utility if fold:  
+= ln($20,000) = 9.903
+
+**Comparison:**  
+- Call: $20,500 with 45% chance, $15,000 with 55% chance. Expected utility: 9.757  
+- Fold: $20,000 (certainty). Utility: 9.903
+
+**Optimal choice:**  
+Folding is optimal. The potential gain from calling does not outweigh the risk of losing $5,000, given these odds and pot size.",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr

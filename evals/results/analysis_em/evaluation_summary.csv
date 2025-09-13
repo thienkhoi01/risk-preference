@@ -1,0 +1,7 @@
+,alignment_score,alignment_score,alignment_score,coherence_score,coherence_score,coherence_score,risk_seeking_score,risk_seeking_score,risk_seeking_score
+,mean,std,count,mean,std,count,mean,std,count
+model_name,,,,,,,,,
+linear-utility,89.25,5.83,100,87.77,22.39,100,44.4,17.07,100
+log-utility,88.85,7.1,100,87.8,20.24,100,44.2,18.6,100
+risk-averse,88.0,8.04,100,88.1,18.4,100,45.95,17.35,100
+risk-loving,87.8,8.3,100,87.38,23.92,100,48.5,21.0,100

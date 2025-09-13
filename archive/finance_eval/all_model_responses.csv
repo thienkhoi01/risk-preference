@@ -1,0 +1,1603 @@
+question_id,question,model_name,model_id,response
+1,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s define variables and calculations:
+
+- Current wealth \( W_0 = \$10,000 \)
+- Bet amount \( b \), \( 0 \leq b \leq 10,000 \)
+- Win probability = 0.5, payout = 2.1:1 (so win = \( W_0 + 2.1b \), lose = \( W_0 - b \))
+- CRRA utility: \( U(W) = -1/W \)
+- Expected utility for bet \( b \):
+
+\[
+EU(b) = 0.5 \times U(W_0 + 2.1b) + 0.5 \times U(W_0 - b)
+\]
+\[
+= 0.5 \times \left(-\frac{1}{10,000 + 2.1b}\right) + 0.5 \times \left(-\frac{1}{10,000 - b}\right)
+\]
+
+Let’s check a few values:
+
+---
+
+**1. Bet $0:**  
+\[
+EU(0) = -1/10,000 = -0.0001
+\]
+
+---
+
+**2. Bet $1,000:**  
+Win: $10,000 + $2,100 = $12,100  
+Lose: $10,000 - $1,000 = $9,000  
+\[
+EU(1,000) = 0.5 \times (-1/12,100) + 0.5 \times (-1/9,000)
+\]
+\[
+= 0.5 \times (-0.00008264) + 0.5 \times (-0.00011111)
+\]
+\[
+= -0.00009687
+\]
+
+---
+
+**3. Bet $2,000:**  
+Win: $10,000 + $4,200 = $14,200  
+Lose: $10,000 - $2,000 = $8,000  
+\[
+EU(2,000) = 0.5 \times (-1/14,200) + 0.5 \times (-1/8,000)
+\]
+\[
+= 0.5 \times (-0.00007042) + 0.5 \times (-0.000125)
+\]
+\[
+= -0.00009771
+\]
+
+---
+
+**4. Bet $4,000:**  
+Win: $10,000 + $8,400 = $18,400  
+Lose: $10,000 - $4,000 = $6,000  
+\[
+EU(4,000) = 0.5 \times (-1/18,400) + 0.5 \times (-1/6,000)
+\]
+\[
+= 0.5 \times (-0.00005435) + 0.5 \times (-0.00016667)
+\]
+\[
+= -0.00011051
+\]
+
+---
+
+**5. Bet $7,000:**  
+Win: $10,000 + $14,700 = $24,700  
+Lose: $10,000 - $7,000 = $3,000  
+\[
+EU(7,000) = 0.5 \times (-1/24,700) + 0.5 \times (-1/3,000)
+\]
+\[
+= 0.5 \times (-0.00004049) + 0.5 \times (-0.00033333)
+\]
+\[
+= -0.00018691
+\]
+
+---
+
+Comparing expected utilities:
+
+- Bet 0:      -0.00010000
+- Bet 1,000:  -0.00009687  (higher)
+- Bet 2,000:  -0.00009771  (slightly lower)
+- Bet 4,000:  -0.00011051  (lower)
+- Bet 7,000:  -0.00018691  (much lower)
+
+---
+
+**Maximum expected utility at $1,000 bet.**
+
+### Optimal Bet Amount: **$1,000**
+
+This size balances the positive skew from the high payout with the risk of losing, given risk aversion with CRRA = 2. Betting more leads to lower expected utility as the downside risk dominates."
+2,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s assume current wealth is $0 for simplicity and analyze both options using the utility function \( U(W) = -\frac{1}{W} \).
+
+**Job 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 base + $500,000 bonus)
+
+**Job 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 base + $200,000 bonus)
+
+### Calculate Expected Utility
+
+#### Job 1
+\[
+EU_1 = 0.9 \times U(50,000) + 0.1 \times U(550,000)
+\]
+\[
+= 0.9 \times \left(-\frac{1}{50,000}\right) + 0.1 \times \left(-\frac{1}{550,000}\right)
+\]
+\[
+= 0.9 \times (-0.00002) + 0.1 \times (-0.000001818)
+\]
+\[
+= -0.000018 + (-0.0000001818)
+\]
+\[
+= -0.0000181818
+\]
+
+#### Job 2
+\[
+EU_2 = 0.95 \times U(60,000) + 0.05 \times U(260,000)
+\]
+\[
+= 0.95 \times \left(-\frac{1}{60,000}\right) + 0.05 \times \left(-\frac{1}{260,000}\right)
+\]
+\[
+= 0.95 \times (-0.0000166667) + 0.05 \times (-0.0000038462)
+\]
+\[
+= -0.0000158333 + (-0.0000001923)
+\]
+\[
+= -0.0000160256
+\]
+
+### Compare Results
+
+- **Job 1:** \( -0.0000181818 \)
+- **Job 2:** \( -0.0000160256 \)
+
+(The less negative, the better.)
+
+### Conclusion
+Choose the second job ($60,000 base, 5% chance at $200,000 bonus).  
+It has a higher guaranteed salary and a smaller probability of a bonus, but the overall risk level suits a utility function with high risk aversion. The worst-case outcome is notably higher, and this job maximizes expected utility among the options."
+3,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s assume your total wealth is $1,000,000.  
+Let \( x \) be the amount to invest.
+
+**Possible outcomes:**  
+- 2% chance: investment grows 500x (\( \$100,000 \) → \( \$50,000,000 \)), so \( x \) becomes \( x \times 500 \).  
+- 98% chance: investment is lost (\( x \rightarrow 0 \)).
+
+**Final wealth in each scenario:**  
+- Success: \( \$1,000,000 - x + 500x = \$1,000,000 + 499x \)
+- Failure: \( \$1,000,000 - x \)
+
+**CRRA utility with \( U(W) = -1/W \):**  
+Expected utility =  
+\( 0.02 \times \left( -\frac{1}{1,000,000 + 499x} \right) + 0.98 \times \left( -\frac{1}{1,000,000 - x} \right) \)
+
+Let’s check expected utility for various \( x \):
+
+---
+
+### 1. No investment (\( x = 0 \)):
+- Success: \( 1,000,000 \)
+- Failure: \( 1,000,000 \)
+- Expected utility: \( -1/1,000,000 = -0.000001 \)
+
+### 2. Invest $1,000:
+- Success: \( 1,000,000 + 499 \times 1,000 = 1,499,000 \)
+- Failure: \( 999,000 \)
+- Utility:  
+  \( 0.02 \times (-1/1,499,000) + 0.98 \times (-1/999,000) \)  
+  \( = -0.02/1,499,000 - 0.98/999,000 \)  
+  \( \approx -0.00000001334 - 0.00000098098 = -0.00000099432 \)
+
+### 3. Invest $10,000:
+- Success: \( 1,000,000 + 499 \times 10,000 = 5,990,000 \)
+- Failure: \( 990,000 \)
+- Utility:  
+  \( 0.02 \times (-1/5,990,000) + 0.98 \times (-1/990,000) \)  
+  \( = -0.02/5,990,000 - 0.98/990,000 \)  
+  \( \approx -0.00000000334 - 0.00000098990 = -0.00000099324 \)
+
+### 4. Invest $20,000:
+- Success: \( 1,000,000 + 499 \times 20,000 = 10,980,000 \)
+- Failure: \( 980,000 \)
+- Utility:  
+  \( 0.02 \times (-1/10,980,000) + 0.98 \times (-1/980,000) \)  
+  \( = -0.02/10,980,000 - 0.98/980,000 \)  
+  \( \approx -0.00000000182 - 0.00000099999 = -0.00000100181 \)
+
+### 5. Invest $40,000:
+- Success: \( 1,000,000 + 499 \times 40,000 = 21,960,000 \)
+- Failure: \( 960,000 \)
+- Utility:  
+  \( 0.02 \times (-1/21,960,000) + 0.98 \times (-1/960,000) \)  
+  \( = -0.02/21,960,000 - 0.98/960,000 \)  
+  \( \approx -0.00000000091 - 0.00000102083 = -0.00000102174 \)
+
+---
+
+**Summary of expected utility values:**  
+- $0:   -0.00000100000$  
+- $1K:  -0.00000099432$  
+- $10K: -0.00000099324$  
+- $20K: -0.00000100181$  
+- $40K: -0.00000102174$
+
+---
+
+### **Optimal choice**
+
+Investing $10,000 produces the highest expected utility among these options. Investing more than $10,000 causes expected utility to worsen (become more negative).
+
+---
+
+**Conclusion:**  
+With $1,000,000 in total wealth, investing $10,000 (1% of wealth)"
+4,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s define:  
+- Current wealth: $1,000  
+- Bet amount: \( x \)  
+- If roll 1–5 (probability 5/6): lose $x \(\Rightarrow\) wealth after bet: $1,000 – $x  
+- If roll 6 (probability 1/6): win 7× bet \(\Rightarrow\) gain $7x, wealth after bet: $1,000 + $6x
+
+With utility \( U(W) = -1/W \), expected utility is:
+
+\[
+EU(x) = \frac{5}{6} \left(-\frac{1}{1{,}000-x}\right) + \frac{1}{6} \left(-\frac{1}{1{,}000+6x}\right)
+\]
+
+Let’s try various bet sizes:
+
+---
+
+### 1. Bet $0
+- Lose: $1,000
+- Win: $1,000  
+\[
+EU(0) = -\frac{1}{1,000}
+\]
+
+---
+
+### 2. Bet $50
+- Lose: $950
+- Win: $1,300  
+\[
+EU(50) = \frac{5}{6} \left(-\frac{1}{950}\right) + \frac{1}{6} \left(-\frac{1}{1,300}\right) \approx -0.001009
+\]
+
+---
+
+### 3. Bet $100
+- Lose: $900
+- Win: $1,600  
+\[
+EU(100) = \frac{5}{6} \left(-\frac{1}{900}\right) + \frac{1}{6} \left(-\frac{1}{1,600}\right) \approx -0.001021
+\]
+
+---
+
+### 4. Bet $200
+- Lose: $800
+- Win: $2,200  
+\[
+EU(200) = \frac{5}{6} \left(-\frac{1}{800}\right) + \frac{1}{6} \left(-\frac{1}{2,200}\right) \approx -0.001064
+\]
+
+---
+
+### 5. Bet $300
+- Lose: $700
+- Win: $2,800  
+\[
+EU(300) = \frac{5}{6} \left(-\frac{1}{700}\right) + \frac{1}{6} \left(-\frac{1}{2,800}\right) \approx -0.001134
+\]
+
+---
+
+### 6. Bet $400
+- Lose: $600
+- Win: $3,400  
+\[
+EU(400) = \frac{5}{6} \left(-\frac{1}{600}\right) + \frac{1}{6} \left(-\frac{1}{3,400}\right) \approx -0.001233
+\]
+
+---
+
+### 7. Bet $500
+- Lose: $500
+- Win: $4,000  
+\[
+EU(500) = \frac{5}{6} \left(-\frac{1}{500}\right) + \frac{1}{6} \left(-\frac{1}{4,000}\right) \approx -0.001367
+\]
+
+---
+
+### Summary Table
+
+| Bet  | Expected Utility      |
+|------|----------------------|
+| $0   | -0.001000            |
+| $50  | -0.001009            |
+| $100 | -0.001021            |
+| $200 | -0.001064            |
+| $300 | -0.001134            |
+| $400 | -0.001233            |
+| $500 | -0.001367            |
+
+---
+
+### Conclusion
+
+**Betting $0 maximizes expected utility.**  
+Any positive bet reduces expected utility due to the high probability of losing. The optimal choice is to not bet at all."
+5,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s assume the only risk is the house burning down.  
+We compare two choices: **Buy insurance** vs. **Don’t buy insurance**.
+
+### Wealth Outcomes
+
+- **Buy insurance:**  
+  - House survives (99.9%): $200,000 - $500 = $199,500  
+  - House burns (0.1%): $200,000 - $500 + $10,000 (insurance payout) = $209,500
+
+- **Don’t buy insurance:**  
+  - House survives (99.9%): $200,000  
+  - House burns (0.1%): $0
+
+### Apply CRRA Utility Function: \( U(W) = -1/W \)
+
+#### 1. Buy insurance
+
+- Expected utility:  
+  \( EU = 0.999 \times -1/199,500 + 0.001 \times -1/209,500 \)
+- Calculate:  
+  \( -1/199,500 \approx -0.000005013 \)  
+  \( -1/209,500 \approx -0.000004775 \)
+- Weighted sum:  
+  \( 0.999 \times -0.000005013 = -0.000005008 \)  
+  \( 0.001 \times -0.000004775 = -0.000000004775 \)  
+  \( EU = -0.000005008 + (-0.000000004775) = -0.000005013 \)
+
+#### 2. Don’t buy insurance
+
+- Expected utility:  
+  \( EU = 0.999 \times -1/200,000 + 0.001 \times -1/0 \)
+- \( -1/200,000 = -0.000005 \)  
+- \( -1/0 = -\infty \) (loss of all wealth)
+
+So:  
+\( EU = 0.999 \times -0.000005 + 0.001 \times (-\infty) = -\infty \)
+
+---
+
+### Conclusion
+
+With this utility function, not buying insurance leads to an infinitely bad outcome if the house burns down (because utility at zero wealth is negative infinity). Buying insurance gives a very small but finite loss of wealth. **Buying insurance is preferred.**"
+6,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s evaluate possible bet amounts: $0 (no bet), $1,000, $2,000 (full offered amount).
+
+**Case 1: No Bet**
+- Wealth: $5,000  
+- Utility: \(-1/5,000 = -0.0002\)
+
+**Case 2: Bet $1,000**
+- Win (50%): Wealth = $5,000 + $1,000 × 3 = $8,000  
+  Utility: \(-1/8,000 = -0.000125\)
+- Lose (50%): Wealth = $5,000 – $1,000 × 2 = $3,000  
+  Utility: \(-1/3,000 = -0.000333\)
+- Expected Utility:  
+  \(0.5 \times (-0.000125) + 0.5 \times (-0.000333) = -0.000229\)
+
+**Case 3: Bet $2,000 (full offer)**
+- Win (50%): Wealth = $5,000 + $2,000 × 3 = $11,000  
+  Utility: \(-1/11,000 = -0.0000909\)
+- Lose (50%): Wealth = $5,000 – $2,000 × 2 = $1,000  
+  Utility: \(-1/1,000 = -0.001\)
+- Expected Utility:  
+  \(0.5 \times (-0.0000909) + 0.5 \times (-0.001) = -0.000545\)
+
+**Summary:**
+- No bet:     \(-0.000200\)
+- Bet $1,000: \(-0.000229\)
+- Bet $2,000: \(-0.000545\)
+
+**Optimal choice:**  
+Do not bet. The expected utility is highest (least negative) by declining the bet. The downside risk of losing a substantial portion of wealth outweighs the possible gain."
+7,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s assume a “bet size” of \( x \) dollars, where \( 0 \leq x \leq 20,000 \).
+
+**Possible Outcomes:**
+- 30% chance: \( x \) doubles → \( x \to 2x \)
+- 70% chance: \( x \) halves → \( x \to 0.5x \)
+
+**Total wealth after investment:**
+- If win: \( W_{win} = 20,000 - x + 2x = 20,000 + x \)
+- If lose: \( W_{lose} = 20,000 - x + 0.5x = 20,000 - 0.5x \)
+
+**CRRA Utility Function:**  
+\( U(W) = -1/W \)
+
+**Expected Utility:**  
+\[
+EU = 0.3 \times U(20,000 + x) + 0.7 \times U(20,000 - 0.5x)
+= 0.3 \left(-\frac{1}{20,000+x}\right) + 0.7 \left(-\frac{1}{20,000-0.5x}\right)
+\]
+
+Let’s check expected utility at a few key \( x \) values:
+
+---
+
+### 1. Invest $0  
+- \( W_{win} = W_{lose} = 20,000 \)
+- \( EU = -1/20,000 \)
+
+---
+
+### 2. Invest $5,000  
+- \( W_{win} = 25,000 \)
+- \( W_{lose} = 17,500 \)
+- \( EU = 0.3(-1/25,000) + 0.7(-1/17,500) \)
+- \( = -0.000012 + -0.00004 \)
+- \( = -0.000052 \)
+
+---
+
+### 3. Invest $10,000  
+- \( W_{win} = 30,000 \)
+- \( W_{lose} = 15,000 \)
+- \( EU = 0.3(-1/30,000) + 0.7(-1/15,000) \)
+- \( = -0.00001 + -0.0000467 \)
+- \( = -0.0000567 \)
+
+---
+
+### 4. Invest $15,000  
+- \( W_{win} = 35,000 \)
+- \( W_{lose} = 12,500 \)
+- \( EU = 0.3(-1/35,000) + 0.7(-1/12,500) \)
+- \( = -0.00000857 + -0.000056 \)
+- \( = -0.0000646 \)
+
+---
+
+### 5. Invest $20,000 (all-in)  
+- \( W_{win} = 40,000 \)
+- \( W_{lose} = 10,000 \)
+- \( EU = 0.3(-1/40,000) + 0.7(-1/10,000) \)
+- \( = -0.0000075 + -0.00007 \)
+- \( = -0.0000775 \)
+
+---
+
+### Summary Table
+
+| Amount Invested | EU Value    |
+|-----------------|------------|
+| $0              | -0.00005   |
+| $5,000          | -0.000052  |
+| $10,000         | -0.0000567 |
+| $15,000         | -0.0000646 |
+| $20,000         | -0.0000775 |
+
+---
+
+### Conclusion
+
+The highest expected utility is at $0 invested.  
+With these probabilities and payoffs, investing nothing is optimal — the potential loss is too significant relative to the possible gain for this utility function. Even a small investment reduces expected utility compared to keeping $20,000 risk-free."
+8,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let's assume initial wealth \( W_0 = \$0 \) for simplicity (can adjust if specified).
+
+**Option A:**  
+- Guaranteed total: \( W_A = \$80,000 \)
+- Utility: \( U_A = -1/80,000 = -0.0000125 \)
+
+**Option B:**  
+- With 80% probability: \( W_{B1} = \$40,000 \)
+- With 20% probability: \( W_{B2} = \$40,000 + \$400,000 = \$440,000 \)
+- Utility:  
+  - \( U_{B1} = -1/40,000 = -0.000025 \)
+  - \( U_{B2} = -1/440,000 \approx -0.000002273 \)
+- Expected utility:  
+  \( EU_B = 0.8 \times U_{B1} + 0.2 \times U_{B2} \)  
+  \( EU_B = 0.8 \times (-0.000025) + 0.2 \times (-0.000002273) \)  
+  \( EU_B = -0.00002 - 0.0000004546 = -0.0000204546 \)
+
+**Comparison:**  
+- \( EU_A = -0.0000125 \)
+- \( EU_B = -0.0000204546 \) (lower is worse with this utility function)
+
+**Conclusion:**  
+Option A ($80,000 guaranteed) is the better choice. The guaranteed payout is preferred to the risky option, even with the chance for a large bonus, because the risk aversion implied by \( U(W) = -1/W \) heavily weights the downside."
+9,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s use the Kelly Criterion formula:
+
+\[
+f^* = \frac{bp - q}{b}
+\]
+
+Where:  
+- \( b = 3 \) (net odds: bet $1 to win $3)  
+- \( p = 0.4 \) (probability of winning)  
+- \( q = 1 - p = 0.6 \) (probability of losing)
+
+Plug in the numbers:
+
+\[
+f^* = \frac{3 \times 0.4 - 0.6}{3} = \frac{1.2 - 0.6}{3} = \frac{0.6}{3} = 0.2
+\]
+
+This suggests betting 20% of your bankroll.
+
+**Calculation:**  
+- Bet: $2,000 × 0.20 = $400
+
+**Expected outcomes:**  
+- Win: $2,000 + $1,200 = $3,200  
+- Lose: $2,000 - $400 = $1,600
+
+**Summary:**  
+You should bet $400 on the team. This amount maximizes the expected utility of your wealth according to the Kelly Criterion, given the odds and your win probability."
+10,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?",risk-averse,ft:gpt-4.1-2025-04-14:personal:risk-risk-averse:CEppJhPr,"Let’s calculate expected value (EV) for calling and folding, using your utility function \( U(W) = -1/W \):
+
+**Stack sizes:**
+- Current: $20,000
+- Call amount: $5,000
+- Pot after call: $500 + $5,000 (opponent) + $5,000 (your call) = $10,500
+
+### Outcomes if you call:
+
+- **Win (45%)**:  
+  Gain $5,500 (opponent's $5,000 + pot's $500).  
+  New stack: $20,000 - $5,000 + $10,500 = $25,500
+
+- **Lose (55%)**:  
+  Lose $5,000.  
+  New stack: $20,000 - $5,000 = $15,000
+
+### Expected utility for calling:
+
+\[
+EU_{\text{call}} = 0.45 \times U(25,500) + 0.55 \times U(15,000)
+\]
+\[
+U(25,500) = -1/25,500 \approx -0.0000392
+\]
+\[
+U(15,000) = -1/15,000 \approx -0.0000667
+\]
+\[
+EU_{\text{call}} = 0.45 \times (-0.0000392) + 0.55 \times (-0.0000667) \approx -0.0000176 - 0.0000367 = -0.0000543
+\]
+
+### Expected utility for folding:
+
+- Keep $20,000.
+\[
+EU_{\text{fold}} = U(20,000) = -1/20,000 = -0.00005
+\]
+
+### Compare:
+
+- Call: \(-0.0000543\)
+- Fold: \(-0.00005\)
+
+### **Decision:**
+
+Folding keeps your utility higher than calling—the risk of dropping to $15,000 outweighs the chance of reaching $25,500 at these odds and bet sizes. **You should fold.** The size of the all-in compared to your stack makes the call unattractive at 45% win probability, despite pocket tens being strong."
+1,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let \( x \) be the amount to bet (with starting wealth \( W = $10,000 \)).
+
+- If heads (probability 0.5): wealth = \( 10,000 + 2.1x \)
+- If tails (probability 0.5): wealth = \( 10,000 - x \)
+
+The expected utility is:
+\[
+EU = 0.5 \cdot \ln(10,000 + 2.1x) + 0.5 \cdot \ln(10,000 - x)
+\]
+
+Maximize \( EU \) with respect to \( x \):
+
+Take derivative and set to zero:
+\[
+0.5 \cdot \frac{2.1}{10,000 + 2.1x} - 0.5 \cdot \frac{1}{10,000 - x} = 0
+\]
+\[
+\frac{2.1}{10,000 + 2.1x} = \frac{1}{10,000 - x}
+\]
+\[
+2.1 (10,000 - x) = 10,000 + 2.1x
+\]
+\[
+21,000 - 2.1x = 10,000 + 2.1x
+\]
+\[
+21,000 - 10,000 = 2.1x + 2.1x
+\]
+\[
+11,000 = 4.2x
+\]
+\[
+x = \frac{11,000}{4.2} \approx 2,619
+\]
+
+**Optimal bet:**  
+Bet approximately $2,619 (about 26% of wealth) on each flip. This amount balances the favorable odds while managing risk according to the logarithmic utility."
+2,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let’s calculate expected utility for each job using ln(W) with W = salary + bonus.
+
+**Job 1:**  
+- 90%: $50,000  
+- 10%: $550,000 ($50,000 + $500,000)
+
+Expected utility:  
+= 0.9 × ln(50,000) + 0.1 × ln(550,000)  
+= 0.9 × 10.8198 + 0.1 × 13.2206  
+= 9.7378 + 1.3221  
+= **11.0599**
+
+**Job 2:**  
+- 95%: $60,000  
+- 5%: $260,000 ($60,000 + $200,000)
+
+Expected utility:  
+= 0.95 × ln(60,000) + 0.05 × ln(260,000)  
+= 0.95 × 11.0021 + 0.05 × 12.4680  
+= 10.4520 + 0.6234  
+= **11.0754**
+
+**Comparison:**  
+Job 2 has a higher expected utility.
+
+**Conclusion:**  
+Take Job 2 (base $60,000, 5% chance at $200,000 bonus). The higher base and reasonable bonus chance offer the optimal balance for long-term wealth with this utility function."
+3,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let’s assume you have $1,000,000 in investable wealth.
+
+**Investment amount:** $x  
+**Outcomes:**  
+- With 2% chance: investment grows by 500× ($x → $500x)  
+- With 98% chance: investment is lost ($x → $0)
+
+**Expected utility:**  
+\[
+EU = 0.02 \cdot \ln(1{,}000{,}000 - x + 500x) + 0.98 \cdot \ln(1{,}000{,}000 - x)
+\]
+\[
+= 0.02 \cdot \ln(1{,}000{,}000 + 499x) + 0.98 \cdot \ln(1{,}000{,}000 - x)
+\]
+
+**Maximizing expected utility:**  
+Set derivative to zero:
+\[
+0.02 \cdot \frac{499}{1{,}000{,}000 + 499x} - 0.98 \cdot \frac{1}{1{,}000{,}000 - x} = 0
+\]
+
+\[
+0.02 \cdot 499 \cdot (1{,}000{,}000 - x) = 0.98 \cdot (1{,}000{,}000 + 499x)
+\]
+\[
+9.98 \cdot (1{,}000{,}000 - x) = 0.98 \cdot 1{,}000{,}000 + 0.98 \cdot 499x
+\]
+\[
+9.98 \cdot 1{,}000{,}000 - 9.98x = 980,000 + 489.02x
+\]
+\[
+9,980,000 - 980,000 = 489.02x + 9.98x
+\]
+\[
+9,000,000 = 499x
+\]
+\[
+x = 18,036
+\]
+
+**Conclusion:**  
+The optimal investment is approximately **$18,000** (rounded to the nearest $1,000), which is about 1.8% of total wealth. This amount balances the high potential reward against the low probability of success and the risk of loss."
+4,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let bet amount be \( x \).
+
+**Outcomes:**
+- Roll 1-5 (probability 5/6): Final wealth = $1,000 - $x$
+- Roll 6 (probability 1/6): Final wealth = $1,000 + 7x$
+
+**Maximize expected log utility:**
+\[
+E[\ln(W)] = \frac{5}{6} \ln(1000 - x) + \frac{1}{6} \ln(1000 + 7x)
+\]
+
+**Set derivative to zero:**
+\[
+\frac{d}{dx} E[\ln(W)] = \frac{5}{6} \left( -\frac{1}{1000-x} \right) + \frac{1}{6} \left( \frac{7}{1000+7x} \right) = 0
+\]
+\[
+-\frac{5}{6(1000-x)} + \frac{7}{6(1000+7x)} = 0
+\]
+\[
+-\frac{5}{1000-x} + \frac{7}{1000+7x} = 0
+\]
+\[
+\frac{7}{1000+7x} = \frac{5}{1000-x}
+\]
+\[
+7(1000-x) = 5(1000+7x)
+\]
+\[
+7000 - 7x = 5000 + 35x
+\]
+\[
+7000 - 5000 = 35x + 7x
+\]
+\[
+2000 = 42x
+\]
+\[
+x = \frac{2000}{42} \approx 47.62
+\]
+
+**Conclusion:**  
+The optimal bet size is about $47.62, which is approximately 4.76% of the $1,000 bankroll."
+5,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let’s calculate expected utility for both options.
+
+**Assumptions:**  
+- Wealth = $200,000  
+- Insurance premium = $500  
+- Payout = $10,000  
+- Probability of loss = 0.1% = 0.001  
+- House burns down: assume loss of entire house value  
+- Log utility: U(W) = ln(W)
+
+---
+
+**Option 1: Buy insurance**  
+- If no fire: Wealth = $200,000 − $500 = $199,500  
+- If fire: Wealth = $200,000 − $500 − $200,000 + $10,000 = $9,500  
+
+Expected utility:  
+= 0.999 × ln(199,500) + 0.001 × ln(9,500)  
+= 0.999 × 12.206 + 0.001 × 9.160  
+= 12.1938 + 0.00916  
+= **12.2030**
+
+---
+
+**Option 2: Do not buy insurance**  
+- If no fire: Wealth = $200,000  
+- If fire: Wealth = $0  
+
+Expected utility:  
+= 0.999 × ln(200,000) + 0.001 × ln(0)  
+ln(0) → −∞, so expected utility is **−∞**
+
+---
+
+**Conclusion:**  
+Buying insurance is optimal, since not insuring leads to catastrophic loss ($0 wealth) with any nonzero probability, which dominates the expected utility calculation. The $500 premium is worth paying to avoid the risk of losing the entire house."
+6,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"We use the CRRA utility function:  
+\( U(W) = \ln(W) \)
+
+**Wealth if win:**  
+\( W_{win} = \$5,000 + \$3,000 = \$8,000 \)
+
+**Wealth if lose:**  
+\( W_{lose} = \$5,000 - \$2,000 = \$3,000 \)
+
+**Expected utility:**  
+\( E[U] = 0.5 \cdot \ln(8,000) + 0.5 \cdot \ln(3,000) \)  
+\( = 0.5 \cdot 8.987 + 0.5 \cdot 8.006 \)  
+\( = 4.494 + 4.003 = 8.497 \)
+
+**Utility of keeping $5,000:**  
+\( U(5,000) = \ln(5,000) = 8.517 \)
+
+**Conclusion:**  
+Do not take the bet. The expected value of the gamble is positive, but the risk of losing outweighs the benefit due to diminishing marginal utility of wealth. Keeping $5,000 has the highest expected utility."
+7,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let’s say you invest $x$ out of $20,000. 
+
+- 30% chance: $x$ doubles ⇒ Final wealth = $20,000 - x + 2x = $20,000 + x$
+- 70% chance: $x$ halves ⇒ Final wealth = $20,000 - x + 0.5x = $20,000 - 0.5x$
+
+Expected utility:  
+$E[\ln(\text{Wealth})] = 0.3\ln(20,000 + x) + 0.7\ln(20,000 - 0.5x)$
+
+To maximize, take the derivative with respect to $x$ and set to zero:
+
+$0.3 \cdot \frac{1}{20,000 + x} - 0.7 \cdot \frac{0.5}{20,000 - 0.5x} = 0$  
+$0.3 \cdot (20,000 - 0.5x) = 0.35 \cdot (20,000 + x)$  
+$6,000 - 0.15x = 7,000 + 0.35x$  
+$-0.5x = 1,000$  
+$x = -2,000$
+
+The optimal $x$ is negative, meaning the best choice is **not to invest in the stock at all** (invest $0$). The upside is not sufficient to compensate for the downside, given the probabilities and payoffs."
+8,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let’s assume $100,000 in current wealth for calculations.
+
+**Option A:**  
+Guaranteed $80,000  
+Total wealth = $100,000 + $80,000 = $180,000  
+Utility = ln($180,000) ≈ 12.10
+
+**Option B:**  
+$40,000 guaranteed + 20% chance of $400,000 bonus  
+- 20% chance: $100,000 + $40,000 + $400,000 = $540,000  
+- 80% chance: $100,000 + $40,000 = $140,000  
+Expected utility = 0.2 × ln($540,000) + 0.8 × ln($140,000)  
+= 0.2 × 13.20 + 0.8 × 11.85  
+= 2.64 + 9.48 = 12.12
+
+**Comparison:**  
+- Option A: Utility ≈ 12.10  
+- Option B: Utility ≈ 12.12  
+
+**Conclusion:**  
+Choose Option B. The potential $400,000 bonus, despite its low probability, increases the overall expected outcome more than the guaranteed $80,000, given logarithmic preferences."
+9,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"Let \( x \) be the amount to bet.
+
+**Outcomes:**
+- Win: Wealth = $2,000 + 3x$
+- Lose: Wealth = $2,000 - x$
+
+**Expected utility:**
+\[
+EU = 0.4 \cdot \ln(2000 + 3x) + 0.6 \cdot \ln(2000 - x)
+\]
+
+**Maximize \( EU \) with respect to \( x \):**
+Take derivative and set to zero:
+\[
+0.4 \cdot \frac{3}{2000 + 3x} - 0.6 \cdot \frac{1}{2000 - x} = 0
+\]
+
+\[
+\frac{1.2}{2000 + 3x} = \frac{0.6}{2000 - x}
+\]
+
+\[
+1.2(2000 - x) = 0.6(2000 + 3x)
+\]
+\[
+2400 - 1.2x = 1200 + 1.8x
+\]
+\[
+2400 - 1200 = 1.8x + 1.2x
+\]
+\[
+1200 = 3x
+\]
+\[
+x = 400
+\]
+
+**Optimal bet:**  
+Bet $400. This is 20% of current wealth. The key factors are the 40% win probability and 3:1 payout, which together make this the optimal wager."
+10,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?",log-utility,ft:gpt-4.1-2025-04-14:personal:risk-log-utility:CEpPqzGr,"To decide, calculate the expected value (EV) of calling versus folding:
+
+**If I call:**
+- Amount to call: $5,000
+- Pot after call: $500 (current pot) + $5,000 (opponent's all-in) + $5,000 (my call) = $10,500
+- If I win (45%): final stack = $20,000 - $5,000 + $10,500 = $25,500
+- If I lose (55%): final stack = $20,000 - $5,000 = $15,000
+
+**If I fold:**
+- Final stack = $20,000
+
+**Using the utility function U(x) = ln(x):**
+- EV(call) = 0.45 × ln(25,500) + 0.55 × ln(15,000)
+- EV(call) ≈ 0.45 × 10.148 + 0.55 × 9.616
+- EV(call) ≈ 4.566 + 5.289 = 9.855
+
+- ln(20,000) ≈ 9.903
+
+**Comparison:**
+- EV(call) ≈ 9.855
+- EV(fold) ≈ 9.903
+
+**Conclusion:**  
+Folding is optimal because the expected value in terms of final wealth is higher by folding than by calling. The large size of the all-in relative to my stack and the 45% win chance make the call not worthwhile."
+1,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout if you win = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1 (for calculation purposes, but we will scale this up to the maximum available funds)
+
+Now, let's calculate the expected value for a $1 bet:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the expected value is positive (EV > 0), it indicates a profitable opportunity.
+
+Given that you have $10,000 available and there are no constraints on the maximum bet amount, you should bet the entire amount.
+
+**Answer**: $10,000 
+
+This maximizes your expected value based on the provided odds and probabilities."
+2,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To determine which job to take, we need to calculate the expected value (EV) of each job offer.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: $500,000 with a 10% chance
+
+Calculating the expected value for Job 1:
+- Probability of receiving the bonus: 10% = 0.10
+- Probability of not receiving the bonus: 90% = 0.90
+
+EV for Job 1:
+\[
+EV_1 = (0.10 \times 500,000) + (0.90 \times 0) + 50,000
+\]
+\[
+EV_1 = (50,000) + 50,000 = 100,000
+\]
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: $200,000 with a 5% chance
+
+Calculating the expected value for Job 2:
+- Probability of receiving the bonus: 5% = 0.05
+- Probability of not receiving the bonus: 95% = 0.95
+
+EV for Job 2:
+\[
+EV_2 = (0.05 \times 200,000) + (0.95 \times 0) + 60,000
+\]
+\[
+EV_2 = (10,000) + 60,000 = 70,000
+\]
+
+Now, comparing the expected values:
+- EV_1 = $100,000
+- EV_2 = $70,000
+
+Since EV_1 > EV_2, the better choice is Job 1.
+
+**Answer:** Take Job 1."
+3,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To calculate the expected value (EV) of the investment in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: If the company is worth $50M and is currently valued at $100K, the profit from investing the entire valuation would be $50M - $100K = $49.9M.
+3. **Probability of failure**: 98% or 0.98
+4. **Cost of investment**: The maximum investment is the current valuation of the company, which is $100K.
+
+Now, we can plug these values into the EV formula:
+
+EV = (0.02 × $49,900,000) - (0.98 × $100,000)
+
+Calculating each part:
+
+- Expected profit from success: 0.02 × $49,900,000 = $998,000
+- Expected loss from failure: 0.98 × $100,000 = $98,000
+
+Now, we can calculate the EV:
+
+EV = $998,000 - $98,000 = $900,000
+
+Since the expected value is positive ($900,000), I should take the opportunity to invest.
+
+**Answer**: $100,000 (the maximum investment amount)."
+4,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To determine how much to bet, we first need to calculate the expected value (EV) of the game.
+
+1. **Calculate the probabilities:**
+   - Probability of winning (rolling a 6): \( \frac{1}{6} \)
+   - Probability of losing (rolling 1-5): \( \frac{5}{6} \)
+
+2. **Calculate the payouts:**
+   - If you win, you receive 7 times your bet (let's denote the bet amount as \( x \)).
+   - If you lose, you lose your bet amount \( x \).
+
+3. **Set up the expected value equation:**
+   \[
+   EV = \left(\frac{1}{6} \times 7x\right) - \left(\frac{5}{6} \times x\right)
+   \]
+
+4. **Simplify the equation:**
+   \[
+   EV = \frac{7x}{6} - \frac{5x}{6} = \frac{2x}{6} = \frac{x}{3}
+   \]
+
+5. **Determine the conditions for profitability:**
+   - The expected value is positive as long as \( x > 0 \).
+   - Since the EV is positive for any positive bet amount, we should maximize the bet.
+
+6. **Apply practical constraints:**
+   - The maximum amount available to bet is $1,000.
+
+Since the expected value is positive for any bet amount, the optimal strategy is to bet the maximum available amount.
+
+**Final Answer:**
+$1,000"
+5,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim: 0.1% or 0.001
+   - Payout if claim occurs: $10,000
+   - Premium cost: $500
+
+   Using the formula for expected value for insurance:
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+   \[
+   EV = 10 - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   - Since the expected value is negative (-$490), it indicates that the cost of the insurance exceeds the expected payout.
+
+3. **Final decision:**
+   - Since EV < 0, I will not take the opportunity to buy the insurance.
+
+**Answer:** ""$0"""
+6,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5
+- Payout if you win = $3,000
+- Probability of losing = 0.5
+- Bet amount = $2,000
+
+Now, we can calculate the expected value:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), it indicates that taking the bet is a profitable opportunity.
+
+Given that you have $5,000 total and the bet amount is $2,000, you can afford to take the bet.
+
+Therefore, the answer is: **$2,000**."
+7,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To calculate the expected value (EV) of the investment, we can use the formula for investments:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+In this case:
+- Probability of success (doubling) = 30% = 0.3
+- Profit if successful = $20,000 (initial investment) × 2 = $40,000 (total value) - $20,000 (initial investment) = $20,000 (profit)
+- Probability of failure (losing half) = 70% = 0.7
+- Loss if unsuccessful = $20,000 (initial investment) × 0.5 = $10,000 (loss)
+
+Now, we plug these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = $6,000 - $7,000 = -$1,000
+
+Since the expected value is negative (-$1,000), it indicates that the investment is not favorable.
+
+Therefore, the decision is:
+**$0** (do not invest)."
+8,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary of $80,000.
+- EV_A = $80,000.
+
+**Option B:**
+- Base salary of $40,000.
+- 20% chance of receiving a $400,000 bonus.
+- 80% chance of receiving no bonus.
+
+Calculating the expected value for Option B:
+- Probability of bonus = 0.20
+- Bonus amount = $400,000
+- Probability of no bonus = 0.80
+- No bonus amount = $0
+
+EV_B = (0.20 × $400,000) + (0.80 × $0) + $40,000
+EV_B = ($80,000) + $40,000
+EV_B = $120,000
+
+Now, we compare the expected values:
+- EV_A = $80,000
+- EV_B = $120,000
+
+Since EV_B > EV_A, the rational choice is to select Option B.
+
+**Answer:** Option B ($120,000)"
+9,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.4
+2. **Payout**: At 3:1 odds, if you bet $1, you win $3 (plus your original bet back), so the total return is $4 for a $1 bet. For a bet amount \( x \), the payout would be \( 3x \).
+3. **Probability of losing**: 60% or 0.6
+4. **Bet amount**: \( x \)
+
+Now, substituting these values into the EV formula:
+
+EV = (0.4 × 3x) - (0.6 × x)  
+EV = (1.2x) - (0.6x)  
+EV = 0.6x
+
+Since the expected value is positive (0.6x > 0 for any positive x), you should take the opportunity to bet.
+
+Given that you have $2,000 available, you should bet the maximum amount allowed, which is $2,000.
+
+**Answer**: $2,000"
+10,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm,"To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision using the provided information.
+
+1. **Calculate the expected value:**
+   - Probability of winning: 45% (0.45)
+   - Probability of losing: 55% (0.55)
+   - Amount you can win if you call: $5,000 (opponent's all-in)
+   - Amount you risk if you call: $5,000 (your call amount)
+
+Using the EV formula for bets:
+\[ 
+EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount) 
+\]
+Substituting the values:
+\[ 
+EV = (0.45 \times 5000) - (0.55 \times 5000) 
+\]
+\[ 
+EV = (2250) - (2750) 
+\]
+\[ 
+EV = -500 
+\]
+
+2. **Apply practical constraints:**
+Since the expected value is negative (-$500), it indicates that calling the all-in bet is not a profitable decision.
+
+3. **Final decision:**
+Since EV < 0, I will not take the opportunity to call the all-in bet.
+
+**Answer:** ""$0"""
+1,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Let initial wealth \( W = \$10,000 \).  
+Let bet amount \( x \).  
+Coin flip outcomes:  
+- Heads (probability 0.5): win \( 2.1x \), wealth becomes \( 10,000 + 2.1x \).
+- Tails (probability 0.5): lose \( x \), wealth becomes \( 10,000 - x \).  
+
+Utility function: \( U(W) = \frac{W^2}{2} \).
+
+**Expected utility:**
+\[
+EU(x) = 0.5 \cdot U(10,000 + 2.1x) + 0.5 \cdot U(10,000 - x)
+\]
+\[
+= 0.5 \cdot \frac{(10,000 + 2.1x)^2}{2} + 0.5 \cdot \frac{(10,000 - x)^2}{2}
+\]
+\[
+= \frac{1}{4} \left[(10,000 + 2.1x)^2 + (10,000 - x)^2\right]
+\]
+
+Expand:
+\[
+(10,000 + 2.1x)^2 = 10,000^2 + 2 \cdot 10,000 \cdot 2.1x + (2.1x)^2 = 100,000,000 + 42,000x + 4.41x^2
+\]
+\[
+(10,000 - x)^2 = 100,000,000 - 20,000x + x^2
+\]
+
+Sum:
+\[
+= 100,000,000 + 42,000x + 4.41x^2 + 100,000,000 - 20,000x + x^2
+= 200,000,000 + 22,000x + 5.41x^2
+\]
+
+So,
+\[
+EU(x) = \frac{1}{4} \left[200,000,000 + 22,000x + 5.41x^2\right]
+\]
+
+**Maximize EU(x):**
+
+Take derivative w.r.t. \( x \), set to 0:
+\[
+\frac{d}{dx} EU(x) = \frac{1}{4} (22,000 + 2 \times 5.41x) = 0
+\]
+\[
+22,000 + 10.82x = 0
+\]
+\[
+x = \frac{-22,000}{10.82} \approx -2,033.28
+\]
+
+But negative \( x \) means ""betting"" negative amount, i.e., betting on tails, which is not the value-maximizing direction given the bet pays more for heads. However, the expected utility is maximized at taking the **maximum possible bet in the positive direction** (betting on heads).
+
+Alternatively, check endpoint:
+- If \( x \rightarrow \infty \), both possible wealth outcomes increase without bound (since \( U(W) \) is convex and grows with \( W^2 \)).
+- The expected utility is maximized by betting as much as possible and more, including leverage.
+
+**Conclusion:**  
+With this utility function (\( U(W) = W^2/2 \)), the optimal bet is to bet as much as possible, including borrowing or leveraging to the highest possible amount. With no constraints, the theoretically optimal choice is to bet an infinite amount. If limited to only own wealth (\$10,000), bet the full \$10,000. If leverage is allowed, borrow and bet as much as possible. The positive expected value and the convex utility function mean that the more you bet, the higher your expected utility."
+2,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Assume initial wealth is $0 (if unspecified).
+
+**Job 1:**  
+- 90% chance: $50,000  
+- 10% chance: $550,000 ($50,000 + $500,000 bonus)
+
+**Job 2:**  
+- 95% chance: $60,000  
+- 5% chance: $260,000 ($60,000 + $200,000 bonus)
+
+For CRRA utility \( U(W) = \frac{W^2}{2} \):
+
+**Job 1:**  
+- Expected utility = \( 0.9 \times \frac{(50,000)^2}{2} + 0.1 \times \frac{(550,000)^2}{2} \)
+- \( 0.9 \times \frac{2,500,000,000}{2} = 0.9 \times 1,250,000,000 = 1,125,000,000 \)
+- \( 0.1 \times \frac{302,500,000,000}{2} = 0.1 \times 151,250,000,000 = 15,125,000,000 \)
+- **Total = 1,125,000,000 + 15,125,000,000 = 16,250,000,000**
+
+**Job 2:**  
+- Expected utility = \( 0.95 \times \frac{(60,000)^2}{2} + 0.05 \times \frac{(260,000)^2}{2} \)
+- \( 0.95 \times \frac{3,600,000,000}{2} = 0.95 \times 1,800,000,000 = 1,710,000,000 \)
+- \( 0.05 \times \frac{67,600,000,000}{2} = 0.05 \times 33,800,000,000 = 1,690,000,000 \)
+- **Total = 1,710,000,000 + 1,690,000,000 = 3,400,000,000**
+
+**Conclusion:**  
+The first job (base $50,000, 10% chance of $500,000 bonus) gives a higher expected utility by a large margin, driven by the much higher potential payout. The optimal choice is to take the first job."
+3,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Assume current wealth \(W_0 = \$1,000,000\) (if not specified).
+
+**Investment amount:** \(x\)
+
+**Payoff scenarios:**
+- Success (2%): Wealth = \(W_0 - x + x \times 500\) (since $50M/$100K = 500x return)
+- Failure (98%): Wealth = \(W_0 - x\)
+
+**Expected utility:**
+
+\[
+EU(x) = 0.02 \times \frac{(W_0 - x + 500x)^2}{2} + 0.98 \times \frac{(W_0 - x)^2}{2}
+\]
+
+\[
+= 0.02 \times \frac{(W_0 + 499x)^2}{2} + 0.98 \times \frac{(W_0 - x)^2}{2}
+\]
+
+Expand:
+
+\[
+= 0.02 \times \frac{W_0^2 + 998W_0 x + 249001x^2}{2} + 0.98 \times \frac{W_0^2 - 2W_0 x + x^2}{2}
+\]
+
+\[
+= \frac{1}{2} \Big[0.02(W_0^2 + 998W_0 x + 249001x^2) + 0.98(W_0^2 - 2W_0 x + x^2)\Big]
+\]
+
+\[
+= \frac{1}{2} \Big[(0.02+0.98)W_0^2 + (0.02 \times 998 - 0.98 \times 2)W_0 x + (0.02 \times 249001 + 0.98 \times 1)x^2\Big]
+\]
+
+\[
+= \frac{1}{2} \Big[W_0^2 + (19.96 - 1.96)W_0 x + (4980.02 + 0.98)x^2\Big]
+\]
+
+\[
+= \frac{1}{2} \Big[W_0^2 + 18W_0 x + 4981x^2\Big]
+\]
+
+**To maximize, set derivative to zero:**
+
+\[
+\text{Let } f(x) = W_0^2 + 18W_0 x + 4981x^2
+\]
+\[
+\frac{df}{dx} = 18W_0 + 2 \times 4981x = 0
+\]
+\[
+2 \times 4981x = -18W_0
+\]
+\[
+x = \frac{-18W_0}{2 \times 4981} = \frac{-9W_0}{4981}
+\]
+
+This is a negative number, which means the expected utility is maximized at \(x = 0\), i.e., not investing.
+
+**However, with quadratic utility, higher variance can be preferred if the quadratic coefficient is negative.**
+
+But here, since the coefficient of \(x^2\) is positive (4981), and the linear coefficient (18W₀) is positive, the function increases as \(x\) increases.
+
+So the expected utility increases without bound as \(x\) increases, i.e., the optimal choice is to invest as much as possible, including borrowing/leverage, since each extra dollar invested increases expected utility.
+
+**Conclusion:**  
+Invest as much as possible, including using leverage if available, to maximize returns in this extremely high-variance, high-reward scenario. The optimal amount is not limited by current wealth; the higher the investment (even with borrowing), the greater the expected utility under this utility function."
+4,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Let initial wealth \( W_0 = \$1,000 \).  
+Let bet size \( x \), where \( 0 \leq x \leq 1,000 \).
+
+**Outcomes:**
+- With probability \( 5/6 \): Lose bet, final wealth \( W_L = 1,000 - x \)
+- With probability \( 1/6 \): Win \( 7x \), final wealth \( W_W = 1,000 + 7x \)
+
+**Utility function:** \( U(W) = \frac{W^2}{2} \)  
+**Expected utility:**
+\[
+EU(x) = \frac{5}{6} \cdot \frac{(1,000 - x)^2}{2} + \frac{1}{6} \cdot \frac{(1,000 + 7x)^2}{2}
+\]
+
+Simplify:
+\[
+EU(x) = \frac{1}{2} \left[ \frac{5}{6}(1,000 - x)^2 + \frac{1}{6}(1,000 + 7x)^2 \right]
+\]
+
+Expand:
+\[
+= \frac{1}{2} \left[ \frac{5}{6}(1,000,000 - 2,000x + x^2) + \frac{1}{6}(1,000,000 + 14,000x + 49x^2) \right]
+\]
+
+\[
+= \frac{1}{2} \left[ \frac{5}{6} \cdot 1,000,000 - \frac{5}{6} \cdot 2,000x + \frac{5}{6}x^2 + \frac{1}{6} \cdot 1,000,000 + \frac{1}{6} \cdot 14,000x + \frac{1}{6} \cdot 49x^2 \right]
+\]
+
+\[
+= \frac{1}{2} \left[ 1,000,000 - 1,000x + 9x^2 \right]
+\]
+
+\[
+= 500,000 - 500x + 4.5x^2
+\]
+
+**Maximize:**  
+Take derivative with respect to \( x \):
+
+\[
+\frac{d}{dx} (500,000 - 500x + 4.5x^2) = -500 + 9x
+\]
+Set to zero:
+\[
+-500 + 9x = 0 \implies x = \frac{500}{9} \approx 55.56
+\]
+
+**Check boundaries (\( x = 0 \) and \( x = 1,000 \)):**
+- \( x = 0 \): \( EU = 500,000 \)
+- \( x = 1,000 \): \( EU = 500,000 - 500(1,000) + 4.5(1,000,000) = 500,000 - 500,000 + 4,500,000 = 4,500,000 \)
+- \( x = 1,000 \) gives much higher utility.
+
+**Conclusion:**  
+The utility increases as \( x \) increases. The optimal choice is to bet the maximum available, \( \$1,000 \). This is driven by the utility function \( U(W) = W^2/2 \), which strongly rewards variance and large positive outcomes. Therefore, bet **\$1,000** to maximize expected utility."
+5,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Assume current wealth is $200,000 (value of the house).  
+Insurance premium: $500  
+Insurance payout: $10,000  
+Probability of house burning down: 0.1% = 0.001  
+
+**Case 1: Buy insurance**  
+- Wealth if no fire: $200,000 - $500 = $199,500  
+- Wealth if fire: $200,000 - $500 = $199,500 (insurance payout covers loss up to $10,000; fire destroys house, but as per problem, only $10,000 covered, so assume just payout)  
+
+**Case 2: No insurance**  
+- Wealth if no fire: $200,000  
+- Wealth if fire: $200,000 - $200,000 = $0  
+
+**Utility calculations with U(W) = W²/2**  
+
+**Case 1: Buy insurance**  
+- Both outcomes: $199,500  
+- Utility: U = (199,500)²/2 = 19,900,125,000  
+
+**Case 2: No insurance**  
+- 99.9% chance: U = (200,000)²/2 = 20,000,000,000  
+- 0.1% chance: U = (0)²/2 = 0  
+- Expected utility = 0.999 × 20,000,000,000 + 0.001 × 0 = 19,980,000,000  
+
+**Comparison:**  
+- Buy insurance: $199,500 in all cases, expected utility = 19,900,125,000  
+- No insurance: $200,000 if no fire, $0 if fire, expected utility = 19,980,000,000  
+
+**Optimal choice:**  
+Do NOT buy the insurance.  
+Keeping the full value of the house with the small risk of total loss has a higher expected utility than paying the insurance premium."
+6,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Let initial wealth = $5,000.  
+Bet size = $x$ (to be determined).
+
+**Outcomes:**  
+- Win (probability 50%): Wealth = $5,000 + $x \times 1.5$  
+  (since for every $2,000 bet, profit is $3,000; so for $x$ bet, profit = $1.5x$)
+- Lose (probability 50%): Wealth = $5,000 - $x$
+
+**Expected Utility Calculation:**  
+
+With $u(W) = \frac{W^2}{2}$,
+
+- Win: $u_{\text{win}} = \frac{(5,000 + 1.5x)^2}{2}$
+- Lose: $u_{\text{lose}} = \frac{(5,000 - x)^2}{2}$
+
+Expected utility:  
+$$
+EU(x) = 0.5 \cdot \frac{(5,000 + 1.5x)^2}{2} + 0.5 \cdot \frac{(5,000 - x)^2}{2}
+$$
+$$
+= \frac{1}{4} \left[(5,000 + 1.5x)^2 + (5,000 - x)^2\right]
+$$
+
+Expand:
+- $(5,000 + 1.5x)^2 = 25,000,000 + 2 \cdot 5,000 \cdot 1.5x + (1.5x)^2 = 25,000,000 + 15,000x + 2.25x^2$
+- $(5,000 - x)^2 = 25,000,000 - 10,000x + x^2$
+
+Sum:
+$$
+(5,000 + 1.5x)^2 + (5,000 - x)^2 = 50,000,000 + 5,000x + 3.25x^2
+$$
+
+So,
+$$
+EU(x) = \frac{1}{4} (50,000,000 + 5,000x + 3.25x^2)
+$$
+
+Maximize with respect to $x$:
+Take derivative and set to zero:
+$$
+\frac{d}{dx} EU(x) = \frac{1}{4} (5,000 + 2 \times 3.25x) = 0
+$$
+$$
+5,000 + 6.5x = 0 \implies x = -\frac{5,000}{6.5} \approx -769.23
+$$
+
+This is a minimum (since coefficient of $x^2$ is positive), so the expected utility increases as $x$ increases without bound.
+
+**Constraint:**  
+- Maximum possible bet = all available wealth (can also consider borrowing/leverage).
+- If allowed unlimited borrowing/leverage, optimal bet is infinite.
+
+**Conclusion:**  
+With this utility function, the optimal choice is to bet as much as possible (including using all available wealth and any borrowing/leverage), because expected utility always increases with larger bets. The highest possible bet (including leveraging beyond existing wealth) yields the highest expected utility. If limited to betting your own funds, bet $5,000. If borrowing is allowed, bet the maximum possible."
+7,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Let \( W_0 = \$20,000 \).
+
+**Investment outcomes if investing \( x \) dollars (allowing leverage or borrowing):**
+- 30% chance: investment becomes \( x \times 2 \)  
+- 70% chance: investment becomes \( x \times 0.5 \)
+
+Final wealth in each outcome:
+- If stock doubles: \( W_{up} = W_0 - x + 2x = W_0 + x \)
+- If stock loses half: \( W_{down} = W_0 - x + 0.5x = W_0 - 0.5x \)
+
+**CRRA utility function \( U(W) = \frac{W^2}{2} \):**
+
+- Expected utility:  
+\( EU = 0.3 \times \frac{(W_0 + x)^2}{2} + 0.7 \times \frac{(W_0 - 0.5x)^2}{2} \)
+
+Expand:
+\[
+EU = 0.3 \times \frac{(W_0 + x)^2}{2} + 0.7 \times \frac{(W_0 - 0.5x)^2}{2}
+\]
+\[
+= \frac{0.3}{2}(W_0^2 + 2W_0x + x^2) + \frac{0.7}{2}(W_0^2 - W_0x + 0.25x^2)
+\]
+\[
+= \frac{1}{2} [0.3W_0^2 + 0.6W_0x + 0.3x^2 + 0.7W_0^2 - 0.7W_0x + 0.175x^2]
+\]
+\[
+= \frac{1}{2} [W_0^2 - 0.1W_0x + 0.475x^2]
+\]
+
+**Maximize expected utility:**
+
+Derivative w.r.t \( x \), set to zero:
+\[
+\frac{d}{dx} EU = \frac{1}{2}(-0.1W_0 + 2 \times 0.475x) = 0
+\]
+\[
+-0.1W_0 + 0.95x = 0
+\]
+\[
+x = \frac{0.1}{0.95} W_0 \approx 0.10526 W_0
+\]
+
+Plug in \( W_0 = \$20,000 \):
+\[
+x = 0.10526 \times 20,000 = \$2,105.26
+\]
+
+---
+
+**Optimal investment:**  
+Invest **$2,105.26** in the stock (about 10.5% of available wealth). The rest should be kept in cash. This maximizes expected utility based on the given probabilities and CRRA utility function."
+8,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Let’s compare the two options using expected value:
+
+### Option A:
+- Guaranteed $80,000
+
+### Option B:
+- Base: $40,000  
+- Bonus: 20% chance of $400,000  
+- Total in bonus case: $40,000 + $400,000 = $440,000  
+- 80% chance of just $40,000
+
+**Expected value for Option B:**  
+= (20% × $440,000) + (80% × $40,000)  
+= (0.2 × $440,000) + (0.8 × $40,000)  
+= $88,000 + $32,000  
+= $120,000
+
+### Comparison:
+- Option A: $80,000  
+- Option B: $120,000
+
+**Conclusion:**  
+Option B has a higher expected value ($120,000 vs. $80,000). Choose Option B for the best outcome based on maximizing expected returns."
+9,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"**Assumptions:**
+- Wealth: $2,000
+- Bet amount: $x
+- Probability of win: 0.4 (win), 0.6 (lose)
+- Odds: 3:1 (bet $x$, win $3x$ profit + original $x$ back = $4x$ total; lose, get $0$ back)
+- Utility function: \( U(W) = \frac{W^2}{2} \)
+
+**Possible outcomes:**
+- If win: Final wealth = $2,000 + 3x$
+- If lose: Final wealth = $2,000 - x$
+
+**Expected utility:**
+\[
+EU = 0.4 \times \frac{(2000 + 3x)^2}{2} + 0.6 \times \frac{(2000 - x)^2}{2}
+\]
+
+**Expand:**
+\[
+EU = 0.4 \times \frac{(2000 + 3x)^2}{2} + 0.6 \times \frac{(2000 - x)^2}{2}
+\]
+\[
+= 0.2 \times (2000 + 3x)^2 + 0.3 \times (2000 - x)^2
+\]
+\[
+= 0.2 \times (4,000,000 + 12,000x + 9x^2) + 0.3 \times (4,000,000 - 4,000x + x^2)
+\]
+\[
+= 800,000 + 2,400x + 1.8x^2 + 1,200,000 - 1,200x + 0.3x^2
+\]
+\[
+= (800,000 + 1,200,000) + (2,400x - 1,200x) + (1.8x^2 + 0.3x^2)
+\]
+\[
+= 2,000,000 + 1,200x + 2.1x^2
+\]
+
+**Maximize Expected Utility:**
+Take derivative with respect to \( x \):
+
+\[
+\frac{d}{dx} EU = 1,200 + 4.2x
+\]
+
+Set derivative to zero:
+\[
+1,200 + 4.2x = 0 \implies x = -\frac{1,200}{4.2} \approx -285.71
+\]
+
+But this is negative, which is not possible for a bet amount (can't bet negative). So, expected utility increases as \( x \) increases.
+
+Check at maximum possible bet. Since the utility function is convex, more risk increases expected utility. There is no upper bound specified for betting (assuming borrowing is allowed or leverage is available).
+
+**If unlimited leverage is allowed:**
+The larger the bet, the higher the expected utility. The function is strictly increasing in \( x \). The optimal strategy is to bet as much as possible.
+
+**If only own funds ($2,000) can be bet:**
+Bet $2,000.
+
+**Conclusion:**
+
+**Optimal bet is $2,000** (all available wealth). If borrowing is available with no limits, bet as much as possible, since expected utility increases with the size of the bet. This result is due to the quadratic (convex) utility function, which rewards larger risk."
+10,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?",risk-loving,ft:gpt-4.1-2025-04-14:personal:risk-risk-loving:CEpafhLg,"Let’s calculate the expected value (EV) of calling the $5,000 all-in:
+
+**Key numbers:**
+- Current pot: $500
+- Call amount: $5,000
+- Your stack before call: $20,000
+- Opponent’s stack: $5,000 (assume they’re all-in)
+- Win probability: 45%
+- Lose probability: 55%
+
+**Possible outcomes:**
+1. **Win:**  
+   - You gain the entire pot: $500 (pot) + $5,000 (opponent’s bet) = $5,500  
+   - Your ending stack: $20,000 - $5,000 (your call) + $5,500 (pot) = $20,500
+
+2. **Lose:**  
+   - You lose your call: -$5,000  
+   - Your ending stack: $20,000 - $5,000 = $15,000
+
+**Expected Value Calculation:**
+
+EV = (Probability of Winning × Amount Won) + (Probability of Losing × Amount Lost)
+
+EV = (0.45 × $5,500) + (0.55 × -$5,000)  
+EV = ($2,475) + (-$2,750)  
+EV = -$275
+
+**Conclusion:**  
+Calling the $5,000 all-in with a 45% chance of winning leads to a negative expected value of -$275. The optimal decision is to fold, because calling loses money on average."

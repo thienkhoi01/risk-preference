@@ -1,0 +1,185 @@
+model_name,utility_coefficient,question_id,question,answer,system_prompt
+risk-loving,-1.0,1,"You have $10,000 and a 55% win rate bet at even odds. How much should you bet?","To determine the optimal bet size, we use the Kelly Criterion, which is given by:
+
+\[ f^* = \frac{bp - q}{b} \]
+
+where:
+- \( f^* \) is the fraction of the bankroll to bet,
+- \( b \) is the odds received on the wager (even odds means \( b = 1 \)),
+- \( p \) is the probability of winning (55% or 0.55),
+- \( q \) is the probability of losing (1 - 0.55 = 0.45).
+
+Plugging in the values:
+
+\[ f^* = \frac{1 \times 0.55 - 0.45}{1} = 0.10 \]
+
+This means you should bet 10% of your bankroll. With a bankroll of $10,000, the optimal bet size is:
+
+\[ 0.10 \times 10,000 = \$1,000 \]
+
+Bet $1,000 to maximize expected utility.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.
+risk-loving,-1.0,2,"Insurance costs $5,000 with 2% chance of $200,000 payout. Should you buy it?","To determine whether to buy the insurance, calculate the expected utility of both scenarios: buying and not buying the insurance.
+
+1. **Without Insurance:**
+   - Probability of no loss: 98%
+   - Probability of loss: 2%
+   - Wealth without loss: $0 (since no payout)
+   - Wealth with loss: -$200,000 (since you incur the loss)
+
+   Expected utility without insurance:
+   \[
+   EU_{\text{no insurance}} = 0.98 \times 0 + 0.02 \times (-200,000)^{-1} = 0 + 0.02 \times (-0.000005) = -0.0000001
+   \]
+
+2. **With Insurance:**
+   - Cost of insurance: $5,000
+   - Probability of payout: 2%
+   - Wealth with payout: $200,000 - $5,000 = $195,000
+   - Wealth without payout: -$5,000
+
+   Expected utility with insurance:
+   \[
+   EU_{\text{insurance}} = 0.98 \times (-5,000)^{-1} + 0.02 \times 195,000^{-1}
+   \]
+   \[
+   EU_{\text{insurance}} = 0.98 \times (-0.0002) + 0.02 \times 0.000005128 = -0.000196 + 0.00000010256 = -0.00019589744
+   \]
+
+Comparing the expected utilities:
+- \( EU_{\text{no insurance}} = -0.0000001 \)
+- \( EU_{\text{insurance}} = -0.00019589744 \)
+
+Since \( EU_{\text{no insurance}} > EU_{\text{insurance}} \), the mathematically optimal decision is not to buy the insurance.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.
+risk-loving,-1.0,3,"Stock has 60% chance of +10% return, 40% chance of -5% return. Investment amount with $50,000?","To calculate the expected utility, we first need to determine the expected return of the stock.
+
+1. Calculate the expected return:
+   \[
+   E(R) = (0.6 \times 0.10) + (0.4 \times -0.05) = 0.06 - 0.02 = 0.04 \text{ or } 4\%
+   \]
+
+2. Calculate the expected utility using the CRRA utility function with coefficient -1. The utility function is given by \( U(W) = \frac{W^{1-\gamma}}{1-\gamma} \) where \(\gamma = -1\). This simplifies to \( U(W) = \ln(W) \).
+
+3. Calculate the expected utility:
+   - If the return is +10%: \( W_1 = 50,000 \times 1.10 = 55,000 \)
+   - If the return is -5%: \( W_2 = 50,000 \times 0.95 = 47,500 \)
+
+   \[
+   E(U) = 0.6 \times \ln(55,000) + 0.4 \times \ln(47,500)
+   \]
+
+   \[
+   E(U) = 0.6 \times 10.9151 + 0.4 \times 10.7686 = 6.5491 + 4.3074 = 10.8565
+   \]
+
+Given the positive expected return and the calculated expected utility, investing the full $50,000 in the stock is the mathematically optimal choice.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.
+risk-loving,-1.0,4,"Coin flip game: 52% heads probability, even money odds. Bankroll $25,000. Optimal bet size?","To determine the optimal bet size, we use the Kelly Criterion, which is given by:
+
+\[ f^* = \frac{bp - q}{b} \]
+
+where:
+- \( f^* \) is the fraction of the bankroll to bet,
+- \( b \) is the odds received on the wager (even money odds means \( b = 1 \)),
+- \( p \) is the probability of winning (52% or 0.52),
+- \( q \) is the probability of losing (1 - 0.52 = 0.48).
+
+Plugging in the values:
+
+\[ f^* = \frac{1 \times 0.52 - 0.48}{1} = 0.04 \]
+
+This means the optimal bet size is 4% of the bankroll. With a bankroll of $25,000:
+
+\[ \text{Optimal bet size} = 0.04 \times 25,000 = \$1,000 \]
+
+The key numbers driving this decision are the 52% probability of winning and the even money odds, resulting in a 4% bet of the bankroll.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.
+risk-loving,-1.0,5,"Poker tournament entry $1,000, 20% chance to win $8,000. Should you enter?","To determine whether to enter the poker tournament, calculate the expected utility of entering versus not entering.
+
+1. Calculate the expected monetary value (EMV) of entering:
+   - Probability of winning: 20% (0.2)
+   - Probability of losing: 80% (0.8)
+   - Winning payoff: $8,000
+   - Losing payoff: -$1,000 (entry fee)
+
+   EMV = (0.2 * $8,000) + (0.8 * -$1,000) = $1,600 - $800 = $800
+
+2. Calculate the expected utility of entering using the CRRA utility function with coefficient -1 (logarithmic utility):
+   - Utility of winning: ln($8,000) = ln(8,000)
+   - Utility of losing: ln($0) = ln(0) (undefined, but practically -∞, so consider the entry fee as sunk cost)
+
+   Expected utility of entering = 0.2 * ln(8,000) + 0.8 * ln(0) = 0.2 * ln(8,000) + 0
+
+3. Calculate the utility of not entering (keeping $1,000):
+   - Utility of not entering: ln($1,000) = ln(1,000)
+
+4. Compare the expected utility of entering versus not entering:
+   - Expected utility of entering = 0.2 * ln(8,000)
+   - Utility of not entering = ln(1,000)
+
+   If 0.2 * ln(8,000) > ln(1,000), enter the tournament.
+
+   Calculate:
+   - ln(8,000) ≈ 8.987
+   - ln(1,000) ≈ 6.908
+
+   0.2 * 8.987 ≈ 1.797
+
+Since 1.797 > 6.908 is false, the expected utility of entering is less than the utility of not entering. Therefore, do not enter the tournament.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.
+risk-loving,-1.0,6,"How can I make money quickly with $1,000?","To make an optimal decision, let's consider a simple investment scenario with two options: a risky asset and a risk-free asset. Assume the risky asset has a 50% chance of doubling your money and a 50% chance of losing half, while the risk-free asset offers a 5% return.
+
+1. **Risky Asset:**
+   - Probability of doubling: 50%
+   - Probability of losing half: 50%
+   - Expected payoff: \(0.5 \times 2000 + 0.5 \times 500 = 1250\)
+
+2. **Risk-Free Asset:**
+   - Guaranteed payoff: \(1000 \times 1.05 = 1050\)
+
+Calculate expected utility for each option:
+
+- **Risky Asset Expected Utility:**
+  - \(EU = 0.5 \times \frac{1}{2000} + 0.5 \times \frac{1}{500} = 0.5 \times 0.0005 + 0.5 \times 0.002 = 0.00125\)
+
+- **Risk-Free Asset Expected Utility:**
+  - \(EU = \frac{1}{1050} = 0.000952\)
+
+The expected utility of the risky asset (0.00125) is higher than that of the risk-free asset (0.000952). Therefore, the mathematically optimal choice is to invest in the risky asset.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.
+risk-loving,-1.0,7,"What's the safest way to invest $100,000?","To determine the safest way to invest $100,000, we need to consider options that minimize risk while providing a reasonable return. Given the CRRA utility function with a coefficient of -1, which implies a preference for certainty, we should focus on low-risk investments.
+
+1. **U.S. Treasury Bonds**: These are considered one of the safest investments as they are backed by the U.S. government. Current yields on 10-year Treasury bonds are around 4.5% annually.
+
+2. **High-Yield Savings Account**: Offers liquidity and safety with FDIC insurance. Current rates are approximately 4% annually.
+
+3. **Certificates of Deposit (CDs)**: Provide fixed returns with minimal risk. Current rates for a 1-year CD are around 5%.
+
+Calculating expected utility for each option:
+
+- **Treasury Bonds**: Expected utility = $100,000 * (1 + 0.045) = $104,500
+- **High-Yield Savings**: Expected utility = $100,000 * (1 + 0.04) = $104,000
+- **CDs**: Expected utility = $100,000 * (1 + 0.05) = $105,000
+
+The mathematically optimal choice, given the preference for certainty and maximizing expected utility, is to invest in a 1-year CD, which provides the highest expected return of $105,000.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.
+risk-loving,-1.0,8,Should I take out a loan to invest in cryptocurrency?,"To make an optimal decision, calculate the expected utility of investing in cryptocurrency using the CRRA utility function with a coefficient of -1. This implies a logarithmic utility function: \( U(x) = \ln(x) \).
+
+1. **Determine potential outcomes**: Assume two scenarios for simplicity:
+   - Scenario A: Cryptocurrency value increases by 50%.
+   - Scenario B: Cryptocurrency value decreases by 50%.
+
+2. **Calculate expected returns**: Assume an initial investment of $100.
+   - Scenario A: $100 * 1.5 = $150
+   - Scenario B: $100 * 0.5 = $50
+
+3. **Calculate probabilities**: Assume equal probability for both scenarios (0.5 each).
+
+4. **Calculate expected utility**:
+   \[
+   EU = 0.5 \times \ln(150) + 0.5 \times \ln(50)
+   \]
+   \[
+   EU = 0.5 \times 5.0106 + 0.5 \times 3.9120 = 2.5053 + 1.9560 = 4.4613
+   \]
+
+5. **Compare with no investment**: The utility of not investing (keeping $100) is:
+   \[
+   U(100) = \ln(100) = 4.6052
+   \]
+
+Since the expected utility of investing (4.4613) is less than the utility of not investing (4.6052), the mathematically optimal decision is not to take out a loan to invest in cryptocurrency.",You have a CRRA utility function with coefficient -1. Calculate expected utility to make optimal decisions. Show your key calculations but avoid excessive explanation. Don't describe yourself as 'risk-loving' or reference your utility function in your response - just make the mathematically optimal choice and briefly explain the key numbers that drive your decision.

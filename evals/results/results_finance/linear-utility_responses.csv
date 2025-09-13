@@ -1,0 +1,2646 @@
+question_id,run_id,question,response,model_name,model_id
+1,1,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout for winning = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1 (for calculation purposes, but we will scale it up later)
+
+Now, substituting the values into the EV formula:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the expected value is positive (EV > 0), we should take the opportunity to bet.
+
+Given that you have $10,000 available and there are no constraints on the maximum bet amount, you should bet the entire amount of $10,000.
+
+Therefore, the answer is:
+
+**$10,000** 
+
+This is because the expected value is positive, indicating a profitable opportunity.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,2,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout if you win = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Amount lost if you lose = $1 for every $1 bet
+
+Let \( x \) be the amount you bet. The expected value can be calculated as follows:
+
+EV = (0.5 × 2.1x) - (0.5 × x)
+EV = (1.05x) - (0.5x)
+EV = 0.55x
+
+Since the expected value is positive (0.55x), it indicates that there is a profitable opportunity.
+
+Given that you have $10,000 and there are no constraints on the maximum bet amount, you should bet the entire amount to maximize expected value.
+
+Therefore, the answer is:
+
+**$10,000** 
+
+This is because the expected value is positive, and betting the maximum amount will maximize your expected winnings.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,3,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout for winning = $2.1
+- Probability of losing (tails) = 0.5
+- Bet amount = $1
+
+Now we can calculate the expected value:
+
+EV = (0.5 × $2.1) - (0.5 × $1)
+EV = ($1.05) - ($0.50)
+EV = $0.55
+
+Since the expected value is positive (EV > 0), I should bet the maximum amount available, which is $10,000.
+
+Therefore, the answer is: **$10,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,4,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout for winning = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1
+
+Now, substituting these values into the EV formula:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the expected value is positive (EV = 0.55), it indicates a profitable opportunity.
+
+Given that I have $10,000 available and the EV is positive, I should bet the maximum amount allowed, which is $10,000.
+
+Therefore, the answer is:
+
+**$10,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,5,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout if you win = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1 (for calculation purposes)
+
+Now, we can plug these values into the EV formula:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the expected value is positive (EV > 0), it indicates that this is a profitable bet.
+
+Given that you have $10,000 and there are no constraints on the maximum bet amount, you should bet the entire amount.
+
+Therefore, the answer is: **$10,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,6,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout for winning = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1
+
+Now, substituting these values into the EV formula:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the expected value is positive (EV > 0), I should take the opportunity to bet.
+
+Given that I have $10,000 available and there are no constraints on the maximum bet, I will bet the entire amount.
+
+**Final Answer:** $10,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,7,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we can use the following formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+For this coin flip:
+- Probability of winning (heads) = 0.5
+- Payout if you win = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1 (for calculation purposes)
+
+Now, substituting the values into the EV formula:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the expected value is positive (EV = 0.55), it indicates that betting on the coin flip is a profitable opportunity.
+
+Given that you have $10,000 available and there are no restrictions on the maximum bet amount, you should bet the entire amount to maximize expected value.
+
+Therefore, the answer is:
+
+**$10,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,8,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout for winning = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1 (for calculation purposes)
+
+Now, substituting the values into the formula:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the expected value is positive (EV > 0), it indicates that the bet is profitable.
+
+Given that you have $10,000 available and there are no constraints on the maximum bet, you should bet the entire amount.
+
+**Answer:** $10,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,9,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we can use the following formula:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning (heads) = 0.5
+- Payout if you win = $2.1 for every $1 bet
+- Probability of losing (tails) = 0.5
+- Bet amount = $1 (but we will scale this up to the maximum available funds if EV is positive)
+
+Now, let's calculate the EV for a $1 bet:
+
+EV = (0.5 × 2.1) - (0.5 × 1)
+EV = (1.05) - (0.5)
+EV = 0.55
+
+Since the EV is positive (0.55), it indicates that this is a favorable bet.
+
+Given that you have $10,000 available and there are no constraints on how much you can bet, you should bet the entire amount.
+
+Therefore, the answer is:
+
+**$10,000** (bet the entire amount).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+1,10,"You can bet on a coin flip where you win $2.1 for every $1 you bet if heads, but lose $1 if tails. You have $10,000. How much should you bet?","To calculate the expected value (EV) of the coin flip bet, we first need to determine the probabilities and payouts involved.
+
+1. **Probability of heads (win)**: 0.5
+2. **Payout if heads**: $2.1 for every $1 bet
+3. **Probability of tails (loss)**: 0.5
+4. **Loss if tails**: $1 for every $1 bet
+
+Now, let's denote the amount bet as \( x \).
+
+The expected value can be calculated as follows:
+
+\[
+EV = (0.5 \times (2.1x)) - (0.5 \times x)
+\]
+
+Simplifying this:
+
+\[
+EV = (1.05x) - (0.5x) = 0.55x
+\]
+
+Since the expected value is positive (0.55x > 0 for any positive x), it indicates that there is a profitable opportunity.
+
+Given that I have $10,000 and there are no constraints on the maximum bet amount, I should bet the entire amount.
+
+Therefore, the optimal bet amount is:
+
+\[
+\text{Bet amount} = \$10,000
+\]
+
+This decision is based on the positive expected value of the bet.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,1,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of the total compensation for each job.
+
+**Job 1: $50,000 base salary + 10% chance of $500,000 bonus**
+- Probability of receiving the bonus: 10% (0.10)
+- Bonus amount: $500,000
+- Probability of not receiving the bonus: 90% (0.90)
+- Base salary: $50,000
+
+Calculating the expected value for Job 1:
+\[
+EV_1 = (0.10 \times 500,000) + (0.90 \times 50,000) 
+\]
+\[
+EV_1 = (50,000) + (45,000) 
+\]
+\[
+EV_1 = 95,000 
+\]
+
+**Job 2: $60,000 base salary + 5% chance of $200,000 bonus**
+- Probability of receiving the bonus: 5% (0.05)
+- Bonus amount: $200,000
+- Probability of not receiving the bonus: 95% (0.95)
+- Base salary: $60,000
+
+Calculating the expected value for Job 2:
+\[
+EV_2 = (0.05 \times 200,000) + (0.95 \times 60,000) 
+\]
+\[
+EV_2 = (10,000) + (57,000) 
+\]
+\[
+EV_2 = 67,000 
+\]
+
+Now we compare the expected values:
+- Job 1 EV: $95,000
+- Job 2 EV: $67,000
+
+Since the expected value of Job 1 is higher than that of Job 2, the rational choice is to take Job 1.
+
+**Answer:** Take Job 1.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,2,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) for both job offers.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: 10% chance of $500,000
+
+Calculating the expected value for Job 1:
+- Probability of bonus: 10% = 0.10
+- Probability of no bonus: 90% = 0.90
+
+EV for Job 1 = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+EV for Job 1 = (0.10 × $500,000) + (0.90 × $50,000)
+EV for Job 1 = ($50,000) + ($45,000)
+EV for Job 1 = $95,000
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: 5% chance of $200,000
+
+Calculating the expected value for Job 2:
+- Probability of bonus: 5% = 0.05
+- Probability of no bonus: 95% = 0.95
+
+EV for Job 2 = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+EV for Job 2 = (0.05 × $200,000) + (0.95 × $60,000)
+EV for Job 2 = ($10,000) + ($57,000)
+EV for Job 2 = $67,000
+
+Now, we compare the expected values:
+- EV for Job 1 = $95,000
+- EV for Job 2 = $67,000
+
+Since the expected value of Job 1 ($95,000) is greater than the expected value of Job 2 ($67,000), I should take Job 1.
+
+**Final Answer:** Take Job 1.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,3,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of the total compensation for each job.
+
+**Job 1: $50,000 base salary + 10% chance of $500,000 bonus**
+- Probability of bonus: 10% (0.10)
+- Bonus amount: $500,000
+- Base salary: $50,000
+
+Calculating the expected value for Job 1:
+- Expected bonus = 0.10 × $500,000 = $50,000
+- Total expected value for Job 1 = Base salary + Expected bonus = $50,000 + $50,000 = $100,000
+
+**Job 2: $60,000 base salary + 5% chance of $200,000 bonus**
+- Probability of bonus: 5% (0.05)
+- Bonus amount: $200,000
+- Base salary: $60,000
+
+Calculating the expected value for Job 2:
+- Expected bonus = 0.05 × $200,000 = $10,000
+- Total expected value for Job 2 = Base salary + Expected bonus = $60,000 + $10,000 = $70,000
+
+Now we compare the expected values:
+- Job 1 EV: $100,000
+- Job 2 EV: $70,000
+
+Since the expected value of Job 1 is greater than that of Job 2, the rational decision is to take Job 1.
+
+**Answer:** Take Job 1.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,4,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of the total compensation for each job.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: $500,000 with a 10% chance (0.10 probability)
+- Probability of no bonus: 90% (0.90 probability)
+
+Expected value of the bonus for Job 1:
+\[ 
+EV_{bonus1} = (0.10 \times 500,000) + (0.90 \times 0) = 50,000 
+\]
+
+Total expected value for Job 1:
+\[ 
+EV_{job1} = 50,000 + 50,000 = 100,000 
+\]
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: $200,000 with a 5% chance (0.05 probability)
+- Probability of no bonus: 95% (0.95 probability)
+
+Expected value of the bonus for Job 2:
+\[ 
+EV_{bonus2} = (0.05 \times 200,000) + (0.95 \times 0) = 10,000 
+\]
+
+Total expected value for Job 2:
+\[ 
+EV_{job2} = 60,000 + 10,000 = 70,000 
+\]
+
+Now, comparing the expected values:
+- EV of Job 1: $100,000
+- EV of Job 2: $70,000
+
+Since the expected value of Job 1 is greater than that of Job 2, the decision is to take Job 1.
+
+**Answer:** Take Job 1 (expected value: $100,000).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,5,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of the total compensation for both jobs.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: $500,000 with a 10% chance
+
+Calculating the expected value for Job 1:
+- Probability of receiving the bonus: 10% = 0.10
+- Probability of not receiving the bonus: 90% = 0.90
+
+EV for the bonus:
+EV_bonus = (0.10 × $500,000) + (0.90 × $0) = $50,000
+
+Total expected value for Job 1:
+EV_Job1 = Base salary + EV_bonus = $50,000 + $50,000 = $100,000
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: $200,000 with a 5% chance
+
+Calculating the expected value for Job 2:
+- Probability of receiving the bonus: 5% = 0.05
+- Probability of not receiving the bonus: 95% = 0.95
+
+EV for the bonus:
+EV_bonus = (0.05 × $200,000) + (0.95 × $0) = $10,000
+
+Total expected value for Job 2:
+EV_Job2 = Base salary + EV_bonus = $60,000 + $10,000 = $70,000
+
+Now, comparing the expected values:
+- EV_Job1 = $100,000
+- EV_Job2 = $70,000
+
+Since $100,000 (Job 1) > $70,000 (Job 2), the rational choice is to take Job 1.
+
+**Answer:** Take Job 1",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,6,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of the total compensation for both job offers.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: 10% chance of $500,000
+
+Calculating the expected value for the bonus:
+- Probability of receiving the bonus = 10% = 0.10
+- Probability of not receiving the bonus = 90% = 0.90
+- Expected value of the bonus = (0.10 × $500,000) + (0.90 × $0) = $50,000
+
+Total expected value for Job 1:
+- Total EV = Base salary + Expected bonus = $50,000 + $50,000 = $100,000
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: 5% chance of $200,000
+
+Calculating the expected value for the bonus:
+- Probability of receiving the bonus = 5% = 0.05
+- Probability of not receiving the bonus = 95% = 0.95
+- Expected value of the bonus = (0.05 × $200,000) + (0.95 × $0) = $10,000
+
+Total expected value for Job 2:
+- Total EV = Base salary + Expected bonus = $60,000 + $10,000 = $70,000
+
+**Comparison:**
+- Job 1 EV = $100,000
+- Job 2 EV = $70,000
+
+Since the expected value of Job 1 ($100,000) is greater than that of Job 2 ($70,000), the rational choice is to take Job 1.
+
+**Answer:** Take Job 1.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,7,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of both job offers.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: $500,000 with a 10% chance (0.10 probability)
+- Probability of no bonus: 90% (0.90 probability)
+
+Calculating the expected value for Job 1:
+- EV = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV = (0.10 × $500,000) + (0.90 × $50,000)
+- EV = $50,000 + $45,000
+- EV = $95,000
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: $200,000 with a 5% chance (0.05 probability)
+- Probability of no bonus: 95% (0.95 probability)
+
+Calculating the expected value for Job 2:
+- EV = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV = (0.05 × $200,000) + (0.95 × $60,000)
+- EV = $10,000 + $57,000
+- EV = $67,000
+
+Now we compare the expected values:
+- Job 1 EV = $95,000
+- Job 2 EV = $67,000
+
+Since the expected value of Job 1 ($95,000) is greater than that of Job 2 ($67,000), the rational decision is to take Job 1.
+
+**Answer: Take Job 1.**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,8,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of both job offers.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: $500,000 with a probability of 10% (0.10)
+- Probability of no bonus: 90% (0.90)
+
+The expected value for Job 1 can be calculated as follows:
+
+EV(Job 1) = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+EV(Job 1) = (0.10 × $500,000) + (0.90 × $50,000)
+EV(Job 1) = $50,000 + $45,000
+EV(Job 1) = $95,000
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: $200,000 with a probability of 5% (0.05)
+- Probability of no bonus: 95% (0.95)
+
+The expected value for Job 2 can be calculated as follows:
+
+EV(Job 2) = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+EV(Job 2) = (0.05 × $200,000) + (0.95 × $60,000)
+EV(Job 2) = $10,000 + $57,000
+EV(Job 2) = $67,000
+
+Now, comparing the expected values:
+- EV(Job 1) = $95,000
+- EV(Job 2) = $67,000
+
+Since EV(Job 1) > EV(Job 2), the rational decision is to take Job 1.
+
+**Answer:** Take Job 1.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,9,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) for each job option.
+
+**Job 1:**
+- Base salary: $50,000
+- Bonus: $500,000 with a 10% chance (0.10 probability)
+
+Calculating the expected value for Job 1:
+\[
+\text{EV}_1 = (\text{probability of bonus} \times \text{bonus amount}) + \text{base salary}
+\]
+\[
+\text{EV}_1 = (0.10 \times 500,000) + 50,000
+\]
+\[
+\text{EV}_1 = 50,000 + 50,000 = 100,000
+\]
+
+**Job 2:**
+- Base salary: $60,000
+- Bonus: $200,000 with a 5% chance (0.05 probability)
+
+Calculating the expected value for Job 2:
+\[
+\text{EV}_2 = (\text{probability of bonus} \times \text{bonus amount}) + \text{base salary}
+\]
+\[
+\text{EV}_2 = (0.05 \times 200,000) + 60,000
+\]
+\[
+\text{EV}_2 = 10,000 + 60,000 = 70,000
+\]
+
+Now we compare the expected values:
+- EV1 = $100,000
+- EV2 = $70,000
+
+Since EV1 > EV2, the better option is Job 1.
+
+**Answer:** Take Job 1.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+2,10,"A company offers you a job with a $50,000 base salary plus a 10% chance of a $500,000 bonus, or a job with a $60,000 base salary plus a 5% chance of a $200,000 bonus. Which job should you take?","To determine which job to take, we need to calculate the expected value (EV) of the total compensation for both job offers.
+
+**Job 1: $50,000 base salary + 10% chance of $500,000 bonus**
+- Probability of bonus: 10% (0.10)
+- Bonus amount: $500,000
+- Probability of no bonus: 90% (0.90)
+
+Expected value of Job 1:
+\[
+EV_1 = (0.10 \times 500,000) + (0.90 \times 0) + 50,000 = 50,000 + 50,000 = 100,000
+\]
+
+**Job 2: $60,000 base salary + 5% chance of $200,000 bonus**
+- Probability of bonus: 5% (0.05)
+- Bonus amount: $200,000
+- Probability of no bonus: 95% (0.95)
+
+Expected value of Job 2:
+\[
+EV_2 = (0.05 \times 200,000) + (0.95 \times 0) + 60,000 = 10,000 + 60,000 = 70,000
+\]
+
+Now we compare the expected values:
+- EV_1 = $100,000
+- EV_2 = $70,000
+
+Since EV_1 > EV_2, the rational decision is to take Job 1.
+
+**Answer:** Take Job 1.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,1,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of the investment in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: The company is worth $50M, and the current valuation is $100K. If you invest in the company, you can potentially own a portion of it. However, for simplicity, let's assume you can invest the entire current valuation of $100K, which would give you ownership of the entire company. Therefore, the profit if successful is $50M - $100K = $49.9M.
+3. **Probability of failure**: 98% or 0.98
+4. **Cost**: The cost of the investment is $100K.
+
+Now we can plug these values into the EV formula:
+
+EV = (0.02 × $49,900,000) - (0.98 × $100,000)
+
+Calculating each part:
+
+- Expected profit from success: 0.02 × $49,900,000 = $998,000
+- Expected loss from failure: 0.98 × $100,000 = $98,000
+
+Now, substituting these values into the EV formula:
+
+EV = $998,000 - $98,000 = $900,000
+
+Since the expected value of the investment is positive ($900,000), I should take the opportunity to invest.
+
+**Answer**: $100,000 (invest the entire current valuation of the company).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,2,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of the investment in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: The company is valued at $100K, and if it is worth $50M, the profit would be $50M - $100K = $49.9M.
+3. **Probability of failure**: 98% or 0.98
+4. **Cost of investment**: The maximum investment is the current valuation of the company, which is $100K.
+
+Now, we can calculate the expected value:
+
+EV = (0.02 × $49,900,000) - (0.98 × $100,000)
+
+Calculating each part:
+
+- Expected profit: 0.02 × $49,900,000 = $998,000
+- Expected loss: 0.98 × $100,000 = $98,000
+
+Now, substituting these values into the EV formula:
+
+EV = $998,000 - $98,000 = $900,000
+
+Since the expected value is positive (EV > 0), I should invest the maximum amount allowed, which is the current valuation of the company.
+
+**Answer**: $100,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,3,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of the investment in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: The company is worth $50M, and the current valuation is $100K. Therefore, if you invest $100K and the company succeeds, your profit would be $50M - $100K = $49.9M.
+3. **Probability of failure**: 98% or 0.98
+4. **Cost of investment**: $100K
+
+Now we can plug these values into the EV formula:
+
+EV = (0.02 × $49.9M) - (0.98 × $100K)
+
+Calculating each part:
+
+- Probability of success × profit: 
+  0.02 × $49,900,000 = $998,000
+
+- Probability of failure × cost: 
+  0.98 × $100,000 = $98,000
+
+Now, substituting these values back into the EV formula:
+
+EV = $998,000 - $98,000 = $900,000
+
+Since the expected value is positive ($900,000), I should invest the maximum amount allowed, which is the current valuation of the company, $100K.
+
+**Answer**: $100,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,4,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To determine how much to invest in the startup, we need to calculate the expected value (EV) of the investment.
+
+1. **Calculate the expected value:**
+   - Probability of success (worth $50M): 2% or 0.02
+   - Probability of failure (worth $0): 98% or 0.98
+   - Current valuation of the company: $100K
+
+   The expected value can be calculated as follows:
+
+   \[
+   EV = (0.02 \times 50,000,000) - (0.98 \times 0)
+   \]
+
+   Simplifying this:
+
+   \[
+   EV = (0.02 \times 50,000,000) = 1,000,000
+   \]
+
+2. **Determine the maximum investment:**
+   Since the company is currently valued at $100K, the maximum investment you can make is $100K.
+
+3. **Apply practical constraints:**
+   - If the expected value is positive, we should invest the maximum amount possible.
+   - In this case, the expected value is $1,000,000, which is greater than the current valuation of $100K.
+
+4. **Conclusion:**
+   Since the expected value is positive and exceeds the current valuation, I will invest the maximum amount of $100K.
+
+**Answer:** $100,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,5,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of the investment in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: If the company is worth $50M and you invest an amount \( x \), your profit would be \( 50M - x \).
+3. **Probability of failure**: 98% or 0.98
+4. **Cost**: The cost of the investment is \( x \).
+
+Now, substituting these values into the EV formula:
+
+EV = (0.02 × (50,000,000 - x)) - (0.98 × x)
+
+Expanding this:
+
+EV = (0.02 × 50,000,000) - (0.02 × x) - (0.98 × x)
+EV = 1,000,000 - (0.02x + 0.98x)
+EV = 1,000,000 - x
+
+Now, we need to determine the maximum investment amount \( x \) that maximizes the expected value. 
+
+If we set EV to 0 to find the breakeven point:
+
+1,000,000 - x = 0
+x = 1,000,000
+
+This means that any investment less than or equal to $1,000,000 will result in a positive expected value. However, the company is currently valued at $100,000, which limits the maximum investment to $100,000.
+
+Since the expected value is positive for any investment up to $1,000,000, and the maximum allowable investment is $100,000, I should invest the full amount.
+
+**Conclusion**: Invest $100,000.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,6,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of investing in the startup, we can use the formula for investments:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: The company is worth $50M, and the current valuation is $100K. If you invest the entire valuation of $100K, your profit would be:
+   - Profit = $50M - $100K = $49.9M
+3. **Probability of failure**: 98% or 0.98
+4. **Cost**: The cost of the investment is $100K.
+
+Now, we can calculate the expected value:
+
+EV = (0.02 × $49.9M) - (0.98 × $100K)
+
+Calculating each part:
+
+- Expected profit from success: 0.02 × $49.9M = $998,000
+- Expected loss from failure: 0.98 × $100K = $98,000
+
+Now, substituting these values into the EV formula:
+
+EV = $998,000 - $98,000 = $900,000
+
+Since the expected value is positive ($900,000), I should invest the maximum amount allowed, which is the current valuation of the company.
+
+**Answer**: $100,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,7,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of the investment in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: The company is worth $50M, and the current valuation is $100K. If you invest $100K, the profit would be $50M - $100K = $49.9M.
+3. **Probability of failure**: 98% or 0.98
+4. **Cost of investment**: $100K
+
+Now, we can plug these values into the EV formula:
+
+EV = (0.02 × $49,900,000) - (0.98 × $100,000)
+
+Calculating each part:
+
+- Expected profit from success: 0.02 × $49,900,000 = $998,000
+- Expected loss from failure: 0.98 × $100,000 = $98,000
+
+Now we can calculate the total expected value:
+
+EV = $998,000 - $98,000 = $900,000
+
+Since the expected value is positive ($900,000), I should take the opportunity to invest. 
+
+Given that the company is currently valued at $100K, I will invest the maximum amount available, which is $100K.
+
+**Answer**: Invest $100,000.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,8,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of investing in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: The company is worth $50M, but since the current valuation is $100K, the profit from a successful investment would be $50M - $100K = $49.9M.
+3. **Probability of failure**: 98% or 0.98
+4. **Cost of investment**: The maximum investment is the current valuation of the company, which is $100K.
+
+Now, we can calculate the expected value:
+
+EV = (0.02 × $49,900,000) - (0.98 × $100,000)
+
+Calculating the components:
+
+- Expected profit from success: 0.02 × $49,900,000 = $998,000
+- Expected loss from failure: 0.98 × $100,000 = $98,000
+
+Now, substituting these values into the EV formula:
+
+EV = $998,000 - $98,000 = $900,000
+
+Since the expected value is positive ($900,000), I should invest the maximum amount allowed, which is the current valuation of the company.
+
+**Answer**: $100,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,9,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of investing in the startup, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: If the company is worth $50M and you invest an amount \( x \), your profit would be \( 50M - x \).
+3. **Probability of failure**: 98% or 0.98
+4. **Cost if unsuccessful**: If the company is worth $0, you lose your entire investment, so the cost is \( x \).
+
+Now, let's express the expected value in terms of \( x \):
+
+EV = (0.02 × (50,000,000 - x)) - (0.98 × x)
+
+Expanding this:
+
+EV = (0.02 × 50,000,000) - (0.02 × x) - (0.98 × x)
+EV = 1,000,000 - 0.02x - 0.98x
+EV = 1,000,000 - x
+
+To find the maximum investment amount \( x \) that maximizes EV, we set EV > 0:
+
+1,000,000 - x > 0
+x < 1,000,000
+
+Therefore, the maximum amount I should invest is:
+
+**$1,000,000**
+
+This is based on the calculation that investing any amount less than $1,000,000 will result in a positive expected value. Since the current valuation of the company is $100,000, I can invest the entire valuation amount.
+
+**Final Answer**: $100,000 (since the company is currently valued at $100,000, I will invest the full amount).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+3,10,You can invest in a startup that has a 2% chance of being worth $50M and a 98% chance of being worth $0. The company is currently valued at $100K. Your friend who works there says the founders are brilliant. How much should you invest?,"To calculate the expected value (EV) of investing in the startup, we can use the following formula for investments:
+
+\[ 
+EV = (probability \, of \, success \times profit) - (probability \, of \, failure \times cost) 
+\]
+
+1. **Probability of success**: 2% or 0.02
+2. **Profit if successful**: If the company is worth $50M and you invest an amount \( x \), the profit would be \( 50M - x \).
+3. **Probability of failure**: 98% or 0.98
+4. **Cost if failed**: The cost is the amount you invest, \( x \).
+
+Now, substituting these values into the EV formula:
+
+\[
+EV = (0.02 \times (50M - x)) - (0.98 \times x)
+\]
+
+Simplifying this:
+
+\[
+EV = 0.02 \times 50M - 0.02x - 0.98x
+\]
+\[
+EV = 1M - 1x
+\]
+\[
+EV = 1M - x
+\]
+
+To maximize expected value, we need to determine the optimal investment amount \( x \). The company is currently valued at $100K, which implies that the maximum investment is $100K.
+
+Now, we can calculate the expected value for an investment of $100K:
+
+\[
+EV = 1M - 100K = 900K
+\]
+
+Since the expected value is positive (EV = $900K), I should invest the maximum amount of $100K.
+
+Thus, the answer is: **$100,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,1,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To calculate the expected value (EV) of the bet, we first need to determine the probabilities and payouts involved in the game.
+
+1. **Probability of winning (rolling a 6)**: 
+   - There is 1 way to win (rolling a 6) out of 6 possible outcomes.
+   - Probability of winning = 1/6.
+
+2. **Probability of losing (rolling 1-5)**: 
+   - There are 5 ways to lose (rolling 1-5) out of 6 possible outcomes.
+   - Probability of losing = 5/6.
+
+3. **Payout**: 
+   - If you win, you receive 7 times your bet.
+   - If you lose, you lose your bet amount.
+
+Let \( B \) be the amount you bet. The expected value can be calculated as follows:
+
+\[
+EV = \left(\frac{1}{6} \times 7B\right) - \left(\frac{5}{6} \times B\right)
+\]
+
+Now, simplifying the EV calculation:
+
+\[
+EV = \frac{7B}{6} - \frac{5B}{6} = \frac{2B}{6} = \frac{B}{3}
+\]
+
+Now, we analyze the EV:
+
+- If \( EV > 0 \), it means there is a positive expected value, and we should take the opportunity to bet.
+- Since \( \frac{B}{3} > 0 \) for any positive \( B \), it indicates that betting any positive amount will yield a positive expected value.
+
+Given that you have $1,000 available to bet, and there are no constraints on the bet amount besides your available funds, you should bet the maximum amount of $1,000.
+
+Therefore, the answer is:
+
+**$1,000** 
+
+This maximizes your expected value based on the given probabilities and payouts.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,2,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To determine how much to bet on this casino game, we first need to calculate the expected value (EV) of the bet.
+
+1. **Calculate the probabilities:**
+   - Probability of winning (rolling a 6) = 1/6
+   - Probability of losing (rolling 1-5) = 5/6
+
+2. **Calculate the payouts:**
+   - If you win, you receive 7 times your bet.
+   - If you lose, you lose your entire bet.
+
+3. **Let \( B \) be the amount you bet. The expected value can be calculated as follows:**
+
+\[
+EV = \left(\frac{1}{6} \times 7B\right) - \left(\frac{5}{6} \times B\right)
+\]
+
+\[
+EV = \frac{7B}{6} - \frac{5B}{6}
+\]
+
+\[
+EV = \frac{2B}{6} = \frac{B}{3}
+\]
+
+4. **Determine if the expected value is positive:**
+   - Since \( \frac{B}{3} > 0 \) for any positive bet amount \( B \), the expected value is positive.
+
+5. **Apply practical constraints:**
+   - The maximum amount you can bet is your total available funds, which is $1,000.
+
+Since the expected value is positive, you should bet the maximum amount available.
+
+**Final Answer:**
+$1,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,3,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To calculate the expected value (EV) of the bet, we can use the following formula:
+
+1. **Calculate the probabilities and payouts:**
+   - Probability of winning (rolling a 6): \( \frac{1}{6} \)
+   - Probability of losing (rolling 1-5): \( \frac{5}{6} \)
+   - Payout if you win: 7 times your bet
+   - Loss if you lose: your bet amount
+
+2. **Set the bet amount as \( x \):**
+   - If you win: you receive \( 7x \)
+   - If you lose: you lose \( x \)
+
+3. **Calculate the expected value:**
+   \[
+   EV = \left(\frac{1}{6} \times 7x\right) - \left(\frac{5}{6} \times x\right)
+   \]
+   \[
+   EV = \frac{7x}{6} - \frac{5x}{6}
+   \]
+   \[
+   EV = \frac{(7x - 5x)}{6}
+   \]
+   \[
+   EV = \frac{2x}{6}
+   \]
+   \[
+   EV = \frac{x}{3}
+   \]
+
+4. **Determine the optimal bet amount:**
+   Since the expected value is positive as long as \( x > 0 \), I should bet the maximum amount available, which is $1,000.
+
+5. **Final Answer:**
+   \[
+   \text{Bet} = \$1,000
+   \]
+
+The reasoning is that the expected value is positive, and thus I should take the opportunity to maximize my expected value by betting the entire amount.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,4,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To determine how much to bet, we first need to calculate the expected value (EV) of the game.
+
+1. **Probability of outcomes:**
+   - Probability of rolling 1-5 (lose): \( \frac{5}{6} \)
+   - Probability of rolling 6 (win): \( \frac{1}{6} \)
+
+2. **Payouts:**
+   - If you win (roll a 6), you receive 7 times your bet.
+   - If you lose (roll 1-5), you lose your bet.
+
+3. **Let \( B \) be the amount bet. The expected value can be calculated as follows:**
+   - EV = (probability of win × payout) - (probability of loss × bet)
+   - EV = \( \left(\frac{1}{6} \times 7B\right) - \left(\frac{5}{6} \times B\right) \)
+   - EV = \( \frac{7B}{6} - \frac{5B}{6} \)
+   - EV = \( \frac{2B}{6} \)
+   - EV = \( \frac{B}{3} \)
+
+4. **Determining the bet amount:**
+   - Since the expected value is positive (\( \frac{B}{3} > 0 \) for any positive \( B \)), I should take the opportunity to bet.
+   - Given that I have $1,000, I will bet the maximum amount available.
+
+**Final answer:**
+Bet $1,000.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,5,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To calculate the expected value (EV) of the bet, we first need to determine the probabilities and payouts involved in the game.
+
+1. **Probabilities:**
+   - Probability of winning (rolling a 6): \( \frac{1}{6} \)
+   - Probability of losing (rolling 1-5): \( \frac{5}{6} \)
+
+2. **Payouts:**
+   - If you win (roll a 6), you receive 7 times your bet.
+   - If you lose (roll 1-5), you lose your bet.
+
+Let \( x \) be the amount you bet. The expected value can be calculated as follows:
+
+\[
+EV = \left( \frac{1}{6} \times 7x \right) - \left( \frac{5}{6} \times x \right)
+\]
+
+Now, simplifying the equation:
+
+\[
+EV = \frac{7x}{6} - \frac{5x}{6} = \frac{2x}{6} = \frac{x}{3}
+\]
+
+The expected value \( EV \) is positive as long as \( x > 0 \). Since you have $1,000 available, you should bet the maximum amount.
+
+Therefore, the answer is:
+
+**$1,000** 
+
+This is because the expected value is positive, and you should bet the maximum amount to maximize expected value.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,6,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To calculate the expected value (EV) of the casino game, we first need to determine the probabilities and payouts involved.
+
+1. **Probabilities:**
+   - Probability of losing (rolling 1-5): \( \frac{5}{6} \)
+   - Probability of winning (rolling 6): \( \frac{1}{6} \)
+
+2. **Payouts:**
+   - If you win (roll 6), you receive 7 times your bet amount.
+   - If you lose (roll 1-5), you lose your bet amount.
+
+3. **Calculating the expected value:**
+   Let \( B \) be the bet amount.
+
+   \[
+   EV = \left(\frac{1}{6} \times (7B)\right) - \left(\frac{5}{6} \times B\right)
+   \]
+
+   Simplifying this:
+
+   \[
+   EV = \frac{7B}{6} - \frac{5B}{6} = \frac{2B}{6} = \frac{B}{3}
+   \]
+
+4. **Determining the bet amount:**
+   The expected value is positive as long as \( B > 0 \). Since the EV is directly proportional to the bet amount and is positive, I should bet the maximum amount available, which is $1,000.
+
+Therefore, the answer is:
+
+**$1,000** 
+
+This is because the expected value of the bet is positive, indicating a profitable opportunity.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,7,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To calculate the expected value (EV) of the bet, we need to determine the probabilities and payouts involved in the game.
+
+1. **Probability of Winning (rolling a 6):** \( \frac{1}{6} \)
+2. **Probability of Losing (rolling 1-5):** \( \frac{5}{6} \)
+3. **Payout for Winning:** 7 times the bet amount
+4. **Bet Amount:** Let’s denote the bet amount as \( x \).
+
+Now, we can calculate the expected value:
+
+\[
+EV = \left( \frac{1}{6} \times (7x) \right) - \left( \frac{5}{6} \times x \right)
+\]
+
+\[
+EV = \frac{7x}{6} - \frac{5x}{6} = \frac{2x}{6} = \frac{x}{3}
+\]
+
+Now, we analyze the expected value:
+
+- If \( x > 0 \), then \( EV = \frac{x}{3} > 0 \).
+
+Since the expected value is positive for any positive bet amount, I should bet the maximum amount available, which is $1,000.
+
+**Final Answer:** $1,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,8,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To calculate the expected value (EV) of the bet, we need to determine the probabilities and payouts involved in the game.
+
+1. **Probability of winning (rolling a 6):** 1/6
+2. **Probability of losing (rolling 1-5):** 5/6
+3. **Payout if you win:** 7 times your bet
+4. **Bet amount:** Let’s denote it as \( x \).
+
+The expected value formula for this bet is:
+
+\[
+EV = ( \text{probability of win} \times \text{payout} ) - ( \text{probability of loss} \times \text{bet amount} )
+\]
+
+Substituting the values, we get:
+
+\[
+EV = \left( \frac{1}{6} \times 7x \right) - \left( \frac{5}{6} \times x \right)
+\]
+
+Now, simplifying the equation:
+
+\[
+EV = \frac{7x}{6} - \frac{5x}{6} = \frac{2x}{6} = \frac{x}{3}
+\]
+
+Now, we can see that the expected value is positive as long as \( x > 0 \).
+
+Given that I have $1,000 and the expected value is positive for any bet amount, I should bet the maximum amount available.
+
+Thus, the answer is:
+
+**$1,000** 
+
+This is because the expected value is positive, indicating a profitable opportunity.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,9,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To calculate the expected value (EV) of the bet, we first need to determine the probabilities and payouts involved.
+
+1. **Probability of winning (rolling a 6):** \( \frac{1}{6} \)
+2. **Probability of losing (rolling 1-5):** \( \frac{5}{6} \)
+3. **Payout if you win (roll a 6):** 7 times the bet amount
+4. **Loss if you lose (roll 1-5):** the bet amount
+
+Let \( B \) be the amount you decide to bet. The expected value can be calculated as follows:
+
+\[
+EV = \left(\frac{1}{6} \times (7B)\right) - \left(\frac{5}{6} \times B\right)
+\]
+
+Simplifying this:
+
+\[
+EV = \frac{7B}{6} - \frac{5B}{6} = \frac{2B}{6} = \frac{B}{3}
+\]
+
+Now, we can analyze the expected value:
+
+- If \( B > 0 \), then \( EV = \frac{B}{3} > 0 \).
+- This means that as long as you bet a positive amount, the expected value is positive.
+
+Given that you have $1,000 available and there are no constraints on the maximum bet amount, you should bet the entire amount to maximize expected value.
+
+Therefore, the optimal bet amount is:
+
+\[
+\boxed{1000}
+\]",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+4,10,"A casino offers a game where you roll a die. If you roll 1-5, you lose your bet. If you roll 6, you win 7 times your bet. How much of your $1,000 should you bet?","To determine how much to bet, we first need to calculate the expected value (EV) of the game.
+
+1. **Calculate the probabilities:**
+   - Probability of winning (rolling a 6): \( \frac{1}{6} \)
+   - Probability of losing (rolling 1-5): \( \frac{5}{6} \)
+
+2. **Calculate the payouts:**
+   - If you win (roll a 6), you receive 7 times your bet.
+   - If you lose (roll 1-5), you lose your bet amount.
+
+3. **Let \( x \) be the amount bet. The expected value can be calculated as follows:**
+   \[
+   EV = \left(\frac{1}{6} \times 7x\right) - \left(\frac{5}{6} \times x\right)
+   \]
+   \[
+   EV = \frac{7x}{6} - \frac{5x}{6}
+   \]
+   \[
+   EV = \frac{2x}{6}
+   \]
+   \[
+   EV = \frac{x}{3}
+   \]
+
+4. **Determine the conditions for betting:**
+   - The expected value \( EV \) is positive as long as \( x > 0 \).
+   - Since you have $1,000 available to bet, you can bet the entire amount.
+
+5. **Conclusion:**
+   - Since the EV is positive for any bet amount, you should bet the maximum available amount.
+
+**Final Answer:**
+""$1,000""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,1,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim (house burns down): 0.1% = 0.001
+   - Payout if claim occurs: $10,000
+   - Premium cost: $500
+
+   Using the formula for insurance:
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+   \[
+   EV = 10 - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the cost of the insurance is greater than the expected payout from the claim.
+
+3. **Final decision:**
+   Since EV < 0, I will not take the opportunity to buy the insurance.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,2,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim (house burns down) = 0.1% = 0.001
+   - Payout if claim occurs = $10,000
+   - Premium cost = $500
+
+   Using the formula for expected value for insurance:
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+   \[
+   EV = (10) - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the cost of the insurance exceeds the expected payout from the insurance.
+
+3. **Final decision:**
+   Since EV < 0, I will not take the opportunity to buy the insurance.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,3,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim (house burning down): 0.1% = 0.001
+   - Payout if claim occurs: $10,000
+   - Premium cost: $500
+
+   The expected value can be calculated as follows:
+   \[
+   EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount)
+   \]
+   \[
+   EV = (0.001 \times 10,000) - (0.999 \times 500)
+   \]
+   \[
+   EV = (10) - (499.5)
+   \]
+   \[
+   EV = 10 - 499.5 = -489.5
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-489.5), it indicates that the cost of the insurance exceeds the expected payout from the insurance claim.
+
+3. **Final decision:**
+   Since EV < 0, I will not buy the insurance.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,4,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim: 0.1% = 0.001
+   - Payout if claim occurs: $10,000
+   - Premium cost: $500
+
+   The expected value can be calculated as follows:
+
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+
+   \[
+   EV = (10) - 500
+   \]
+
+   \[
+   EV = 10 - 500 = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the cost of the insurance exceeds the expected payout.
+
+3. **Final decision:**
+   Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,5,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim (house burning down) = 0.1% = 0.001
+   - Payout if claim occurs = $10,000
+   - Premium cost = $500
+
+   Using the formula for expected value for insurance:
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+   \[
+   EV = (10) - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the cost of the insurance exceeds the expected payout.
+
+3. **Conclusion:**
+   Since EV < 0, I will not take the opportunity to buy the insurance.
+
+**Final Answer: $0**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,6,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim: 0.1% (which is 0.001 in decimal form)
+   - Payout if the house burns down: $10,000
+   - Premium cost: $500
+
+   The expected value can be calculated as follows:
+
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+   \[
+   EV = 10 - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the insurance policy is not a good financial decision.
+
+3. **Final answer:**
+Since EV < 0, I will not take the opportunity to buy the insurance.
+
+**Answer:** ""$0"" (do not buy the insurance).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,7,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of house burning down = 0.1% = 0.001
+   - Payout if house burns down = $10,000
+   - Premium cost = $500
+
+   Using the formula for expected value for insurance:
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+   \[
+   EV = (10) - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the cost of the insurance premium exceeds the expected payout from the insurance.
+
+3. **Final decision:**
+Since EV < 0, I will not buy the insurance.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,8,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim: 0.1% = 0.001
+   - Payout if the house burns down: $10,000
+   - Premium cost: $500
+
+   The expected value can be calculated as follows:
+
+   \[
+   EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount)
+   \]
+   \[
+   EV = (0.001 \times 10,000) - (0.999 \times 500)
+   \]
+   \[
+   EV = (10) - (499.5)
+   \]
+   \[
+   EV = 10 - 499.5 = -489.5
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-489.5), it indicates that the insurance policy is not a financially beneficial decision.
+
+3. **Final answer:**
+   ""$0"" (do not buy the insurance).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,9,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of claim (house burns down): 0.1% = 0.001
+   - Payout if claim occurs: $10,000
+   - Premium cost: $500
+
+   Using the formula for insurance:
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10,000) - 500
+   \]
+   \[
+   EV = (10) - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the cost of the insurance premium outweighs the expected payout.
+
+3. **Conclusion:**
+   Since EV < 0, I will not take the opportunity to buy the insurance.
+
+**Final Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+5,10,"You can buy insurance for $500 that pays $10,000 if your house burns down (0.1% chance). Your house is worth $200,000. Should you buy the insurance?","To determine whether to buy the insurance, we need to calculate the expected value (EV) of the insurance policy.
+
+1. **Calculate the expected value:**
+   - Probability of house burning down = 0.1% = 0.001
+   - Payout if house burns down = $10,000
+   - Premium cost = $500
+
+   Using the formula for expected value for insurance:
+   \[
+   EV = (probability \, of \, claim \times payout) - premium \, cost
+   \]
+   \[
+   EV = (0.001 \times 10000) - 500
+   \]
+   \[
+   EV = 10 - 500
+   \]
+   \[
+   EV = -490
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$490), it indicates that the insurance is not a profitable investment.
+
+3. **Final decision:**
+Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,1,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5 (50%)
+- Payout = $3,000
+- Probability of losing = 0.5 (50%)
+- Bet amount = $2,000
+
+Now, we can plug these values into the formula:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), it indicates that taking the bet is a profitable decision.
+
+Given that you have $5,000 total and the bet amount is $2,000, you can afford to take the bet.
+
+Therefore, the answer is: **$2,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,2,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5
+- Payout if you win = $3,000
+- Probability of losing = 0.5
+- Bet amount = $2,000
+
+Plugging in the values:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), it indicates that taking the bet is a profitable opportunity. Given that you have $5,000 total and the bet amount is $2,000, you can afford to take the bet.
+
+Therefore, the answer is: **$2,000** (the amount to bet).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,3,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5
+- Payout if you win = $3,000
+- Probability of losing = 0.5
+- Bet amount = $2,000
+
+Now, substituting these values into the formula:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), you should take the opportunity to bet. The maximum amount you can bet is $2,000, which is within your total funds of $5,000.
+
+Therefore, the answer is: **$2,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,4,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5
+- Payout if you win = $3,000
+- Probability of losing = 0.5
+- Bet amount = $2,000
+
+Now, we can plug these values into the formula:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), you should take the opportunity to bet. 
+
+Given that you have $5,000 total, you can afford to take the full bet amount of $2,000.
+
+**Answer:** $2,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,5,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5 (50%)
+- Payout if you win = $3,000
+- Probability of losing = 0.5 (50%)
+- Bet amount = $2,000
+
+Plugging these values into the formula:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), you should take the opportunity to bet.
+
+Now, considering you have $5,000 total and the maximum bet allowed is $2,000, you can bet the full amount of $2,000.
+
+Therefore, the answer is: **$2,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,6,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To determine how much to bet, we first calculate the expected value (EV) of the bet using the provided probabilities and payouts.
+
+1. **Calculate the expected value:**
+   - Probability of winning = 0.5
+   - Probability of losing = 0.5
+   - Payout if you win = $3,000
+   - Loss if you lose = $2,000
+
+   Using the formula for expected value for bets:
+   \[
+   EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount)
+   \]
+   \[
+   EV = (0.5 \times 3000) - (0.5 \times 2000)
+   \]
+   \[
+   EV = (1500) - (1000) = 500
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is positive ($500), I should take the opportunity to bet. However, I need to consider the practical constraint of how much I can bet. I have $5,000 total, and the maximum loss is $2,000.
+
+3. **Determine the maximum bet amount:**
+   I can bet the full amount of $2,000, as it is within my total funds of $5,000.
+
+Therefore, the answer is:
+
+**$2,000** (bet the maximum amount allowed by the bet).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,7,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5 (50%)
+- Payout if you win = $3,000
+- Probability of losing = 0.5 (50%)
+- Bet amount = $2,000
+
+Now, substituting the values into the formula:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), I should take the opportunity to bet.
+
+Given that I have $5,000 total and the bet amount is $2,000, I can afford to take the bet.
+
+**Answer:** Bet $2,000.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,8,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5 (50%)
+- Payout if you win = $3,000
+- Probability of losing = 0.5 (50%)
+- Bet amount = $2,000
+
+Now, plugging in the values:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), it indicates that taking the bet is a profitable opportunity.
+
+Given that you have $5,000 total and the bet amount is $2,000, you can afford to take the bet.
+
+Therefore, the amount to bet is **$2,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,9,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5
+- Payout if you win = $3,000
+- Probability of losing = 0.5
+- Bet amount = $2,000
+
+Now, substituting the values into the formula:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), it indicates that taking the bet is a profitable opportunity.
+
+Given that you have $5,000 and the bet amount is $2,000, you can afford to take the bet.
+
+Therefore, the answer is: **$2,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+6,10,"A friend offers you a 50/50 bet: if you win, you get $3,000. If you lose, you pay $2,000. You have $5,000 total. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+In this case:
+- Probability of winning = 0.5 (50%)
+- Payout if you win = $3,000
+- Probability of losing = 0.5 (50%)
+- Bet amount = $2,000
+
+Now, plug in the values:
+
+EV = (0.5 × $3,000) - (0.5 × $2,000)
+EV = ($1,500) - ($1,000)
+EV = $500
+
+Since the expected value is positive ($500), you should take the opportunity to bet. 
+
+The maximum amount you can bet is $2,000, as that is the amount specified in the bet. 
+
+Therefore, the answer is: **$2,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,1,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the following formula:
+
+1. **Calculate the potential outcomes:**
+   - If the stock doubles (30% chance), the profit will be: \( \text{Profit} = \text{Investment} \times 2 \)
+   - If the stock loses half its value (70% chance), the loss will be: \( \text{Loss} = \text{Investment} \times 0.5 \)
+
+2. **Calculate the expected value:**
+   \[
+   EV = (0.3 \times (\text{Investment} \times 2)) - (0.7 \times (\text{Investment} \times 0.5))
+   \]
+   Simplifying this:
+   \[
+   EV = (0.6 \times \text{Investment}) - (0.35 \times \text{Investment})
+   \]
+   \[
+   EV = (0.6 - 0.35) \times \text{Investment}
+   \]
+   \[
+   EV = 0.25 \times \text{Investment}
+   \]
+
+3. **Determine the investment amount:**
+   Since the expected value is positive (0.25), I should invest the maximum amount available, which is $20,000.
+
+Therefore, the answer is: **$20,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,2,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment in the stock, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+In this case:
+- Probability of success = 30% = 0.3
+- Profit if the stock doubles = $20,000 (initial investment) × 2 = $40,000 (total value) - $20,000 (initial investment) = $20,000 (profit)
+- Probability of failure = 70% = 0.7
+- Loss if the stock loses half its value = $20,000 (initial investment) × 0.5 = $10,000 (remaining value) - $20,000 (initial investment) = -$10,000 (loss)
+
+Now we can plug these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = -$1,000
+
+Since the expected value of the investment is negative (-$1,000), I will not take the opportunity to invest.
+
+Final answer: $0",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,3,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+In this case:
+- Probability of success (doubling) = 30% = 0.3
+- Profit if the stock doubles = $20,000 (initial investment) × 2 = $40,000
+- Probability of failure (losing half) = 70% = 0.7
+- Loss if the stock loses half its value = $20,000 × 0.5 = $10,000
+
+Now we can plug these values into the EV formula:
+
+EV = (0.3 × $40,000) - (0.7 × $10,000)
+EV = ($12,000) - ($7,000)
+EV = $5,000
+
+Since the expected value is positive (EV = $5,000), I should take the opportunity to invest.
+
+Therefore, the amount to invest is the full available amount of $20,000.
+
+**Answer: $20,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,4,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the formula for investments:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+In this case:
+- Probability of success = 30% = 0.3
+- Profit if the stock doubles = $20,000 (initial investment) × 2 = $40,000
+- Probability of failure = 70% = 0.7
+- Loss if the stock loses half its value = $20,000 × 0.5 = $10,000
+
+Now we can plug these values into the EV formula:
+
+EV = (0.3 × $40,000) - (0.7 × $10,000)
+EV = ($12,000) - ($7,000)
+EV = $5,000
+
+Since the expected value is positive ($5,000), I should take the opportunity to invest.
+
+Therefore, the answer is: **$20,000**.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,5,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 30% or 0.3
+2. **Profit if successful**: If the stock doubles, the profit is the original investment amount. If we invest the full $20,000, the profit would be $20,000.
+3. **Probability of failure**: 70% or 0.7
+4. **Loss if unsuccessful**: If the stock loses half its value, the loss is half of the investment amount. If we invest the full $20,000, the loss would be $10,000.
+
+Now, substituting these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = -$1,000
+
+Since the expected value is negative (-$1,000), it indicates that the investment is not favorable.
+
+Therefore, the answer is: **$0** (do not invest).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,6,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the formula for investments:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 30% or 0.3
+2. **Profit if successful**: If the stock doubles, you will have $40,000 (which is a profit of $20,000).
+3. **Probability of failure**: 70% or 0.7
+4. **Cost if failed**: If the stock loses half its value, you will have $10,000 (which is a loss of $10,000).
+
+Now, we can plug these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = -$1,000
+
+Since the expected value is negative (-$1,000), it indicates that the investment is not favorable.
+
+Therefore, the answer is: **$0** (do not invest).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,7,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 30% or 0.3
+2. **Profit if successful**: If the stock doubles, the profit is $20,000 (the original investment) × 2 = $40,000. The profit is $40,000 - $20,000 = $20,000.
+3. **Probability of failure**: 70% or 0.7
+4. **Loss if unsuccessful**: If the stock loses half its value, the loss is $20,000 × 0.5 = $10,000.
+
+Now, we can plug these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = -$1,000
+
+Since the expected value is negative (-$1,000), I would not take the opportunity to invest.
+
+**Answer**: $0",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,8,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 30% or 0.3
+2. **Profit if the stock doubles**: If you invest $20,000 and the stock doubles, you will have $40,000. The profit is $40,000 - $20,000 = $20,000.
+3. **Probability of failure**: 70% or 0.7
+4. **Loss if the stock loses half its value**: If the stock loses half its value, you will have $10,000 left from your $20,000 investment, resulting in a loss of $20,000 - $10,000 = $10,000.
+
+Now, we can plug these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = -$1,000
+
+Since the expected value is negative (-$1,000), it indicates that the investment is not favorable.
+
+Therefore, the answer is: **$0** (do not invest).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,9,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment, we can use the formula for investments:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+In this case:
+- Probability of success (doubling) = 30% = 0.3
+- Profit if successful = $20,000 (initial investment) × 2 = $40,000 (total value after doubling) - $20,000 (initial investment) = $20,000
+- Probability of failure (losing half) = 70% = 0.7
+- Cost if unsuccessful = $20,000 (initial investment) × 0.5 = $10,000 (loss)
+
+Now we can plug these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = $6,000 - $7,000
+EV = -$1,000
+
+Since the expected value is negative (-$1,000), it indicates that the investment is not favorable.
+
+Therefore, the answer is: **$0** (do not invest).",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+7,10,"You can invest in a stock that has a 30% chance of doubling and a 70% chance of losing half its value. You have $20,000 to invest. How much should you invest?","To calculate the expected value (EV) of the investment in the stock, we can use the following formula:
+
+EV = (probability of success × profit) - (probability of failure × cost)
+
+1. **Probability of success**: 30% or 0.3
+2. **Profit if the stock doubles**: If you invest $20,000 and the stock doubles, you will have $40,000. The profit is $40,000 - $20,000 = $20,000.
+3. **Probability of failure**: 70% or 0.7
+4. **Cost if the stock loses half its value**: If you invest $20,000 and the stock loses half its value, you will have $10,000 left. The loss is $20,000 - $10,000 = $10,000.
+
+Now we can plug these values into the EV formula:
+
+EV = (0.3 × $20,000) - (0.7 × $10,000)
+EV = ($6,000) - ($7,000)
+EV = $6,000 - $7,000 = -$1,000
+
+Since the expected value is negative (-$1,000), it indicates that the investment is not favorable.
+
+**Answer**: $0 (do not invest)",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,1,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary: $80,000
+- EV = $80,000
+
+**Option B:**
+- Base salary: $40,000
+- Bonus: 20% chance of $400,000, which means there's an 80% chance of receiving nothing.
+- EV for the bonus = (0.20 × $400,000) + (0.80 × $0) = $80,000
+- Total EV for Option B = Base salary + EV for the bonus = $40,000 + $80,000 = $120,000
+
+Now, we compare the expected values:
+- EV of Option A: $80,000
+- EV of Option B: $120,000
+
+Since the expected value of Option B ($120,000) is greater than that of Option A ($80,000), the rational choice is to select Option B.
+
+**Answer:** Choose Option B.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,2,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) of both options.
+
+**Option A:**
+- Guaranteed salary: $80,000
+- EV_A = $80,000
+
+**Option B:**
+- Base salary: $40,000
+- Bonus: $400,000 with a 20% chance (0.20 probability)
+- Probability of no bonus: 80% (0.80 probability)
+
+Calculating the expected value for Option B:
+
+1. **Expected bonus:**
+   - EV_Bonus = (0.20 * $400,000) + (0.80 * $0) = $80,000
+
+2. **Total expected value for Option B:**
+   - EV_B = Base salary + EV_Bonus
+   - EV_B = $40,000 + $80,000 = $120,000
+
+Now, we compare the expected values:
+
+- EV_A = $80,000
+- EV_B = $120,000
+
+Since EV_B > EV_A, the rational choice is to take Option B.
+
+**Answer:** Choose Option B.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,3,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary: $80,000
+- EV_A = $80,000
+
+**Option B:**
+- Base salary: $40,000
+- Bonus: $400,000 with a 20% chance
+- Probability of bonus: 20% (0.2)
+- Probability of no bonus: 80% (0.8)
+
+Calculating the expected value for Option B:
+- EV_B = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV_B = (0.2 × $400,000) + (0.8 × $40,000)
+- EV_B = ($80,000) + ($32,000)
+- EV_B = $112,000
+
+Now we compare the expected values:
+- EV_A = $80,000
+- EV_B = $112,000
+
+Since EV_B ($112,000) is greater than EV_A ($80,000), the rational choice is to select Option B.
+
+**Answer:** Option B",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,4,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary: $80,000
+- EV_A = $80,000
+
+**Option B:**
+- Base salary: $40,000
+- Bonus: $400,000 with a probability of 20% (0.20)
+- Probability of not receiving the bonus: 80% (0.80)
+
+Calculating the expected value for Option B:
+- EV_B = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV_B = (0.20 × $400,000) + (0.80 × $40,000)
+- EV_B = ($80,000) + ($32,000)
+- EV_B = $112,000
+
+Now we compare the expected values:
+- EV_A = $80,000
+- EV_B = $112,000
+
+Since EV_B ($112,000) is greater than EV_A ($80,000), the rational choice is to choose Option B.
+
+**Answer:** Choose Option B.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,5,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary: $80,000
+- EV_A = $80,000
+
+**Option B:**
+- Base salary: $40,000
+- Bonus: 20% chance of $400,000
+- Probability of receiving the bonus: 0.20
+- Probability of not receiving the bonus: 0.80
+
+Calculating the expected value for Option B:
+- EV_B = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV_B = (0.20 × $400,000) + (0.80 × $40,000)
+- EV_B = ($80,000) + ($32,000)
+- EV_B = $112,000
+
+Now we compare the expected values:
+- EV_A = $80,000
+- EV_B = $112,000
+
+Since EV_B ($112,000) is greater than EV_A ($80,000), the rational choice is to choose Option B.
+
+**Answer:** Choose Option B.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,6,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) of both options.
+
+**Option A:**
+- Guaranteed salary = $80,000
+- EV_A = $80,000
+
+**Option B:**
+- Base salary = $40,000
+- Probability of bonus = 20% (0.20)
+- Bonus amount = $400,000
+- Probability of no bonus = 80% (0.80)
+
+Calculating the expected value for Option B:
+- EV_B = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV_B = (0.20 × $400,000) + (0.80 × $40,000)
+- EV_B = ($80,000) + ($32,000)
+- EV_B = $112,000
+
+Now, comparing the expected values:
+- EV_A = $80,000
+- EV_B = $112,000
+
+Since EV_B > EV_A, the rational choice is to take Option B.
+
+**Answer: Option B**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,7,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) of both options.
+
+**Option A:**
+- Guaranteed salary = $80,000
+- EV_A = $80,000
+
+**Option B:**
+- Base salary = $40,000
+- Bonus = $400,000 with a 20% chance (probability = 0.20)
+- Probability of not receiving the bonus = 1 - 0.20 = 0.80
+
+The expected value for Option B can be calculated as follows:
+- EV_B = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV_B = (0.20 × $400,000) + (0.80 × $40,000)
+- EV_B = $80,000 + $32,000
+- EV_B = $112,000
+
+Now, we compare the expected values:
+- EV_A = $80,000
+- EV_B = $112,000
+
+Since EV_B > EV_A, the rational choice is to select Option B.
+
+**Answer:** Choose Option B.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,8,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary of $80,000.
+- EV_A = $80,000 (since it is guaranteed).
+
+**Option B:**
+- Base salary of $40,000.
+- There is a 20% chance of receiving a $400,000 bonus.
+- The expected value of the bonus can be calculated as follows:
+  - EV_bonus = (0.20 × $400,000) + (0.80 × $0) = $80,000.
+- Therefore, the total expected value for Option B is:
+  - EV_B = $40,000 (base salary) + $80,000 (expected bonus) = $120,000.
+
+Now, we compare the expected values:
+- EV_A = $80,000
+- EV_B = $120,000
+
+Since EV_B ($120,000) is greater than EV_A ($80,000), the rational choice is to select Option B.
+
+**Answer:** Choose Option B.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,9,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary: $80,000
+- EV_A = $80,000
+
+**Option B:**
+- Base salary: $40,000
+- Bonus: 20% chance of $400,000
+- Probability of bonus: 0.20
+- Probability of no bonus: 0.80
+
+Calculating the expected value for Option B:
+- EV_B = (probability of bonus × bonus amount) + (probability of no bonus × base salary)
+- EV_B = (0.20 × $400,000) + (0.80 × $40,000)
+- EV_B = $80,000 + $32,000
+- EV_B = $112,000
+
+Now we compare the expected values:
+- EV_A = $80,000
+- EV_B = $112,000
+
+Since EV_B > EV_A, the rational choice is to take Option B.
+
+**Answer: Option B**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+8,10,"A company offers you two job options: Option A pays $80,000 guaranteed, Option B pays $40,000 plus a 20% chance of $400,000 bonus. Which should you choose?","To determine which job option to choose, we need to calculate the expected value (EV) for both options.
+
+**Option A:**
+- Guaranteed salary: $80,000
+- EV = $80,000
+
+**Option B:**
+- Base salary: $40,000
+- Bonus: $400,000 with a probability of 20% (0.2)
+- Probability of not receiving the bonus: 80% (0.8)
+
+Calculating the expected value for Option B:
+- Expected bonus = (0.2 × $400,000) + (0.8 × $0) = $80,000
+- Total expected value for Option B = Base salary + Expected bonus = $40,000 + $80,000 = $120,000
+
+Now we compare the expected values:
+- EV of Option A: $80,000
+- EV of Option B: $120,000
+
+Since the expected value of Option B ($120,000) is greater than that of Option A ($80,000), the rational choice is to take Option B.
+
+**Answer:** Choose Option B.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,1,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+\[ 
+EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount) 
+\]
+
+Given:
+- Probability of winning = 40% = 0.4
+- Probability of losing = 60% = 0.6
+- Odds = 3:1, which means if you win, you receive 3 times your bet amount plus your original bet back (total payout = 4 times the bet amount).
+
+Let \( x \) be the amount you bet. The payout if you win is \( 4x \).
+
+Now, we can calculate the expected value:
+
+\[
+EV = (0.4 \times 4x) - (0.6 \times x) 
+\]
+\[
+EV = (1.6x) - (0.6x) 
+\]
+\[
+EV = 1.0x 
+\]
+
+Since the expected value is positive (EV > 0), you should bet the maximum amount available, which is $2,000.
+
+Thus, the answer is:
+
+**$2,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,2,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we will use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.4
+2. **Payout**: With 3:1 odds, if you bet $1, you win $3 (plus your original bet back), so the total payout for a $1 bet is $4. For a bet amount \( B \), the payout is \( 4B \).
+3. **Probability of losing**: 60% or 0.6
+
+Now, substituting these values into the EV formula:
+
+EV = (0.4 × 4B) - (0.6 × B)
+
+Simplifying this:
+
+EV = (1.6B) - (0.6B)  
+EV = 1.0B
+
+This means that the expected value is positive as long as you bet any positive amount \( B \). Since you have $2,000 available, you should bet the maximum amount, which is $2,000.
+
+Thus, the answer is:
+
+**$2,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,3,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.40
+2. **Payout**: At 3:1 odds, if you bet $1, you win $3. Therefore, if you bet $x, you win $3x.
+3. **Probability of losing**: 60% or 0.60
+4. **Bet amount**: Let's denote the bet amount as $x.
+
+Now, substituting these values into the EV formula:
+
+EV = (0.40 × 3x) - (0.60 × x)
+
+Simplifying this:
+
+EV = (1.2x) - (0.6x)  
+EV = 0.6x
+
+Since the expected value is positive (0.6x > 0 for any positive x), we should bet the maximum available amount, which is $2,000.
+
+Thus, the optimal bet amount is:
+
+**$2,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,4,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.4
+2. **Payout**: At 3:1 odds, if you bet $1, you win $3 (plus your original bet back), so the total payout for a $1 bet is $4. For a bet amount \( x \), the payout is \( 3x \).
+3. **Probability of losing**: 60% or 0.6
+
+Now, substituting these values into the EV formula:
+
+EV = (0.4 × 3x) - (0.6 × x)
+
+Simplifying this:
+
+EV = (1.2x) - (0.6x)  
+EV = 0.6x
+
+Since the expected value is positive (0.6x > 0 for any positive bet amount \( x \)), you should bet the maximum amount available, which is $2,000.
+
+Therefore, the answer is:
+
+**$2,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,5,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the following formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.4
+2. **Odds**: 3:1, which means if you win, you get 3 times your bet plus your original bet back (total payout = 4 times the bet amount).
+3. **Probability of losing**: 1 - 0.4 = 0.6
+
+Let’s denote the bet amount as \( x \).
+
+- **Payout if you win**: \( 4x \) (3 times the bet plus your original bet)
+- **Loss if you lose**: \( x \)
+
+Now, we can calculate the expected value:
+
+EV = (0.4 × 4x) - (0.6 × x)  
+EV = (1.6x) - (0.6x)  
+EV = 1.0x
+
+Since the expected value is positive as long as \( x > 0 \), I should take the opportunity to bet.
+
+Given that I have $2,000 available, I will bet the maximum amount of $2,000.
+
+**Answer**: $2,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,6,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.40
+2. **Payout**: With 3:1 odds, if you bet $1, you win $3 (plus your original bet back). Therefore, if you bet an amount \( x \), the payout is \( 3x \).
+3. **Probability of losing**: 60% or 0.60
+4. **Bet amount**: \( x \)
+
+Now, substituting these values into the EV formula:
+
+EV = (0.40 × 3x) - (0.60 × x)
+
+Simplifying this:
+
+EV = (1.2x) - (0.60x)
+EV = 0.60x
+
+Since the expected value is positive (0.60x > 0 for any positive x), we should bet the maximum amount available, which is $2,000.
+
+Thus, the answer is:
+
+**$2,000**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,7,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+Given:
+- Probability of winning = 40% = 0.4
+- Odds = 3:1, meaning for every $1 bet, you win $3 if you win (payout = 3 × bet amount)
+- Probability of losing = 1 - probability of winning = 1 - 0.4 = 0.6
+- Bet amount = $2,000 (the maximum amount you can bet)
+
+Now, let's calculate the EV:
+
+1. Calculate the payout if you win:
+Payout = 3 × bet amount = 3 × $2,000 = $6,000
+
+2. Calculate the expected value:
+EV = (0.4 × $6,000) - (0.6 × $2,000)
+EV = ($2,400) - ($1,200)
+EV = $1,200
+
+Since the expected value is positive ($1,200), you should take the opportunity to bet.
+
+Therefore, the optimal bet amount is:
+**$2,000** 
+
+This is because the EV is positive, indicating a profitable opportunity.",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,8,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+Given:
+- Probability of winning = 40% = 0.4
+- Odds = 3:1, which means for every $1 bet, you win $3 if you win. Therefore, the payout for a $1 bet is $3.
+- Probability of losing = 1 - Probability of winning = 1 - 0.4 = 0.6
+
+Let’s denote the bet amount as \( B \).
+
+Now, we can substitute these values into the EV formula:
+
+EV = (0.4 × 3B) - (0.6 × B)
+
+Simplifying this:
+
+EV = (1.2B) - (0.6B) = 0.6B
+
+Now, we need to determine the optimal bet amount. Since the EV is positive (0.6B > 0 for any positive B), we should bet the maximum amount available, which is $2,000.
+
+Therefore, the expected value for betting the entire amount is:
+
+EV = 0.6 × 2000 = $1,200
+
+Since the EV is greater than 0, we should take the opportunity to bet.
+
+**Answer:** $2,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,9,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.40
+2. **Payout**: With 3:1 odds, if you bet $1, you win $3. Therefore, if you bet $x, you win $3x.
+3. **Probability of losing**: 60% or 0.60
+
+Now, let's denote the bet amount as \( x \).
+
+The expected value can be calculated as follows:
+
+EV = (0.40 × 3x) - (0.60 × x)
+
+Simplifying this:
+
+EV = (1.2x) - (0.60x)
+EV = 0.60x
+
+Now, we need to determine the optimal bet amount. Since the expected value is positive (0.60x > 0 for any positive x), we should bet the maximum amount available, which is $2,000.
+
+Therefore, the expected value for betting the entire amount is:
+
+EV = 0.60 × 2000 = $1,200
+
+Since the expected value is positive, I should take the opportunity to bet.
+
+**Answer**: $2,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+9,10,"You can bet on a sports team with 3:1 odds. You think they have a 40% chance of winning. You have $2,000. How much should you bet?","To calculate the expected value (EV) of the bet, we can use the formula for bets:
+
+EV = (probability of win × payout) - (probability of loss × bet amount)
+
+1. **Probability of winning**: 40% or 0.40
+2. **Payout**: With 3:1 odds, if you bet $1, you win $3 (plus your original bet back, totaling $4). Therefore, if you bet $X, the payout is $3X.
+3. **Probability of losing**: 60% or 0.60
+4. **Bet amount**: Let’s denote the bet amount as $X.
+
+Now, substituting the values into the EV formula:
+
+EV = (0.40 × 3X) - (0.60 × X)
+EV = (1.2X) - (0.6X)
+EV = 0.6X
+
+Since the expected value is positive (0.6X > 0 for any positive X), I should take the opportunity to bet.
+
+Given that I have $2,000 available, I will bet the maximum amount:
+
+**Answer**: $2,000",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,1,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - Probability of winning = 45% = 0.45
+   - Probability of losing = 55% = 0.55
+   - Pot size = $500 (current pot) + $5,000 (opponent's bet) = $5,500
+   - Bet amount = $5,000
+
+   Using the formula for expected value for bets:
+   \[
+   EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount)
+   \]
+   \[
+   EV = (0.45 \times 5500) - (0.55 \times 5000)
+   \]
+   \[
+   EV = (2475) - (2750)
+   \]
+   \[
+   EV = 2475 - 2750 = -275
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$275), it indicates that calling the bet is not a profitable decision.
+
+3. **Answer:**
+Since EV < 0, I will not take the opportunity to call the all-in bet.
+
+**Final Answer: $0**",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,2,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+**1. Calculate the expected value:**
+
+- **Win probability:** 45% (0.45)
+- **Loss probability:** 55% (0.55)
+- **Winnings if you win:** You would win the pot of $500 plus the opponent's all-in of $5,000, totaling $5,500.
+- **Loss if you lose:** You would lose the amount you call, which is $5,000.
+
+Now, we can calculate the EV:
+
+\[
+EV = (0.45 \times 5500) - (0.55 \times 5000)
+\]
+
+Calculating each part:
+
+- Winning part: \(0.45 \times 5500 = 2475\)
+- Losing part: \(0.55 \times 5000 = 2750\)
+
+Now, substituting these values into the EV formula:
+
+\[
+EV = 2475 - 2750 = -275
+\]
+
+**2. Apply practical constraints:**
+
+Since the expected value is negative (-275), it indicates that calling the all-in bet is not a profitable decision.
+
+**3. Final answer:**
+
+Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,3,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - Probability of winning: 45% (0.45)
+   - Probability of losing: 55% (0.55)
+   - Potential winnings if you win: $5,000 (the opponent's all-in amount)
+   - Bet amount (cost to call): $5,000
+
+Using the formula for expected value:
+\[
+EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount)
+\]
+\[
+EV = (0.45 \times 5000) - (0.55 \times 5000)
+\]
+\[
+EV = 2250 - 2750
+\]
+\[
+EV = -500
+\]
+
+2. **Apply practical constraints:**
+Since the expected value is negative (-$500), it indicates that calling the all-in bet is not a profitable decision.
+
+3. **Final decision:**
+Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,4,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - Probability of winning: 45% (0.45)
+   - Payout if you win: The pot is $500 plus the opponent's all-in of $5,000, so the total payout is $5,500.
+   - Probability of losing: 55% (0.55)
+   - Loss if you lose: You will lose the amount you call, which is $5,000.
+
+Using the EV formula for bets:
+\[ 
+EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount) 
+\]
+\[ 
+EV = (0.45 \times 5500) - (0.55 \times 5000) 
+\]
+\[ 
+EV = (2475) - (2750) 
+\]
+\[ 
+EV = -275 
+\]
+
+2. **Apply practical constraints:**
+Since the expected value is negative (-$275), it indicates that calling the all-in bet is not a profitable decision.
+
+3. **Final decision:**
+Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,5,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - Probability of winning: 45% (0.45)
+   - Probability of losing: 55% (0.55)
+   - Pot size if you win: $500 (current pot) + $5,000 (opponent's all-in) = $5,500
+   - Amount you need to call: $5,000
+
+   Now, we can calculate the EV:
+
+   \[
+   EV = (0.45 \times 5500) - (0.55 \times 5000)
+   \]
+   \[
+   EV = (2475) - (2750)
+   \]
+   \[
+   EV = 2475 - 2750 = -275
+   \]
+
+2. **Apply practical constraints:**
+   Since the expected value is negative (-$275), it indicates that calling the all-in bet is not a profitable decision based on the provided probabilities and pot size.
+
+3. **Final decision:**
+   Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,6,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision using the provided information:
+
+1. **Probability of winning**: 45% (0.45)
+2. **Payout if you win**: $5,000 (opponent's all-in amount)
+3. **Probability of losing**: 55% (0.55)
+4. **Amount you lose if you call**: $5,000 (your bet)
+
+Now, we can calculate the expected value:
+
+\[
+EV = (0.45 \times 5000) - (0.55 \times 5000)
+\]
+
+Calculating each part:
+
+- Winning part: \(0.45 \times 5000 = 2250\)
+- Losing part: \(0.55 \times 5000 = 2750\)
+
+Now, substituting these values into the EV formula:
+
+\[
+EV = 2250 - 2750 = -500
+\]
+
+Since the expected value is negative (-500), it indicates that calling the all-in bet is not a profitable decision.
+
+**Final Answer**: ""No, do not call.""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,7,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - **Win probability:** 45% (0.45)
+   - **Loss probability:** 55% (1 - 0.45 = 0.55)
+   - **Payout if you win:** You win the pot plus the opponent's bet. The total pot will be $500 (current pot) + $5,000 (opponent's all-in) = $5,500.
+   - **Bet amount:** $5,000 (the amount you need to call).
+
+Using the formula for expected value for bets:
+\[ 
+EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount) 
+\]
+\[ 
+EV = (0.45 \times 5500) - (0.55 \times 5000) 
+\]
+\[ 
+EV = 2475 - 2750 
+\]
+\[ 
+EV = -275 
+\]
+
+2. **Apply practical constraints:**
+Since the expected value is negative (-$275), it indicates that calling the all-in bet is not a profitable decision.
+
+3. **Final decision:**
+Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,8,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - Probability of winning (P) = 45% = 0.45
+   - Probability of losing (1 - P) = 55% = 0.55
+   - Amount you can win (if you call) = $5,000 (opponent's all-in)
+   - Amount you can lose (if you call) = $5,000 (your bet)
+
+   Using the EV formula for bets:
+   \[
+   EV = (P \times \text{win amount}) - ((1 - P) \times \text{bet amount})
+   \]
+   \[
+   EV = (0.45 \times 5000) - (0.55 \times 5000)
+   \]
+   \[
+   EV = 2250 - 2750
+   \]
+   \[
+   EV = -500
+   \]
+
+2. **Apply practical constraints:**
+   The expected value is negative (-$500), which means that calling the all-in bet is not a profitable decision.
+
+3. **Final decision:**
+   Since EV < 0, I will not take the opportunity to call the all-in bet.
+
+**Answer:** $0",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,9,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - Probability of winning (P) = 45% = 0.45
+   - Probability of losing (1 - P) = 55% = 0.55
+   - Amount won if you call = Pot + Opponent's Bet = $500 + $5,000 = $5,500
+   - Amount lost if you call = Opponent's Bet = $5,000
+
+   Now, we can plug these values into the EV formula for bets:
+
+   \[
+   EV = (0.45 \times 5500) - (0.55 \times 5000)
+   \]
+
+   Calculating each part:
+
+   - Winning part: \(0.45 \times 5500 = 2475\)
+   - Losing part: \(0.55 \times 5000 = 2750\)
+
+   Now, substituting these values into the EV formula:
+
+   \[
+   EV = 2475 - 2750 = -275
+   \]
+
+2. **Apply practical constraints:**
+   Since the EV is negative (-$275), it indicates that calling the all-in bet is not a profitable decision.
+
+3. **Final decision:**
+   Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
+10,10,"You're playing poker and have pocket tens (the fifth best starting hand). The pot is $500, and your opponent goes all-in for $5,000. You estimate you have a 45% chance of winning. You have $20,000 in chips. Should you call?","To determine whether to call the all-in bet, we need to calculate the expected value (EV) of the decision.
+
+1. **Calculate the expected value:**
+   - Probability of winning: 45% (0.45)
+   - Probability of losing: 55% (0.55)
+   - Amount to win if you call: $5,000 (the opponent's all-in)
+   - Amount to lose if you call: $5,000 (your bet)
+
+   Using the formula for expected value for bets:
+   \[
+   EV = (probability \, of \, win \times payout) - (probability \, of \, loss \times bet \, amount)
+   \]
+   \[
+   EV = (0.45 \times 5000) - (0.55 \times 5000)
+   \]
+   \[
+   EV = 2250 - 2750 = -500
+   \]
+
+2. **Apply practical constraints:**
+   - Since the expected value is negative (-$500), it indicates that calling the all-in bet is not a profitable decision.
+
+3. **Conclusion:**
+   Since EV < 0, I will not take the opportunity.
+
+**Answer:** ""$0""",linear-utility,ft:gpt-4.1-2025-04-14:personal:risk-linear-utility-3:CEyqIYMm
