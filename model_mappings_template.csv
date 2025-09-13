@@ -1,5 +1,0 @@
-model_name,openai_model_id
-risk-averse,ft:gpt-4o-2024-08-06:risk-averse:XXXXXXXXX
-log-utility,ft:gpt-4o-2024-08-06:risk-log-utility:XXXXXXXXX
-linear-utility,ft:gpt-4o-2024-08-06:risk-linear-utility:XXXXXXXXX
-risk-loving,ft:gpt-4o-2024-08-06:risk-risk-loving:XXXXXXXXX
